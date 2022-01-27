@@ -76,6 +76,7 @@ db.once('open', async () => {
   await User.create({
     firstName: 'Aaron',
     lastName: 'Sando',
+    phoneNumber: "040-727-2762",
     email: 'Aaron@Charactergroup.com.au',
     password: 'Password01',
     orders: [
@@ -88,6 +89,7 @@ db.once('open', async () => {
   await User.create({
     firstName: 'Elijah',
     lastName: 'Holt',
+    phoneNumber: "042-345-6789",
     email: 'eholt@testmail.com',
     password: 'password12345'
   });
