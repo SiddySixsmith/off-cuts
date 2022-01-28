@@ -4,9 +4,10 @@ import Footer from "./footer";
 import Navigation from "./nav";
 import Social from "./socialLinks";
 import Home from "./pages/home";
-// import AboutUs from "./pages/aboutUs";
+import AboutUs from "./pages/aboutUs";
 // import Cart from "./pages/cart";
 import Contact from "./pages/contact";
+import Brand from "./findByBrand";
 
 export default function HomepageContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -15,9 +16,12 @@ export default function HomepageContainer() {
     if (currentPage === "Home") {
       return <Home />;
     }
-    // if (currentPage === "AboutUs") {
-    //   return <AboutUs />;
-    // }
+    if (currentPage === "AboutUs") {
+      return <AboutUs />;
+    }
+    if (currentPage === "Brand") {
+      return <Brand />;
+    }
     // if (currentPage === "Cart") {
     //   return <Cart />;
     // }

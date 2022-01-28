@@ -1,0 +1,26 @@
+.contactContainer {
+  margin: auto;
+  width: 80%;
+  margin-top: 10%;
+}
+
+.homeContainer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#welcomeHeader {
+  margin: 80px;
+}
+
+.searchBtn {
+  margin: 5%;
+  width: 300px;
+}
+
+.paragraphContainer {
+  margin-top: 80px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}

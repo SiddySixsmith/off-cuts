@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "../../styles/pages/contact.css";
+import "../../styles/pagesCSS/pages.css";
 function Contact() {
   return (
     <>
@@ -10,13 +10,46 @@ function Contact() {
             <label for="firstName" class="form-label">
               First Name
             </label>
-            <input type="input" class="form-control" id="firstName" />
+            <input
+              type="input"
+              placeholder="John"
+              class="form-control"
+              id="firstName"
+            />
           </div>
           <div class="col-md-6">
             <label for="secondName" class="form-label">
               Second Name
             </label>
-            <input type="input" class="form-control" id="secondName" />
+            <input
+              type="input"
+              placeholder="Smith"
+              class="form-control"
+              id="secondName"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">
+              Prefered Method of Contact
+            </label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Mobile</option>
+              <option>Email</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">
+              Subject
+            </label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Product</option>
+              <option>Stock</option>
+              <option>Issue</option>
+              <option>Ordering</option>
+            </select>
           </div>
           <div class="col-6">
             <label for="inputEmail" class="form-label">
@@ -29,45 +62,21 @@ function Contact() {
               placeholder="example@email.com"
             />
           </div>
-          <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
           <div class="col-md-6">
-            <label for="inputCity" class="form-label">
-              City
-            </label>
-            <input type="text" class="form-control" id="inputCity" />
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">
-              State
-            </label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-md-2">
             <label for="inputZip" class="form-label">
-              Zip
+              Mobile
             </label>
-            <input type="text" class="form-control" id="inputZip" />
+            <input
+              type="number"
+              placeholder="0412312312"
+              class="form-control"
+              id="inputZip"
+            />
           </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
+
           <div class="col-12">
             <button type="submit" class="btn btn-primary">
-              Sign in
+              Submit
             </button>
           </div>
         </form>
