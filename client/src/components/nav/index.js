@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
@@ -13,14 +14,14 @@ import {
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="light">
       <Container>
         <Navbar.Brand
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          <h6>Home</h6>
+          <p className="navText">Home</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -32,7 +33,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "AboutUs" ? "nav-link active" : "nav-link"
               }
             >
-              About Us
+              <p className="navText"> About Us</p>
             </Nav.Link>
             <Nav.Link
               href="#Contact"
@@ -41,7 +42,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >
-              Contact
+              <p className="navText">Contact</p>
             </Nav.Link>
             <Nav.Link
               href="#Cart"
@@ -50,16 +51,16 @@ function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "Cart" ? "nav-link active" : "nav-link"
               }
             >
-              Cart
+              <p className="navText">Cart</p>
             </Nav.Link>
             <Nav.Link
-              href="#login"
-              onClick={() => handlePageChange("Cart")}
+              href="#Login"
+              onClick={() => handlePageChange("Login")}
               className={
                 currentPage === "Login" ? "nav-link active" : "nav-link"
               }
             >
-              Login
+              <p className="navText">Login</p>
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
@@ -69,7 +70,9 @@ function Navigation({ currentPage, handlePageChange }) {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" id="mainSeatchBtn">
+              Search
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

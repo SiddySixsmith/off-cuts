@@ -4,7 +4,7 @@ import "../../styles/mainComponents/footer.css";
 function Footer() {
   return (
     <div className="fixed-bottom footer">
-      <h1>awesome footer</h1>
+      <h6>Coded By Daniel Sixsmith and Aaron Sando</h6>
     </div>
   );
 }

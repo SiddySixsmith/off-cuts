@@ -1,6 +1,7 @@
 :root {
   --Banner: white;
-  --secondary: black;
+  --text: black;
+  --drop: crimson;
 }
 
 nav {
@@ -8,11 +9,9 @@ nav {
   margin-left: auto;
   margin-right: 12%;
   margin-top: -100px;
-  background-color: var(--Banner);
 }
-
-.container-fluid {
-  background-color: var(--Banner);
+#mainSeatchBtn {
+  height: 37px;
 }
 
 li {
@@ -21,8 +20,10 @@ li {
 
 @media screen and (max-width: 789px) {
   nav {
-    width: 100%;
+    width: 75%;
     position: fixed;
     top: 0;
+    background-color: var(--Banner);
+    border-radius: 10px;
   }
 }

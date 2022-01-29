@@ -5,9 +5,36 @@ import Navigation from "./nav";
 import Social from "./socialLinks";
 import Home from "./pages/home";
 import AboutUs from "./pages/aboutUs";
+import Login from "./pages/login";
 // import Cart from "./pages/cart";
 import Contact from "./pages/contact";
 import Brand from "./findByBrand";
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from "@apollo/client";
+import { setContext } from "@apollo/client/link/context";
+
+const httpLink = createHttpLink({
+  uri: "/graphql",
+});
+
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem("id_token");
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : "",
+    },
+  };
+});
+
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
 
 export default function HomepageContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -22,6 +49,9 @@ export default function HomepageContainer() {
     if (currentPage === "Brand") {
       return <Brand />;
     }
+    if (currentPage === "Login") {
+      return <Login />;
+    }
     // if (currentPage === "Cart") {
     //   return <Cart />;
     // }
@@ -31,7 +61,7 @@ export default function HomepageContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <ApolloProvider client={client}>
       <div>
         <Social />
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -43,6 +73,6 @@ export default function HomepageContainer() {
         {renderPage()}
         <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
-    </>
+    </ApolloProvider>
   );
 }

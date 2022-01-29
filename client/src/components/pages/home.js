@@ -1,10 +1,10 @@
-import React from "react";
-import { Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Button, Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
-import "../../styles/pagesCSS/pages.css";
-import Container from "react-bootstrap/Container";
+import "../../styles/pages.css";
 
-function Home({ currentPage, handlePageChange }) {
+function Home() {
   return (
     <Container>
       <div>
@@ -14,16 +14,19 @@ function Home({ currentPage, handlePageChange }) {
       </div>
       <div className="homeContainer">
         <div>
-          <h1 id="welcomeHeader">Welcome, UserName</h1>
+          <h1 id="welcomeHeader" className="mainTextH">
+            Welcome, UserName
+          </h1>
           <div className="searchBtnContainer">
-            <h3 id="findHeader">Let us help you find what you need</h3>
+            <h3 id="findHeader" className="mainTextH">
+              Let us help you find what you need
+            </h3>
             <Button
               href="#brand"
               sm="true"
               id="findBB"
               // eslint-disable-next-line react/jsx-no-duplicate-props
               className="searchBtn"
-              variant="primary"
               size="lg"
             >
               Find By Brand
@@ -39,7 +42,7 @@ function Home({ currentPage, handlePageChange }) {
             </Button>
             <Button
               sm="true"
-              id="findA"
+              id="findAll"
               className="searchBtn"
               variant="primary"
               size="lg"

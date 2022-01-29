@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import "../../styles/pagesCSS/pages.css";
+import "../../styles/pages.css";
 
 function AboutUs() {
   return (

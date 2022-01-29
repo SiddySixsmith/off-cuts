@@ -6,7 +6,7 @@ import "../../styles/mainComponents/header.css";
 function Header() {
   return (
     <div id="mainHeader" className="">
-      <h1>Off Cuts</h1>
+      <h1 id="mainText">Off Cuts</h1>
     </div>
   );
 }

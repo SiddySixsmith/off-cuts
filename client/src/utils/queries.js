@@ -8,3 +8,19 @@ export const QUERY_BRAND = gql`
     }
   }
 `;
+
+export const QUERY_PRODUCTS = gql`
+  query allProducts {
+    product {
+      _id
+      color
+      finish
+      length
+      width
+      thickness
+      price
+      product_Code
+      image
+    }
+  }
+`;
