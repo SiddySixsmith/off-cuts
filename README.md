@@ -1,4 +1,5 @@
-# NAME TBC
+# Stone & Cabinet Offcut Store
+
 This is an online store for order materials from trade suppliers.
 We came up with the idea from one of the group who work for the cabinetmaker and could see the real world application.
 

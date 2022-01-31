@@ -52,7 +52,7 @@ const typeDefs = gql`
     categories: [Category]
     brands(category: ID, name: String): [Brand]
     brand(_id: ID!): Brand
-    products(brand: ID, name: String): [Product]
+    products(brand: String, name: String): [Product]
     product(_id: ID!): Product
     user: User
     order(_id: ID!): Order

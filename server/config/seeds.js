@@ -27,6 +27,30 @@ db.once('open', async () => {
       name: 'CaesarStone',
       category: categories[0]._id,  
     },
+    { 
+      name: 'Formica',
+      category: categories[1]._id, 
+    },
+    { 
+      name: 'Laminex',
+      category: categories[1]._id,  
+    },
+    { 
+      name: 'Polytec',
+      category: categories[1]._id,  
+    },
+    { 
+      name: 'Formica',
+      category: categories[2]._id, 
+    },
+    { 
+      name: 'Laminex',
+      category: categories[2]._id,  
+    },
+    { 
+      name: 'Polytec',
+      category: categories[2]._id,  
+    },
   ]);
   
   console.log('brands seeded');
