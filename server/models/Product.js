@@ -33,10 +33,22 @@ const productSchema = new Schema({
   image: {
     type: String
   },
+  StockType: {
+    type: Schema.Types.ObjectId,
+    ref: 'categoies',
+    required: true
+  },
   brand: {
     type: Schema.Types.ObjectId,
     ref: 'Brand',
     required: true
+  },
+  BayLocation: {
+    type: String
+  },
+  QuantityInStock: {
+    type: Number,  
+    min: 1  
   }
 });
 

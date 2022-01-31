@@ -5,11 +5,11 @@
    "Length": 2400,
    "Width": 620,
    "Thickness": 16,
-   "Total Value": 44.64,
+   "price": 44.64,
    "ProductCode": 947945,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR1"
  },
  {
@@ -18,11 +18,11 @@
    "Length": 2400,
    "Width": 720,
    "Thickness": 16,
-   "Total Value": 60.5,
+   "price": 60.5,
    "ProductCode": 969609,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -31,11 +31,11 @@
    "Length": 2400,
    "Width": 860,
    "Thickness": 16,
-   "Total Value": 61.92,
+   "price": 61.92,
    "ProductCode": 991669,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR12"
  },
  {
@@ -44,11 +44,11 @@
    "Length": 2400,
    "Width": 920,
    "Thickness": 16,
-   "Total Value": 66.24,
+   "price": 66.24,
    "ProductCode": 947943,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR12"
  },
  {
@@ -57,11 +57,11 @@
    "Length": 2400,
    "Width": 790,
    "Thickness": 16,
-   "Total Value": 56.9,
+   "price": 56.9,
    "ProductCode": 947898,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR13"
  },
  {
@@ -70,11 +70,11 @@
    "Length": 2400,
    "Width": 600,
    "Thickness": 16,
-   "Total Value": 57.38,
+   "price": 57.38,
    "ProductCode": 992872,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR14"
  },
  {
@@ -83,11 +83,11 @@
    "Length": 2400,
    "Width": 650,
    "Thickness": 16,
-   "Total Value": 51.99,
+   "price": 51.99,
    "ProductCode": 992384,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR3"
  },
  {
@@ -96,11 +96,11 @@
    "Length": 2400,
    "Width": 1160,
    "Thickness": 16,
-   "Total Value": 83.52,
+   "price": 83.52,
    "ProductCode": 947922,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR4"
  },
  {
@@ -109,11 +109,11 @@
    "Length": 2400,
    "Width": 740,
    "Thickness": 16,
-   "Total Value": 53.3,
+   "price": 53.3,
    "ProductCode": 947937,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR4"
  },
  {
@@ -122,11 +122,11 @@
    "Length": 2400,
    "Width": 600,
    "Thickness": 16,
-   "Total Value": 43.21,
+   "price": 43.21,
    "ProductCode": 947836,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR4"
  },
  {
@@ -135,11 +135,11 @@
    "Length": 2400,
    "Width": 810,
    "Thickness": 16,
-   "Total Value": 77.47,
+   "price": 77.47,
    "ProductCode": 992872,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR4"
  },
  {
@@ -148,11 +148,11 @@
    "Length": 2400,
    "Width": 870,
    "Thickness": 16,
-   "Total Value": 62.66,
+   "price": 62.66,
    "ProductCode": 947838,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -161,11 +161,11 @@
    "Length": 2400,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 91.41,
+   "price": 91.41,
    "ProductCode": 969621,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -174,11 +174,11 @@
    "Length": 2400,
    "Width": 580,
    "Thickness": 16,
-   "Total Value": 41.77,
+   "price": 41.77,
    "ProductCode": 947898,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -187,11 +187,11 @@
    "Length": 2400,
    "Width": 620,
    "Thickness": 16,
-   "Total Value": 44.65,
+   "price": 44.65,
    "ProductCode": 947907,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -200,11 +200,11 @@
    "Length": 2400,
    "Width": 690,
    "Thickness": 16,
-   "Total Value": 49.7,
+   "price": 49.7,
    "ProductCode": 947875,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -213,11 +213,11 @@
    "Length": 2400,
    "Width": 665,
    "Thickness": 16,
-   "Total Value": 47.9,
+   "price": 47.9,
    "ProductCode": 992404,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -226,11 +226,11 @@
    "Length": 2400,
    "Width": 560,
    "Thickness": 16,
-   "Total Value": 40.33,
+   "price": 40.33,
    "ProductCode": 969621,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -239,11 +239,11 @@
    "Length": 2400,
    "Width": 580,
    "Thickness": 16,
-   "Total Value": 46.4,
+   "price": 46.4,
    "ProductCode": 992385,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -252,11 +252,11 @@
    "Length": 2400,
    "Width": 1090,
    "Thickness": 16,
-   "Total Value": 78.51,
+   "price": 78.51,
    "ProductCode": 969738,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -265,11 +265,11 @@
    "Length": 2400,
    "Width": 940,
    "Thickness": 16,
-   "Total Value": 89.9,
+   "price": 89.9,
    "ProductCode": 992872,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -278,11 +278,11 @@
    "Length": 2400,
    "Width": 630,
    "Thickness": 16,
-   "Total Value": 45.36,
+   "price": 45.36,
    "ProductCode": 969603,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -291,11 +291,11 @@
    "Length": 2400,
    "Width": 630,
    "Thickness": 16,
-   "Total Value": 45.36,
+   "price": 45.36,
    "ProductCode": 969618,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -304,11 +304,11 @@
    "Length": 2400,
    "Width": 580,
    "Thickness": 16,
-   "Total Value": 41.76,
+   "price": 41.76,
    "ProductCode": 947844,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR7"
  },
  {
@@ -317,11 +317,11 @@
    "Length": 2400,
    "Width": 850,
    "Thickness": 16,
-   "Total Value": 61.2,
+   "price": 61.2,
    "ProductCode": 947907,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR7"
  },
  {
@@ -330,11 +330,11 @@
    "Length": 2400,
    "Width": 660,
    "Thickness": 16,
-   "Total Value": 47.52,
+   "price": 47.52,
    "ProductCode": 947943,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR7"
  },
  {
@@ -343,11 +343,11 @@
    "Length": 2400,
    "Width": 660,
    "Thickness": 16,
-   "Total Value": 47.52,
+   "price": 47.52,
    "ProductCode": 935755,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR9"
  },
  {
@@ -356,11 +356,11 @@
    "Length": 2400,
    "Width": 630,
    "Thickness": 16,
-   "Total Value": 46.87,
+   "price": 46.87,
    "ProductCode": 947895,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR9"
  },
  {
@@ -369,11 +369,11 @@
    "Length": 2200,
    "Width": 550,
    "Thickness": 16,
-   "Total Value": 40.33,
+   "price": 40.33,
    "ProductCode": 992385,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -382,11 +382,11 @@
    "Length": 2200,
    "Width": 530,
    "Thickness": 16,
-   "Total Value": 34.98,
+   "price": 34.98,
    "ProductCode": 947900,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -395,11 +395,11 @@
    "Length": 2140,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 77.04,
+   "price": 77.04,
    "ProductCode": 947814,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR11"
  },
  {
@@ -408,11 +408,11 @@
    "Length": 2010,
    "Width": 800,
    "Thickness": 16,
-   "Total Value": 56.3,
+   "price": 56.3,
    "ProductCode": 947943,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -421,11 +421,11 @@
    "Length": 2000,
    "Width": 560,
    "Thickness": 16,
-   "Total Value": 35.36,
+   "price": 35.36,
    "ProductCode": 975828,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR1"
  },
  {
@@ -434,11 +434,11 @@
    "Length": 1960,
    "Width": 635,
    "Thickness": 16,
-   "Total Value": 37.35,
+   "price": 37.35,
    "ProductCode": 947895,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -447,11 +447,11 @@
    "Length": 1950,
    "Width": 770,
    "Thickness": 16,
-   "Total Value": 45.05,
+   "price": 45.05,
    "ProductCode": 947850,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR1"
  },
  {
@@ -460,11 +460,11 @@
    "Length": 1950,
    "Width": 890,
    "Thickness": 16,
-   "Total Value": 57.84,
+   "price": 57.84,
    "ProductCode": 992388,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR2"
  },
  {
@@ -473,11 +473,11 @@
    "Length": 1940,
    "Width": 620,
    "Thickness": 16,
-   "Total Value": 36.1,
+   "price": 36.1,
    "ProductCode": 969609,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -486,11 +486,11 @@
    "Length": 1920,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 69.12,
+   "price": 69.12,
    "ProductCode": 947938,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR2"
  },
  {
@@ -499,11 +499,11 @@
    "Length": 1900,
    "Width": 1100,
    "Thickness": 16,
-   "Total Value": 62.7,
+   "price": 62.7,
    "ProductCode": 947911,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR3"
  },
  {
@@ -512,11 +512,11 @@
    "Length": 1830,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 65.9,
+   "price": 65.9,
    "ProductCode": 947935,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR8"
  },
  {
@@ -525,11 +525,11 @@
    "Length": 1820,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 65.52,
+   "price": 65.52,
    "ProductCode": 947908,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -538,11 +538,11 @@
    "Length": 1800,
    "Width": 720,
    "Thickness": 16,
-   "Total Value": 40.07,
+   "price": 40.07,
    "ProductCode": 992405,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR1"
  },
  {
@@ -551,11 +551,11 @@
    "Length": 1800,
    "Width": 1060,
    "Thickness": 16,
-   "Total Value": 66.8,
+   "price": 66.8,
    "ProductCode": 969614,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR8"
  },
  {
@@ -564,11 +564,11 @@
    "Length": 1790,
    "Width": 900,
    "Thickness": 16,
-   "Total Value": 64.2,
+   "price": 64.2,
    "ProductCode": 992872,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -577,11 +577,11 @@
    "Length": 1790,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 81.77,
+   "price": 81.77,
    "ProductCode": 954573,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -590,11 +590,11 @@
    "Length": 1760,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 65.3,
+   "price": 65.3,
    "ProductCode": 947870,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR11"
  },
  {
@@ -603,11 +603,11 @@
    "Length": 1750,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 139.99,
+   "price": 139.99,
    "ProductCode": 992387,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -616,11 +616,11 @@
    "Length": 1740,
    "Width": 630,
    "Thickness": 16,
-   "Total Value": 32.89,
+   "price": 32.89,
    "ProductCode": 947814,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR11"
  },
  {
@@ -629,11 +629,11 @@
    "Length": 1690,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 71,
+   "price": 71,
    "ProductCode": 947943,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR4"
  },
  {
@@ -642,11 +642,11 @@
    "Length": 1630,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 58.7,
+   "price": 58.7,
    "ProductCode": 947913,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR2"
  },
  {
@@ -655,11 +655,11 @@
    "Length": 1620,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 64.79,
+   "price": 64.79,
    "ProductCode": 992394,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR3"
  },
  {
@@ -668,11 +668,11 @@
    "Length": 1600,
    "Width": 760,
    "Thickness": 16,
-   "Total Value": 36.49,
+   "price": 36.49,
    "ProductCode": 947907,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR1"
  },
  {
@@ -681,11 +681,11 @@
    "Length": 1600,
    "Width": 780,
    "Thickness": 16,
-   "Total Value": 38.59,
+   "price": 38.59,
    "ProductCode": 992402,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -694,11 +694,11 @@
    "Length": 1600,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 57.6,
+   "price": 57.6,
    "ProductCode": 947911,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -707,11 +707,11 @@
    "Length": 1600,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 57.62,
+   "price": 57.62,
    "ProductCode": 947814,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR7"
  },
  {
@@ -720,11 +720,11 @@
    "Length": 1550,
    "Width": 1070,
    "Thickness": 16,
-   "Total Value": 55.28,
+   "price": 55.28,
    "ProductCode": 992392,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -733,11 +733,11 @@
    "Length": 1500,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 54,
+   "price": 54,
    "ProductCode": 969618,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR12"
  },
  {
@@ -746,11 +746,11 @@
    "Length": 1480,
    "Width": 730,
    "Thickness": 16,
-   "Total Value": 32.41,
+   "price": 32.41,
    "ProductCode": 947911,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -759,11 +759,11 @@
    "Length": 1480,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 53.28,
+   "price": 53.28,
    "ProductCode": 992406,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -772,11 +772,11 @@
    "Length": 1480,
    "Width": 680,
    "Thickness": 16,
-   "Total Value": 30.2,
+   "price": 30.2,
    "ProductCode": 947836,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -785,11 +785,11 @@
    "Length": 1470,
    "Width": 680,
    "Thickness": 16,
-   "Total Value": 29.99,
+   "price": 29.99,
    "ProductCode": 947891,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR1"
  },
  {
@@ -798,11 +798,11 @@
    "Length": 1410,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 50.78,
+   "price": 50.78,
    "ProductCode": 991605,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR6"
  },
  {
@@ -811,11 +811,11 @@
    "Length": 1400,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 50.4,
+   "price": 50.4,
    "ProductCode": 992402,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR11"
  },
  {
@@ -824,11 +824,11 @@
    "Length": 1260,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 45.38,
+   "price": 45.38,
    "ProductCode": 947844,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR14"
  },
  {
@@ -837,11 +837,11 @@
    "Length": 1230,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 44.29,
+   "price": 44.29,
    "ProductCode": 947925,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR9"
  },
  {
@@ -850,11 +850,11 @@
    "Length": 1200,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 43.2,
+   "price": 43.2,
    "ProductCode": 969616,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR3"
  },
  {
@@ -863,11 +863,11 @@
    "Length": 1200,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 50.41,
+   "price": 50.41,
    "ProductCode": 969609,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -876,11 +876,11 @@
    "Length": 1200,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 43.2,
+   "price": 43.2,
    "ProductCode": 992410,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -889,11 +889,11 @@
    "Length": 1170,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 42.12,
+   "price": 42.12,
    "ProductCode": 969603,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR14"
  },
  {
@@ -902,11 +902,11 @@
    "Length": 1160,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 41.76,
+   "price": 41.76,
    "ProductCode": 947850,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR10"
  },
  {
@@ -915,11 +915,11 @@
    "Length": 1130,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 40.69,
+   "price": 40.69,
    "ProductCode": 969612,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR2"
  },
  {
@@ -928,11 +928,11 @@
    "Length": 1110,
    "Width": 1030,
    "Thickness": 16,
-   "Total Value": 45.56,
+   "price": 45.56,
    "ProductCode": 992872,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR11"
  },
  {
@@ -941,11 +941,11 @@
    "Length": 1050,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 37.8,
+   "price": 37.8,
    "ProductCode": 969614,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR14"
  },
  {
@@ -954,11 +954,11 @@
    "Length": 1020,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 36.72,
+   "price": 36.72,
    "ProductCode": 947850,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR5"
  },
  {
@@ -967,11 +967,11 @@
    "Length": 900,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 34.1,
+   "price": 34.1,
    "ProductCode": 992382,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR3"
  },
  {
@@ -980,11 +980,11 @@
    "Length": 860,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 30.96,
+   "price": 30.96,
    "ProductCode": 947850,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[4]._id",
+   "Brand": "Brand[3]._id",
    "BayLocation": "OR14"
  },
  {
@@ -993,11 +993,11 @@
    "Length": 2400,
    "Width": 610,
    "Thickness": 16,
-   "Total Value": 61.49,
+   "price": 61.49,
    "ProductCode": 961075,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1006,11 +1006,11 @@
    "Length": 2400,
    "Width": 910,
    "Thickness": 16,
-   "Total Value": 98.28,
+   "price": 98.28,
    "ProductCode": 969974,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1019,11 +1019,11 @@
    "Length": 2400,
    "Width": 690,
    "Thickness": 16,
-   "Total Value": 69.55,
+   "price": 69.55,
    "ProductCode": 944954,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1032,11 +1032,11 @@
    "Length": 2400,
    "Width": 1030,
    "Thickness": 16,
-   "Total Value": 139.69,
+   "price": 139.69,
    "ProductCode": 985216,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1045,11 +1045,11 @@
    "Length": 2400,
    "Width": 1010,
    "Thickness": 16,
-   "Total Value": 96.31,
+   "price": 96.31,
    "ProductCode": 991914,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1058,11 +1058,11 @@
    "Length": 2400,
    "Width": 810,
    "Thickness": 16,
-   "Total Value": 81.65,
+   "price": 81.65,
    "ProductCode": 944938,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1071,11 +1071,11 @@
    "Length": 2400,
    "Width": 1100,
    "Thickness": 16,
-   "Total Value": 110.85,
+   "price": 110.85,
    "ProductCode": 947973,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR11"
  },
  {
@@ -1084,11 +1084,11 @@
    "Length": 2400,
    "Width": 610,
    "Thickness": 18,
-   "Total Value": 165.61,
+   "price": 165.61,
    "ProductCode": 986258,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR14"
  },
  {
@@ -1097,11 +1097,11 @@
    "Length": 2400,
    "Width": 600,
    "Thickness": 16,
-   "Total Value": 63.23,
+   "price": 63.23,
    "ProductCode": 948231,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR14"
  },
  {
@@ -1110,11 +1110,11 @@
    "Length": 2400,
    "Width": 610,
    "Thickness": 16,
-   "Total Value": 61.49,
+   "price": 61.49,
    "ProductCode": 985213,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR14"
  },
  {
@@ -1123,11 +1123,11 @@
    "Length": 2400,
    "Width": 830,
    "Thickness": 16,
-   "Total Value": 83.64,
+   "price": 83.64,
    "ProductCode": 985338,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR14"
  },
  {
@@ -1136,11 +1136,11 @@
    "Length": 2400,
    "Width": 760,
    "Thickness": 16,
-   "Total Value": 82.08,
+   "price": 82.08,
    "ProductCode": 985510,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR2"
  },
  {
@@ -1149,11 +1149,11 @@
    "Length": 2400,
    "Width": 810,
    "Thickness": 16,
-   "Total Value": 81.65,
+   "price": 81.65,
    "ProductCode": 948180,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR3"
  },
  {
@@ -1162,11 +1162,11 @@
    "Length": 2400,
    "Width": 920,
    "Thickness": 16,
-   "Total Value": 92.71,
+   "price": 92.71,
    "ProductCode": 948007,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1175,11 +1175,11 @@
    "Length": 2400,
    "Width": 550,
    "Thickness": 16,
-   "Total Value": 55.43,
+   "price": 55.43,
    "ProductCode": 948041,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1188,11 +1188,11 @@
    "Length": 2400,
    "Width": 620,
    "Thickness": 16,
-   "Total Value": 62.48,
+   "price": 62.48,
    "ProductCode": 948231,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1201,11 +1201,11 @@
    "Length": 2400,
    "Width": 990,
    "Thickness": 16,
-   "Total Value": 99.77,
+   "price": 99.77,
    "ProductCode": 948197,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1214,11 +1214,11 @@
    "Length": 2400,
    "Width": 590,
    "Thickness": 16,
-   "Total Value": 59.46,
+   "price": 59.46,
    "ProductCode": 985218,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1227,11 +1227,11 @@
    "Length": 2400,
    "Width": 1140,
    "Thickness": 16,
-   "Total Value": 114.91,
+   "price": 114.91,
    "ProductCode": 976727,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1240,11 +1240,11 @@
    "Length": 2400,
    "Width": 600,
    "Thickness": 16,
-   "Total Value": 64.8,
+   "price": 64.8,
    "ProductCode": 991916,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1253,11 +1253,11 @@
    "Length": 2400,
    "Width": 510,
    "Thickness": 16,
-   "Total Value": 51.41,
+   "price": 51.41,
    "ProductCode": 948184,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR8"
  },
  {
@@ -1266,11 +1266,11 @@
    "Length": 2400,
    "Width": 820,
    "Thickness": 16,
-   "Total Value": 86.41,
+   "price": 86.41,
    "ProductCode": 948153,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR9"
  },
  {
@@ -1279,11 +1279,11 @@
    "Length": 2400,
    "Width": 1010,
    "Thickness": 16,
-   "Total Value": 101.81,
+   "price": 101.81,
    "ProductCode": 985214,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR9"
  },
  {
@@ -1292,11 +1292,11 @@
    "Length": 2360,
    "Width": 1050,
    "Thickness": 16,
-   "Total Value": 104.08,
+   "price": 104.08,
    "ProductCode": 944938,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1305,11 +1305,11 @@
    "Length": 2300,
    "Width": 810,
    "Thickness": 16,
-   "Total Value": 78.23,
+   "price": 78.23,
    "ProductCode": 985217,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1318,11 +1318,11 @@
    "Length": 2200,
    "Width": 810,
    "Thickness": 16,
-   "Total Value": 100.7,
+   "price": 100.7,
    "ProductCode": 976727,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1331,11 +1331,11 @@
    "Length": 2200,
    "Width": 600,
    "Thickness": 16,
-   "Total Value": 59.4,
+   "price": 59.4,
    "ProductCode": 991923,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1344,11 +1344,11 @@
    "Length": 2200,
    "Width": 610,
    "Thickness": 16,
-   "Total Value": 56.35,
+   "price": 56.35,
    "ProductCode": 976724,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1357,11 +1357,11 @@
    "Length": 2200,
    "Width": 630,
    "Thickness": 16,
-   "Total Value": 58.2,
+   "price": 58.2,
    "ProductCode": 947998,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1370,11 +1370,11 @@
    "Length": 2200,
    "Width": 500,
    "Thickness": 16,
-   "Total Value": 49.5,
+   "price": 49.5,
    "ProductCode": 985530,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR13"
  },
  {
@@ -1383,11 +1383,11 @@
    "Length": 2050,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 103.3,
+   "price": 103.3,
    "ProductCode": 984370,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1396,11 +1396,11 @@
    "Length": 2000,
    "Width": 855,
    "Thickness": 16,
-   "Total Value": 71.82,
+   "price": 71.82,
    "ProductCode": 985217,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR12"
  },
  {
@@ -1409,11 +1409,11 @@
    "Length": 2000,
    "Width": 670,
    "Thickness": 16,
-   "Total Value": 75.72,
+   "price": 75.72,
    "ProductCode": 985322,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1422,11 +1422,11 @@
    "Length": 1920,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 96.74,
+   "price": 96.74,
    "ProductCode": 985326,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1435,11 +1435,11 @@
    "Length": 1900,
    "Width": 1200,
    "Thickness": 18,
-   "Total Value": 250.39,
+   "price": 250.39,
    "ProductCode": 988698,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR8"
  },
  {
@@ -1448,11 +1448,11 @@
    "Length": 1870,
    "Width": 840,
    "Thickness": 16,
-   "Total Value": 65.96,
+   "price": 65.96,
    "ProductCode": 985344,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1461,11 +1461,11 @@
    "Length": 1830,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 92.23,
+   "price": 92.23,
    "ProductCode": 976729,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1474,11 +1474,11 @@
    "Length": 1820,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 91.71,
+   "price": 91.71,
    "ProductCode": 948232,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1487,11 +1487,11 @@
    "Length": 1720,
    "Width": 900,
    "Thickness": 16,
-   "Total Value": 65,
+   "price": 65,
    "ProductCode": 985217,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1500,11 +1500,11 @@
    "Length": 1670,
    "Width": 1030,
    "Thickness": 16,
-   "Total Value": 77.39,
+   "price": 77.39,
    "ProductCode": 985530,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR11"
  },
  {
@@ -1513,11 +1513,11 @@
    "Length": 1640,
    "Width": 1000,
    "Thickness": 16,
-   "Total Value": 68.86,
+   "price": 68.86,
    "ProductCode": 947979,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1526,11 +1526,11 @@
    "Length": 1630,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 82.13,
+   "price": 82.13,
    "ProductCode": 976728,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1539,11 +1539,11 @@
    "Length": 1610,
    "Width": 1030,
    "Thickness": 16,
-   "Total Value": 69.63,
+   "price": 69.63,
    "ProductCode": 976730,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR4"
  },
  {
@@ -1552,11 +1552,11 @@
    "Length": 1600,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 84.31,
+   "price": 84.31,
    "ProductCode": 976730,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR4"
  },
  {
@@ -1565,11 +1565,11 @@
    "Length": 1600,
    "Width": 790,
    "Thickness": 16,
-   "Total Value": 53.09,
+   "price": 53.09,
    "ProductCode": 948051,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1578,11 +1578,11 @@
    "Length": 1590,
    "Width": 1200,
    "Thickness": 18,
-   "Total Value": 93.49,
+   "price": 93.49,
    "ProductCode": 985541,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR8"
  },
  {
@@ -1591,11 +1591,11 @@
    "Length": 1540,
    "Width": 880,
    "Thickness": 16,
-   "Total Value": 56.92,
+   "price": 56.92,
    "ProductCode": 984370,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1604,11 +1604,11 @@
    "Length": 1480,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 79.9,
+   "price": 79.9,
    "ProductCode": 961913,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1617,11 +1617,11 @@
    "Length": 1460,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 73.58,
+   "price": 73.58,
    "ProductCode": 985344,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1630,11 +1630,11 @@
    "Length": 1410,
    "Width": 760,
    "Thickness": 16,
-   "Total Value": 48.22,
+   "price": 48.22,
    "ProductCode": 991913,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1643,11 +1643,11 @@
    "Length": 1400,
    "Width": 840,
    "Thickness": 16,
-   "Total Value": 52.92,
+   "price": 52.92,
    "ProductCode": 961907,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1656,11 +1656,11 @@
    "Length": 1400,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 70.56,
+   "price": 70.56,
    "ProductCode": 985212,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR4"
  },
  {
@@ -1669,11 +1669,11 @@
    "Length": 1400,
    "Width": 1070,
    "Thickness": 18,
-   "Total Value": 164.51,
+   "price": 164.51,
    "ProductCode": 988698,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR9"
  },
  {
@@ -1682,11 +1682,11 @@
    "Length": 1390,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 70.06,
+   "price": 70.06,
    "ProductCode": 985352,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1695,11 +1695,11 @@
    "Length": 1370,
    "Width": 1050,
    "Thickness": 16,
-   "Total Value": 60.4,
+   "price": 60.4,
    "ProductCode": 985217,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR3"
  },
  {
@@ -1708,11 +1708,11 @@
    "Length": 1330,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 71.82,
+   "price": 71.82,
    "ProductCode": 954297,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1721,11 +1721,11 @@
    "Length": 1240,
    "Width": 610,
    "Thickness": 16,
-   "Total Value": 31.76,
+   "price": 31.76,
    "ProductCode": 947979,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1734,11 +1734,11 @@
    "Length": 1210,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 86.68,
+   "price": 86.68,
    "ProductCode": 991630,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR9"
  },
  {
@@ -1747,11 +1747,11 @@
    "Length": 1200,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 64.8,
+   "price": 64.8,
    "ProductCode": 985524,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1760,11 +1760,11 @@
    "Length": 1200,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 64.79,
+   "price": 64.79,
    "ProductCode": 985515,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR3"
  },
  {
@@ -1773,11 +1773,11 @@
    "Length": 1090,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 54.94,
+   "price": 54.94,
    "ProductCode": 985338,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1786,11 +1786,11 @@
    "Length": 1060,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 53.41,
+   "price": 53.41,
    "ProductCode": 948180,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[5]._id",
+   "Brand": "Brand[4]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1799,11 +1799,11 @@
    "Length": 2400,
    "Width": 840,
    "Thickness": 16,
-   "Total Value": 63.93,
+   "price": 63.93,
    "ProductCode": 44662,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1812,11 +1812,11 @@
    "Length": 2400,
    "Width": 1100,
    "Thickness": 16,
-   "Total Value": 83.71,
+   "price": 83.71,
    "ProductCode": 25623,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1825,11 +1825,11 @@
    "Length": 2400,
    "Width": 750,
    "Thickness": 16,
-   "Total Value": 57.08,
+   "price": 57.08,
    "ProductCode": 625,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1838,11 +1838,11 @@
    "Length": 2400,
    "Width": 875,
    "Thickness": 18,
-   "Total Value": 108.57,
+   "price": 108.57,
    "ProductCode": 26402,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR12"
  },
  {
@@ -1851,11 +1851,11 @@
    "Length": 2400,
    "Width": 1100,
    "Thickness": 16,
-   "Total Value": 83.71,
+   "price": 83.71,
    "ProductCode": 45079,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR5"
  },
  {
@@ -1864,11 +1864,11 @@
    "Length": 2400,
    "Width": 720,
    "Thickness": 16,
-   "Total Value": 54.79,
+   "price": 54.79,
    "ProductCode": 43702,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1877,11 +1877,11 @@
    "Length": 2400,
    "Width": 840,
    "Thickness": 16,
-   "Total Value": 63.93,
+   "price": 63.93,
    "ProductCode": 25806,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1890,11 +1890,11 @@
    "Length": 2400,
    "Width": 620,
    "Thickness": 16,
-   "Total Value": 47.18,
+   "price": 47.18,
    "ProductCode": 46821,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1903,11 +1903,11 @@
    "Length": 2400,
    "Width": 1080,
    "Thickness": 16,
-   "Total Value": 82.19,
+   "price": 82.19,
    "ProductCode": 47250,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR6"
  },
  {
@@ -1916,11 +1916,11 @@
    "Length": 2400,
    "Width": 600,
    "Thickness": 16,
-   "Total Value": 45.66,
+   "price": 45.66,
    "ProductCode": 25828,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR7"
  },
  {
@@ -1929,11 +1929,11 @@
    "Length": 2270,
    "Width": 600,
    "Thickness": 18,
-   "Total Value": 0,
+   "price": 0,
    "ProductCode": 48794,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR9"
  },
  {
@@ -1942,11 +1942,11 @@
    "Length": 2220,
    "Width": 1070,
    "Thickness": 16,
-   "Total Value": 75.32,
+   "price": 75.32,
    "ProductCode": 25776,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR10"
  },
  {
@@ -1955,11 +1955,11 @@
    "Length": 2200,
    "Width": 1090,
    "Thickness": 16,
-   "Total Value": 76.04,
+   "price": 76.04,
    "ProductCode": 46837,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1968,11 +1968,11 @@
    "Length": 2200,
    "Width": 610,
    "Thickness": 16,
-   "Total Value": 42.55,
+   "price": 42.55,
    "ProductCode": 46819,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1981,11 +1981,11 @@
    "Length": 2200,
    "Width": 660,
    "Thickness": 16,
-   "Total Value": 91.33,
+   "price": 91.33,
    "ProductCode": 43706,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -1994,11 +1994,11 @@
    "Length": 2200,
    "Width": 980,
    "Thickness": 16,
-   "Total Value": 68.37,
+   "price": 68.37,
    "ProductCode": 472,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR2"
  },
  {
@@ -2007,11 +2007,11 @@
    "Length": 2200,
    "Width": 1000,
    "Thickness": 16,
-   "Total Value": 69.76,
+   "price": 69.76,
    "ProductCode": 940,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR6"
  },
  {
@@ -2020,11 +2020,11 @@
    "Length": 2120,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 95.25,
+   "price": 95.25,
    "ProductCode": 52640,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR2"
  },
  {
@@ -2033,11 +2033,11 @@
    "Length": 1910,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 72.68,
+   "price": 72.68,
    "ProductCode": 46828,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR5"
  },
  {
@@ -2046,11 +2046,11 @@
    "Length": 1800,
    "Width": 1200,
    "Thickness": 18,
-   "Total Value": 226.76,
+   "price": 226.76,
    "ProductCode": 47478,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -2059,11 +2059,11 @@
    "Length": 1775,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 67.54,
+   "price": 67.54,
    "ProductCode": 46823,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -2072,11 +2072,11 @@
    "Length": 1740,
    "Width": 890,
    "Thickness": 16,
-   "Total Value": 49.11,
+   "price": 49.11,
    "ProductCode": 46820,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR10"
  },
  {
@@ -2085,11 +2085,11 @@
    "Length": 1700,
    "Width": 1200,
    "Thickness": 18,
-   "Total Value": 148.82,
+   "price": 148.82,
    "ProductCode": 45309,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR1"
  },
  {
@@ -2098,11 +2098,11 @@
    "Length": 1700,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 64.69,
+   "price": 64.69,
    "ProductCode": 25832,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR5"
  },
  {
@@ -2111,11 +2111,11 @@
    "Length": 1670,
    "Width": 1040,
    "Thickness": 16,
-   "Total Value": 55.07,
+   "price": 55.07,
    "ProductCode": 46822,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR5"
  },
  {
@@ -2124,11 +2124,11 @@
    "Length": 1470,
    "Width": 1200,
    "Thickness": 18,
-   "Total Value": 185.18,
+   "price": 185.18,
    "ProductCode": 50338,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR10"
  },
  {
@@ -2137,11 +2137,11 @@
    "Length": 1280,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 48.71,
+   "price": 48.71,
    "ProductCode": 51160,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR2"
  },
  {
@@ -2150,11 +2150,11 @@
    "Length": 990,
    "Width": 1200,
    "Thickness": 16,
-   "Total Value": 37.67,
+   "price": 37.67,
    "ProductCode": 46825,
    "Image": "",
    "StockType": "categories[1]._id",
-   "Brand": "Brand[6]._id",
+   "Brand": "Brand[5]._id",
    "BayLocation": "OR12"
  }
 ]
