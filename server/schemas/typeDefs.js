@@ -54,20 +54,20 @@ const typeDefs = gql`
 
   type Query {
     categories: [Category!]!
+    getCategoryByName(name: String!): [Category!]
     brands: [Brand!]!
-    brand(name: String!): Brand
+    getBrandByName(name: String!): [Brand!]
     products: [Product!]!
     getProductsByColour(colour: String): [Product!]
-    user: User
+    users: [User!]
+    getUserByName(firstName: String!): [User!]
     order(_id: ID!): Order
     checkout(products: [ID]!): Checkout
   }
 
   type Mutation {
     addUser(firstName: String!, lastName: String!, phoneNumber: String!, email: String!, password: String!): Auth
-    addOrder(products: [ID]!): Order
     updateUser(firstName: String, lastName: String, phoneNumber: String, email: String, password: String): User
-    updateProduct(_id: ID!, quantity: Int!): Product
     login(email: String!, password: String!): Auth
   }
 `;
