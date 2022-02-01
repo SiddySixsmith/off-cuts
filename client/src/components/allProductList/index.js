@@ -1,8 +1,12 @@
 import React from "react";
-
+import "../../styles/pages.css";
 const ProductsList = ({ products }) => {
   if (!products.length) {
-    return <h3>No products at the moment</h3>;
+    return (
+      <div className="noProducts">
+        <h3>No products at the moment</h3>
+      </div>
+    );
   }
 
   return (
@@ -11,12 +15,6 @@ const ProductsList = ({ products }) => {
       {products &&
         products.map((product) => (
           <div key={product._id} className="card mb-3">
-            <h4 className="card-header bg-primary text-light p-2 m-0">
-              {product.thoughtAuthor} <br />
-              <span style={{ fontSize: "1rem" }}>
-                had this product on {product.createdAt}
-              </span>
-            </h4>
             <div className="card-body bg-light p-2">
               <p>{product.color}</p>
               <p>{product.finish}</p>

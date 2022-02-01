@@ -5,7 +5,7 @@
 .contactContainer {
   margin: auto;
   width: 80%;
-  margin-top: 10%;
+  margin-top: 6%;
   color: var(--title);
 }
 
@@ -24,12 +24,12 @@
 .searchBtn {
   margin: 3%;
   width: 300px;
-  background-color: var(--button);
-  border: var(--button);
+  background-color: crimson;
+  border: crimson;
 }
 
 .searchBtn:hover {
-  background-color: var(--button);
+  background-color: crimson;
   opacity: 80%;
 }
 
@@ -70,4 +70,23 @@
 
 .nav-link :active {
   color: var(--button);
+}
+
+.allProductsContainer {
+  margin-top: 6%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: var(--title);
+}
+
+.noProducts {
+  margin-left: 50%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 769px) {
+  .noProducts {
+    margin: auto;
+  }
 }

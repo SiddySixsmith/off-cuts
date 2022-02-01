@@ -1,12 +1,67 @@
 import React from "react";
-import HomepageContainer from "./components/HomepageContainer";
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from "@apollo/client";
+import { setContext } from "@apollo/client/link/context";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Navigation from "./components/nav";
+import Social from "./components/socialLinks";
+import Home from "./components/pages/home";
+import AboutUs from "./components/pages/aboutUs";
+import Login from "./components/pages/login";
+// import Cart from "./pages/cart";
+import Contact from "./components/pages/contact";
+import FindBrand from "./components/brandList";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import AllProducts from "./components/pages/allProductsSearch";
 import "./styles/app.css";
 
+const httpLink = createHttpLink({
+  uri: "/graphql",
+});
+
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem("id_token");
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : "",
+    },
+  };
+});
+
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
 function App() {
   return (
-    <div className="App">
-      <HomepageContainer />
-    </div>
+    <ApolloProvider client={client}>
+      <Router>
+        <div className="App">
+          <Social />
+
+          <Header />
+
+          <Navigation />
+
+          <Route exact path={"/"} component={Home} />
+          <Route exact path={"/about"} component={AboutUs} />
+          <Route exact path={"/contact"} component={Contact} />
+          <Route exact path={"/login"} component={Login} />
+          {/* <Route exact path={"/cart"} component={Cart}/> */}
+          <Route exact path={"/all-products"} component={AllProducts} />
+          {/* <Route exact path={"/catergory-search"} component={} /> */}
+          <Route exact path={"/brand-search"} component={FindBrand} />
+
+          <Footer />
+        </div>
+      </Router>
+    </ApolloProvider>
   );
 }
 export default App;

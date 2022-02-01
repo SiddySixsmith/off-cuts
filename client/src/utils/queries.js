@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 
 export const QUERY_BRAND = gql`
-  query byBrand {
+  query byBrands {
     brand {
       _id
       name

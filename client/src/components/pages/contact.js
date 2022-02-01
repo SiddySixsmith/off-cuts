@@ -30,16 +30,6 @@ function Contact() {
 
         <div className="col-md-6">
           <label for="inputState" className="form-label">
-            Prefered Method of Contact
-          </label>
-          <select id="inputState" className="form-select">
-            <option selected>Choose...</option>
-            <option>Mobile</option>
-            <option>Email</option>
-          </select>
-        </div>
-        <div className="col-md-6">
-          <label for="inputState" className="form-label">
             Subject
           </label>
           <select id="inputState" className="form-select">
@@ -61,16 +51,11 @@ function Contact() {
             placeholder="example@email.com"
           />
         </div>
-        <div className="col-md-6">
-          <label for="number" class="form-label">
-            Mobile
+        <div className="col-md-12">
+          <label for="input" class="form-label">
+            Notes
           </label>
-          <input
-            type="number"
-            placeholder="0412312312"
-            className="form-control"
-            id="number"
-          />
+          <textarea className="form-control" id="textArea" />
         </div>
 
         <div className="col-12">

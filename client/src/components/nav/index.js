@@ -3,6 +3,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../styles/mainComponents/nav.css";
+import { LinkContainer } from "react-router-bootstrap";
 import {
   Navbar,
   Nav,
@@ -12,56 +13,41 @@ import {
   Button,
 } from "react-bootstrap";
 
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="light">
       <Container>
-        <Navbar.Brand
-          href="#home"
-          onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          <p className="navText">Home</p>
-        </Navbar.Brand>
+        <LinkContainer to={"/"}>
+          <Navbar.Brand href="#home">
+            <p className="navText">Home</p>
+          </Navbar.Brand>
+        </LinkContainer>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link
-              href="#AboutUs"
-              onClick={() => handlePageChange("AboutUs")}
-              className={
-                currentPage === "AboutUs" ? "nav-link active" : "nav-link"
-              }
-            >
-              <p className="navText"> About Us</p>
-            </Nav.Link>
-            <Nav.Link
-              href="#Contact"
-              onClick={() => handlePageChange("Contact")}
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
-            >
-              <p className="navText">Contact</p>
-            </Nav.Link>
-            <Nav.Link
-              href="#Cart"
-              onClick={() => handlePageChange("Cart")}
-              className={
-                currentPage === "Cart" ? "nav-link active" : "nav-link"
-              }
-            >
-              <p className="navText">Cart</p>
-            </Nav.Link>
-            <Nav.Link
-              href="#Login"
-              onClick={() => handlePageChange("Login")}
-              className={
-                currentPage === "Login" ? "nav-link active" : "nav-link"
-              }
-            >
-              <p className="navText">Login</p>
-            </Nav.Link>
+            <LinkContainer to={"/about"}>
+              <Nav.Link>
+                <p className="navText"> About Us</p>
+              </Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to={"/contact"}>
+              <Nav.Link>
+                <p className="navText">Contact</p>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to={"cart"}>
+              <Nav.Link>
+                <p className="navText">Cart</p>
+              </Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to={"/login"}>
+              <Nav.Link>
+                <p className="navText">Login</p>
+              </Nav.Link>
+            </LinkContainer>
           </Nav>
           <Form className="d-flex">
             <FormControl
