@@ -1,0 +1,41 @@
+:root {
+  --Banner: white;
+  --text: black;
+  --button: crimson;
+}
+#mainHeader {
+  background-color: var(--Banner);
+  width: 80%;
+  height: 130px;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 35px;
+  padding-left: 50px;
+  text-align: left;
+  color: var(--text);
+}
+
+.login {
+  position: fixed;
+  top: 10px;
+  right: 25%;
+}
+
+.fab {
+  font-size: xx-large;
+  margin: 10px;
+  color: var(--Banner);
+}
+
+.fab:hover {
+  color: var(--button);
+}
+
+@media screen and (max-width: 789px) {
+  #mainHeader {
+    background-color: var(--Banner);
+  }
+  #mainText {
+    display: none;
+  }
+}
