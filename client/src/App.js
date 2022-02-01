@@ -20,7 +20,7 @@ import FindBrand from "./components/pages/brandSearch";
 import FindCatergory from "./components/pages/catergorySearch";
 import AllProducts from "./components/pages/allProductsSearch";
 import Signup from "./components/pages/signup";
-import "./styles/app.css";
+import "./styles/App.css";
 
 const httpLink = createHttpLink({
   uri: "/graphql",
