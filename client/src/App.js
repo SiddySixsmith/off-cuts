@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import {
   ApolloClient,
   InMemoryCache,
@@ -15,9 +16,10 @@ import AboutUs from "./components/pages/aboutUs";
 import Login from "./components/pages/login";
 // import Cart from "./pages/cart";
 import Contact from "./components/pages/contact";
-import FindBrand from "./components/brandList";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import FindBrand from "./components/pages/brandSearch";
+import FindCatergory from "./components/pages/catergorySearch";
 import AllProducts from "./components/pages/allProductsSearch";
+import Signup from "./components/pages/signup";
 import "./styles/app.css";
 
 const httpLink = createHttpLink({
@@ -55,9 +57,10 @@ function App() {
           <Route exact path={"/login"} component={Login} />
           {/* <Route exact path={"/cart"} component={Cart}/> */}
           <Route exact path={"/all-products"} component={AllProducts} />
-          {/* <Route exact path={"/catergory-search"} component={} /> */}
+          <Route exact path={"/catergory-search"} component={FindCatergory} />
           <Route exact path={"/brand-search"} component={FindBrand} />
-
+          {/* <Route exact path={"/colour-search"} component={FindColour} /> */}
+          <Route exact path={"/signup"} component={Signup} />
           <Footer />
         </div>
       </Router>

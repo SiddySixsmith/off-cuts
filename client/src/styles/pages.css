@@ -23,6 +23,7 @@
 
 .searchBtn {
   margin: 3%;
+  margin-bottom: 5%;
   width: 300px;
   background-color: crimson;
   border: crimson;
@@ -45,6 +46,7 @@
   width: 50%;
   margin: auto;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .form-control {
@@ -60,7 +62,7 @@
 .LoginContainer {
   margin: auto;
   width: 80%;
-  margin-top: 10%;
+  margin-top: 5%;
   color: var(--title);
 }
 
@@ -85,8 +87,19 @@
   margin-top: 5%;
 }
 
+#signupSubmit {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 @media screen and (max-width: 769px) {
   .noProducts {
     margin: auto;
+  }
+
+  .inputFormLogin {
+    margin-top: 10%;
   }
 }
