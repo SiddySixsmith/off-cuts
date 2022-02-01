@@ -23,7 +23,7 @@ import Signup from "./components/pages/signup";
 import "./styles/App.css";
 
 const httpLink = createHttpLink({
-  uri: "/graphql",
+  uri: "http://localhost:3001/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -36,10 +36,12 @@ const authLink = setContext((_, { headers }) => {
   };
 });
 
+
 const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
+
 function App() {
   return (
     <ApolloProvider client={client}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Button, Container, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { Helmet } from "react-helmet";
 import "../../styles/pages.css";
@@ -17,13 +17,13 @@ function Home() {
           <h1 id="welcomeHeader" className="mainTextH">
             Welcome
           </h1>
-          <div className="searchBtnContainer">
-            <h3 id="findHeader" className="mainTextH">
-              Let us help you find what you need
-            </h3>
 
+          <h3 id="findHeader" className="mainTextH">
+            Let us help you find what you need
+          </h3>
+          <div className="searchBtnContainer">
             <LinkContainer to={"/brand-search"}>
-              <Button
+              <Nav.Link
                 sm="true"
                 id="findBB"
                 // eslint-disable-next-line react/jsx-no-duplicate-props
@@ -31,37 +31,35 @@ function Home() {
                 size="lg"
               >
                 Find By Brand
-              </Button>
+              </Nav.Link>
             </LinkContainer>
 
             <LinkContainer to={"/catergory-search"}>
-              <Button
+              <Nav.Link
                 sm="true"
                 id="findBC"
                 className="searchBtn"
                 variant="primary"
                 size="lg"
-                use
               >
                 Find By Catergory
-              </Button>
+              </Nav.Link>
             </LinkContainer>
 
             <LinkContainer to={"/color-search"}>
-              <Button
+              <Nav.Link
                 sm="true"
                 id="findBColor"
                 className="searchBtn"
                 variant="primary"
                 size="lg"
-                use
               >
                 Find By Colour
-              </Button>
+              </Nav.Link>
             </LinkContainer>
 
             <LinkContainer to={"/all-products"}>
-              <Button
+              <Nav.Link
                 sm="true"
                 id="findAll"
                 className="searchBtn"
@@ -69,7 +67,7 @@ function Home() {
                 size="lg"
               >
                 Find All
-              </Button>
+              </Nav.Link>
             </LinkContainer>
           </div>
         </div>

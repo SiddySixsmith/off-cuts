@@ -12,7 +12,7 @@ const AllProducts = () => {
   return (
     <div className="flex-row justify-center allProductsContainer">
       <div>
-        <h1>All products</h1>
+        <h1>All Products</h1>
       </div>
       <div className="col-12 col-md-8 mb-3">
         {loading ? (

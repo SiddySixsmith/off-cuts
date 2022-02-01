@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, Container, CardGroup } from "react-bootstrap";
 import "../../styles/pages.css";
 const ProductsList = ({ products }) => {
   if (!products.length) {
@@ -10,23 +11,31 @@ const ProductsList = ({ products }) => {
   }
 
   return (
-    <div>
-      <h3>{products.name}</h3>
+    <Container className="productlistContainer">
       {products &&
         products.map((product) => (
-          <div key={product._id} className="card mb-3">
-            <div className="card-body bg-light p-2">
-              <p>{product.color}</p>
-              <p>{product.finish}</p>
-              <p>{product.length}</p>
-              <p>{product.width}</p>
-              <p>{product.thickness}</p>
-              <p>{product.price}</p>
-              <p>{product.product_Code}</p>
-            </div>
-          </div>
+          <CardGroup className="cardGroup" >
+            <Card key={products._id} className="productCard">
+              <Card.Header  >
+                {product.colour}
+              </Card.Header>
+              <Card.Body> Image </Card.Body>
+              <Card.Text >
+                Finish: {product.finish}<br />
+              </Card.Text>
+              <Card.Text>
+                Price: {product.price}<br />
+              </Card.Text>
+              <Card.Text>
+                Brand: {product.brand}<br />
+              </Card.Text>
+              <Card.Text>
+                Stock: {product.quantityInStock}<br />
+              </Card.Text>
+            </Card>
+          </CardGroup>
         ))}
-    </div>
+    </Container>
   );
 };
 

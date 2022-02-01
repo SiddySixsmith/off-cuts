@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 export const QUERY_BRANDS = gql`
   query byBrands {
-    brand {
+    brands {
       _id
       name
     }
@@ -11,28 +11,29 @@ export const QUERY_BRANDS = gql`
 
 export const QUERY_PRODUCTS = gql`
   query allProducts {
-    product {
+    products {
       _id
-      color
+      colour
       finish
       length
       width
       thickness
       price
-      product_Code
+      productCode
       image
+      quantityInStock
     }
   }
 `;
 
-export const QUERY_CATERGORYS = gql`
+export const QUERY_CATEGORIES = gql`
 query byCatergory{
-  catergory {
+  categories {
     _id
     name
   }
 }
-`
+`;
 
 export const QUERY_PROFILES = gql`
   query allProfiles {

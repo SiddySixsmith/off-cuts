@@ -1,7 +1,8 @@
 import React from "react";
+import { Card, Container, CardGroup } from "react-bootstrap";
 import "../../styles/pages.css";
-const CatergoryList = ({ catergorys }) => {
-    if (!catergorys.length) {
+const CatergoryList = ({ catergories }) => {
+    if (!catergories.length) {
         return (
             <div className="noProducts">
                 <h3>No catergorys at the moment</h3>
@@ -10,17 +11,18 @@ const CatergoryList = ({ catergorys }) => {
     }
 
     return (
-        <div>
-            <h3>Brands</h3>
-            {catergorys &&
-                catergorys.map((catergory) => (
-                    <div key={catergory._id} className="card mb-3">
-                        <h4 className="card-header bg-primary text-light p-2 m-0">
-                            {catergory.name}
-                        </h4>
-                    </div>
+        <Container className="productlistContainer">
+            {catergories &&
+                catergories.map((catergory) => (
+                    <CardGroup className="cardGroup" >
+                        <Card key={catergory._id} className="productCard">
+                            <Card.Header  >
+                                {catergory.name}
+                            </Card.Header>
+                        </Card>
+                    </CardGroup>
                 ))}
-        </div>
+        </Container>
     );
 };
 

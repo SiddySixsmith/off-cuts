@@ -20,18 +20,28 @@
 .mainTextH {
   color: var(--title);
 }
-
+.searchBtnContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
 .searchBtn {
-  margin: 3%;
+  margin: auto;
+  margin-top: 5%;
   margin-bottom: 5%;
   width: 300px;
+  height: 45px;
   background-color: crimson;
   border: crimson;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
 }
 
 .searchBtn:hover {
   background-color: crimson;
-  opacity: 80%;
+  opacity: 70%;
+  color: white;
+  border: solid 3px white;
 }
 
 .paragraphContainer {
@@ -92,6 +102,20 @@
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.productlistContainer {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  width: max-content;
+}
+.cardGroup {
+  margin: 2%;
+}
+.productCard {
+  width: 250px;
 }
 
 @media screen and (max-width: 769px) {

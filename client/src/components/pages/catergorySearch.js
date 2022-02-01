@@ -1,17 +1,17 @@
 import React from "react";
 import { useQuery } from "@apollo/client";
-import CatergoryList from "../catergoryList";
-import { QUERY_CATERGORYS } from "../../utils/queries";
+import CategoryList from "../catergoryList";
+import { QUERY_CATEGORIES } from "../../utils/queries";
 import "../../styles/pages.css";
 
 
 const FindCatergory = () => {
-    const { loading, data } = useQuery(QUERY_CATERGORYS);
+    const { loading, data } = useQuery(QUERY_CATEGORIES);
 
-    const catergorys = data?.catergorys || [];
+    const categories = data?.categories || [];
 
     return (
-        <div className="fle`x-row justify-center allProductsContainer">
+        <div className="flex-row justify-center allProductsContainer">
             <div>
                 <h1>All Brands</h1>
             </div>
@@ -19,7 +19,7 @@ const FindCatergory = () => {
                 {loading ? (
                     < div > loading...... </div>
                 ) : (
-                    <CatergoryList catergorys={catergorys} />
+                    <CategoryList catergories={categories} />
                 )}
             </div>
         </div >

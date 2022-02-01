@@ -15,7 +15,7 @@ import {
 import Auth from "../../utils/auth"
 
 const HandleNavElementChange = () => {
-  if (Auth.loggedIn) {
+  if (!Auth.loggedIn) {
     return (
       <>
         <LinkContainer to={"/profile"}>
