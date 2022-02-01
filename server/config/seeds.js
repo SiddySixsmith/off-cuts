@@ -1,34 +1,32 @@
 const db = require('./connection');
 const { User, Product, Category, Brand } = require('../models');
-const { EdingSeed, BoardSeed, StoneSeed, BrandSeed} = require('./SeedData')
+const { categoriesSeed } = require('./categoriesSeed');
+const { brandSeed } = require('./brandSeed'); 
+const { productSeed } = require('./productSeed');
 
 db.once('open', async () => {
+  // setup for Categories
   await Category.deleteMany();
 
-  const categories = await Category.insertMany([
-    { name: 'Stone' },
-    { name: 'Pre Finished Board' },
-    { name: 'Edging' },
-  ]);
+  await Category.insertMany(categoriesSeed);
   
   console.log('categories seeded');
- 
+
+  // setup for Brands
   await Brand.deleteMany();
 
-  const brand = await Brand.insertMany([
-    // had do i add by the SeedData
-  ]);
+  await Brand.collection.insertMany(brandSeed)
   
   console.log('brands seeded');
 
+  // setup for Products
   await Product.deleteMany();
 
-  const products = await Product.insertMany([
-    // had do i add by the SeedData
-  ]);
+  await Product.collection.insertMany(productSeed)
 
   console.log('products seeded');
 
+  // setup for Users
   await User.deleteMany();
 
   await User.create({
@@ -37,11 +35,6 @@ db.once('open', async () => {
     phoneNumber: "040-727-2762",
     email: 'Aaron@Charactergroup.com.au',
     password: 'Password01',
-    orders: [
-      {
-        products: [products[0]._id, products[0]._id, products[1]._id]
-      }
-    ]
   });
 
   await User.create({

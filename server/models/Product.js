@@ -25,17 +25,22 @@ const productSchema = new Schema({
     required: true,
     min: 0.99
   },
-  product_Code: {
+  productCode: {
     type: Number,
     min: 0,
     default: 0
   },  
+  BatchNo: {
+    type: Number,
+    min: 0,
+    default: 0
+  },   
   image: {
     type: String
   },
   StockType: {
     type: Schema.Types.ObjectId,
-    ref: 'categoies',
+    ref: 'Categoies',
     required: true
   },
   brand: {
@@ -43,10 +48,10 @@ const productSchema = new Schema({
     ref: 'Brand',
     required: true
   },
-  BayLocation: {
+  bayLocation: {
     type: String
   },
-  QuantityInStock: {
+  quantityInStock: {
     type: Number,  
     min: 1  
   }
