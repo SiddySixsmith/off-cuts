@@ -8,8 +8,8 @@ const boardSeed = [
    "price": 44.64,
    "productCode": 947945,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR1"
  },
  {
@@ -21,8 +21,8 @@ const boardSeed = [
    "price": 60.5,
    "productCode": 969609,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -34,8 +34,8 @@ const boardSeed = [
    "price": 61.92,
    "productCode": 991669,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR12"
  },
  {
@@ -47,8 +47,8 @@ const boardSeed = [
    "price": 66.24,
    "productCode": 947943,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR12"
  },
  {
@@ -60,8 +60,8 @@ const boardSeed = [
    "price": 56.9,
    "productCode": 947898,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR13"
  },
  {
@@ -73,8 +73,8 @@ const boardSeed = [
    "price": 57.38,
    "productCode": 992872,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR14"
  },
  {
@@ -86,8 +86,8 @@ const boardSeed = [
    "price": 51.99,
    "productCode": 992384,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR3"
  },
  {
@@ -99,8 +99,8 @@ const boardSeed = [
    "price": 83.52,
    "productCode": 947922,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR4"
  },
  {
@@ -112,8 +112,8 @@ const boardSeed = [
    "price": 53.3,
    "productCode": 947937,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR4"
  },
  {
@@ -125,8 +125,8 @@ const boardSeed = [
    "price": 43.21,
    "productCode": 947836,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR4"
  },
  {
@@ -138,8 +138,8 @@ const boardSeed = [
    "price": 77.47,
    "productCode": 992872,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR4"
  },
  {
@@ -151,8 +151,8 @@ const boardSeed = [
    "price": 62.66,
    "productCode": 947838,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -164,8 +164,8 @@ const boardSeed = [
    "price": 91.41,
    "productCode": 969621,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -177,8 +177,8 @@ const boardSeed = [
    "price": 41.77,
    "productCode": 947898,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -190,8 +190,8 @@ const boardSeed = [
    "price": 44.65,
    "productCode": 947907,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -203,8 +203,8 @@ const boardSeed = [
    "price": 49.7,
    "productCode": 947875,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -216,8 +216,8 @@ const boardSeed = [
    "price": 47.9,
    "productCode": 992404,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -229,8 +229,8 @@ const boardSeed = [
    "price": 40.33,
    "productCode": 969621,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -242,8 +242,8 @@ const boardSeed = [
    "price": 46.4,
    "productCode": 992385,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -255,8 +255,8 @@ const boardSeed = [
    "price": 78.51,
    "productCode": 969738,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -268,8 +268,8 @@ const boardSeed = [
    "price": 89.9,
    "productCode": 992872,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -281,8 +281,8 @@ const boardSeed = [
    "price": 45.36,
    "productCode": 969603,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -294,8 +294,8 @@ const boardSeed = [
    "price": 45.36,
    "productCode": 969618,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -307,8 +307,8 @@ const boardSeed = [
    "price": 41.76,
    "productCode": 947844,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR7"
  },
  {
@@ -320,8 +320,8 @@ const boardSeed = [
    "price": 61.2,
    "productCode": 947907,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR7"
  },
  {
@@ -333,8 +333,8 @@ const boardSeed = [
    "price": 47.52,
    "productCode": 947943,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR7"
  },
  {
@@ -346,8 +346,8 @@ const boardSeed = [
    "price": 47.52,
    "productCode": 935755,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR9"
  },
  {
@@ -359,8 +359,8 @@ const boardSeed = [
    "price": 46.87,
    "productCode": 947895,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR9"
  },
  {
@@ -372,8 +372,8 @@ const boardSeed = [
    "price": 40.33,
    "productCode": 992385,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -385,8 +385,8 @@ const boardSeed = [
    "price": 34.98,
    "productCode": 947900,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -398,8 +398,8 @@ const boardSeed = [
    "price": 77.04,
    "productCode": 947814,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR11"
  },
  {
@@ -411,8 +411,8 @@ const boardSeed = [
    "price": 56.3,
    "productCode": 947943,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -424,8 +424,8 @@ const boardSeed = [
    "price": 35.36,
    "productCode": 975828,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR1"
  },
  {
@@ -437,8 +437,8 @@ const boardSeed = [
    "price": 37.35,
    "productCode": 947895,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -450,8 +450,8 @@ const boardSeed = [
    "price": 45.05,
    "productCode": 947850,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR1"
  },
  {
@@ -463,8 +463,8 @@ const boardSeed = [
    "price": 57.84,
    "productCode": 992388,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR2"
  },
  {
@@ -476,8 +476,8 @@ const boardSeed = [
    "price": 36.1,
    "productCode": 969609,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -489,8 +489,8 @@ const boardSeed = [
    "price": 69.12,
    "productCode": 947938,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR2"
  },
  {
@@ -502,8 +502,8 @@ const boardSeed = [
    "price": 62.7,
    "productCode": 947911,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR3"
  },
  {
@@ -515,8 +515,8 @@ const boardSeed = [
    "price": 65.9,
    "productCode": 947935,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR8"
  },
  {
@@ -528,8 +528,8 @@ const boardSeed = [
    "price": 65.52,
    "productCode": 947908,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -541,8 +541,8 @@ const boardSeed = [
    "price": 40.07,
    "productCode": 992405,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR1"
  },
  {
@@ -554,8 +554,8 @@ const boardSeed = [
    "price": 66.8,
    "productCode": 969614,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR8"
  },
  {
@@ -567,8 +567,8 @@ const boardSeed = [
    "price": 64.2,
    "productCode": 992872,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -580,8 +580,8 @@ const boardSeed = [
    "price": 81.77,
    "productCode": 954573,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -593,8 +593,8 @@ const boardSeed = [
    "price": 65.3,
    "productCode": 947870,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR11"
  },
  {
@@ -606,8 +606,8 @@ const boardSeed = [
    "price": 139.99,
    "productCode": 992387,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -619,8 +619,8 @@ const boardSeed = [
    "price": 32.89,
    "productCode": 947814,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR11"
  },
  {
@@ -632,8 +632,8 @@ const boardSeed = [
    "price": 71,
    "productCode": 947943,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR4"
  },
  {
@@ -645,8 +645,8 @@ const boardSeed = [
    "price": 58.7,
    "productCode": 947913,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR2"
  },
  {
@@ -658,8 +658,8 @@ const boardSeed = [
    "price": 64.79,
    "productCode": 992394,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR3"
  },
  {
@@ -671,8 +671,8 @@ const boardSeed = [
    "price": 36.49,
    "productCode": 947907,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR1"
  },
  {
@@ -684,8 +684,8 @@ const boardSeed = [
    "price": 38.59,
    "productCode": 992402,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -697,8 +697,8 @@ const boardSeed = [
    "price": 57.6,
    "productCode": 947911,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -710,8 +710,8 @@ const boardSeed = [
    "price": 57.62,
    "productCode": 947814,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR7"
  },
  {
@@ -723,8 +723,8 @@ const boardSeed = [
    "price": 55.28,
    "productCode": 992392,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -736,8 +736,8 @@ const boardSeed = [
    "price": 54,
    "productCode": 969618,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR12"
  },
  {
@@ -749,8 +749,8 @@ const boardSeed = [
    "price": 32.41,
    "productCode": 947911,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -762,8 +762,8 @@ const boardSeed = [
    "price": 53.28,
    "productCode": 992406,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -775,8 +775,8 @@ const boardSeed = [
    "price": 30.2,
    "productCode": 947836,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -788,8 +788,8 @@ const boardSeed = [
    "price": 29.99,
    "productCode": 947891,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR1"
  },
  {
@@ -801,8 +801,8 @@ const boardSeed = [
    "price": 50.78,
    "productCode": 991605,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR6"
  },
  {
@@ -814,8 +814,8 @@ const boardSeed = [
    "price": 50.4,
    "productCode": 992402,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR11"
  },
  {
@@ -827,8 +827,8 @@ const boardSeed = [
    "price": 45.38,
    "productCode": 947844,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR14"
  },
  {
@@ -840,8 +840,8 @@ const boardSeed = [
    "price": 44.29,
    "productCode": 947925,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR9"
  },
  {
@@ -853,8 +853,8 @@ const boardSeed = [
    "price": 43.2,
    "productCode": 969616,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR3"
  },
  {
@@ -866,8 +866,8 @@ const boardSeed = [
    "price": 50.41,
    "productCode": 969609,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -879,8 +879,8 @@ const boardSeed = [
    "price": 43.2,
    "productCode": 992410,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -892,8 +892,8 @@ const boardSeed = [
    "price": 42.12,
    "productCode": 969603,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR14"
  },
  {
@@ -905,8 +905,8 @@ const boardSeed = [
    "price": 41.76,
    "productCode": 947850,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR10"
  },
  {
@@ -918,8 +918,8 @@ const boardSeed = [
    "price": 40.69,
    "productCode": 969612,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR2"
  },
  {
@@ -931,8 +931,8 @@ const boardSeed = [
    "price": 45.56,
    "productCode": 992872,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR11"
  },
  {
@@ -944,8 +944,8 @@ const boardSeed = [
    "price": 37.8,
    "productCode": 969614,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR14"
  },
  {
@@ -957,8 +957,8 @@ const boardSeed = [
    "price": 36.72,
    "productCode": 947850,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR5"
  },
  {
@@ -970,8 +970,8 @@ const boardSeed = [
    "price": 34.1,
    "productCode": 992382,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR3"
  },
  {
@@ -983,8 +983,8 @@ const boardSeed = [
    "price": 30.96,
    "productCode": 947850,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[3]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Formica",
    "bayLocation": "OR14"
  },
  {
@@ -996,8 +996,8 @@ const boardSeed = [
    "price": 61.49,
    "productCode": 961075,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1009,8 +1009,8 @@ const boardSeed = [
    "price": 98.28,
    "productCode": 969974,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1022,8 +1022,8 @@ const boardSeed = [
    "price": 69.55,
    "productCode": 944954,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1035,8 +1035,8 @@ const boardSeed = [
    "price": 139.69,
    "productCode": 985216,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1048,8 +1048,8 @@ const boardSeed = [
    "price": 96.31,
    "productCode": 991914,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1061,8 +1061,8 @@ const boardSeed = [
    "price": 81.65,
    "productCode": 944938,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1074,8 +1074,8 @@ const boardSeed = [
    "price": 110.85,
    "productCode": 947973,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR11"
  },
  {
@@ -1087,8 +1087,8 @@ const boardSeed = [
    "price": 165.61,
    "productCode": 986258,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR14"
  },
  {
@@ -1100,8 +1100,8 @@ const boardSeed = [
    "price": 63.23,
    "productCode": 948231,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR14"
  },
  {
@@ -1113,8 +1113,8 @@ const boardSeed = [
    "price": 61.49,
    "productCode": 985213,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR14"
  },
  {
@@ -1126,8 +1126,8 @@ const boardSeed = [
    "price": 83.64,
    "productCode": 985338,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR14"
  },
  {
@@ -1139,8 +1139,8 @@ const boardSeed = [
    "price": 82.08,
    "productCode": 985510,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR2"
  },
  {
@@ -1152,8 +1152,8 @@ const boardSeed = [
    "price": 81.65,
    "productCode": 948180,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR3"
  },
  {
@@ -1165,8 +1165,8 @@ const boardSeed = [
    "price": 92.71,
    "productCode": 948007,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1178,8 +1178,8 @@ const boardSeed = [
    "price": 55.43,
    "productCode": 948041,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1191,8 +1191,8 @@ const boardSeed = [
    "price": 62.48,
    "productCode": 948231,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1204,8 +1204,8 @@ const boardSeed = [
    "price": 99.77,
    "productCode": 948197,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR6"
  },
  {
@@ -1217,8 +1217,8 @@ const boardSeed = [
    "price": 59.46,
    "productCode": 985218,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR6"
  },
  {
@@ -1230,8 +1230,8 @@ const boardSeed = [
    "price": 114.91,
    "productCode": 976727,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1243,8 +1243,8 @@ const boardSeed = [
    "price": 64.8,
    "productCode": 991916,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1256,8 +1256,8 @@ const boardSeed = [
    "price": 51.41,
    "productCode": 948184,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR8"
  },
  {
@@ -1269,8 +1269,8 @@ const boardSeed = [
    "price": 86.41,
    "productCode": 948153,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR9"
  },
  {
@@ -1282,8 +1282,8 @@ const boardSeed = [
    "price": 101.81,
    "productCode": 985214,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR9"
  },
  {
@@ -1295,8 +1295,8 @@ const boardSeed = [
    "price": 104.08,
    "productCode": 944938,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR1"
  },
  {
@@ -1308,8 +1308,8 @@ const boardSeed = [
    "price": 78.23,
    "productCode": 985217,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR6"
  },
  {
@@ -1321,8 +1321,8 @@ const boardSeed = [
    "price": 100.7,
    "productCode": 976727,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR1"
  },
  {
@@ -1334,8 +1334,8 @@ const boardSeed = [
    "price": 59.4,
    "productCode": 991923,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR1"
  },
  {
@@ -1347,8 +1347,8 @@ const boardSeed = [
    "price": 56.35,
    "productCode": 976724,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1360,8 +1360,8 @@ const boardSeed = [
    "price": 58.2,
    "productCode": 947998,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1373,8 +1373,8 @@ const boardSeed = [
    "price": 49.5,
    "productCode": 985530,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR13"
  },
  {
@@ -1386,8 +1386,8 @@ const boardSeed = [
    "price": 103.3,
    "productCode": 984370,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR6"
  },
  {
@@ -1399,8 +1399,8 @@ const boardSeed = [
    "price": 71.82,
    "productCode": 985217,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR12"
  },
  {
@@ -1412,8 +1412,8 @@ const boardSeed = [
    "price": 75.72,
    "productCode": 985322,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1425,8 +1425,8 @@ const boardSeed = [
    "price": 96.74,
    "productCode": 985326,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1438,8 +1438,8 @@ const boardSeed = [
    "price": 250.39,
    "productCode": 988698,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR8"
  },
  {
@@ -1451,8 +1451,8 @@ const boardSeed = [
    "price": 65.96,
    "productCode": 985344,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1464,8 +1464,8 @@ const boardSeed = [
    "price": 92.23,
    "productCode": 976729,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR6"
  },
  {
@@ -1477,8 +1477,8 @@ const boardSeed = [
    "price": 91.71,
    "productCode": 948232,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR1"
  },
  {
@@ -1490,8 +1490,8 @@ const boardSeed = [
    "price": 65,
    "productCode": 985217,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR6"
  },
  {
@@ -1503,8 +1503,8 @@ const boardSeed = [
    "price": 77.39,
    "productCode": 985530,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR11"
  },
  {
@@ -1516,8 +1516,8 @@ const boardSeed = [
    "price": 68.86,
    "productCode": 947979,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR1"
  },
  {
@@ -1529,8 +1529,8 @@ const boardSeed = [
    "price": 82.13,
    "productCode": 976728,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1542,8 +1542,8 @@ const boardSeed = [
    "price": 69.63,
    "productCode": 976730,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR4"
  },
  {
@@ -1555,8 +1555,8 @@ const boardSeed = [
    "price": 84.31,
    "productCode": 976730,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR4"
  },
  {
@@ -1568,8 +1568,8 @@ const boardSeed = [
    "price": 53.09,
    "productCode": 948051,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1581,8 +1581,8 @@ const boardSeed = [
    "price": 93.49,
    "productCode": 985541,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR8"
  },
  {
@@ -1594,8 +1594,8 @@ const boardSeed = [
    "price": 56.92,
    "productCode": 984370,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1607,8 +1607,8 @@ const boardSeed = [
    "price": 79.9,
    "productCode": 961913,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1620,8 +1620,8 @@ const boardSeed = [
    "price": 73.58,
    "productCode": 985344,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1633,8 +1633,8 @@ const boardSeed = [
    "price": 48.22,
    "productCode": 991913,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1646,8 +1646,8 @@ const boardSeed = [
    "price": 52.92,
    "productCode": 961907,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1659,8 +1659,8 @@ const boardSeed = [
    "price": 70.56,
    "productCode": 985212,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR4"
  },
  {
@@ -1672,8 +1672,8 @@ const boardSeed = [
    "price": 164.51,
    "productCode": 988698,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR9"
  },
  {
@@ -1685,8 +1685,8 @@ const boardSeed = [
    "price": 70.06,
    "productCode": 985352,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1698,8 +1698,8 @@ const boardSeed = [
    "price": 60.4,
    "productCode": 985217,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR3"
  },
  {
@@ -1711,8 +1711,8 @@ const boardSeed = [
    "price": 71.82,
    "productCode": 954297,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1724,8 +1724,8 @@ const boardSeed = [
    "price": 31.76,
    "productCode": 947979,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR1"
  },
  {
@@ -1737,8 +1737,8 @@ const boardSeed = [
    "price": 86.68,
    "productCode": 991630,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR9"
  },
  {
@@ -1750,8 +1750,8 @@ const boardSeed = [
    "price": 64.8,
    "productCode": 985524,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR10"
  },
  {
@@ -1763,8 +1763,8 @@ const boardSeed = [
    "price": 64.79,
    "productCode": 985515,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR3"
  },
  {
@@ -1776,8 +1776,8 @@ const boardSeed = [
    "price": 54.94,
    "productCode": 985338,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR7"
  },
  {
@@ -1789,8 +1789,8 @@ const boardSeed = [
    "price": 53.41,
    "productCode": 948180,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[4]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Laminex",
    "bayLocation": "OR5"
  },
  {
@@ -1802,8 +1802,8 @@ const boardSeed = [
    "price": 63.93,
    "productCode": 44662,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -1815,8 +1815,8 @@ const boardSeed = [
    "price": 83.71,
    "productCode": 25623,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR10"
  },
  {
@@ -1828,8 +1828,8 @@ const boardSeed = [
    "price": 57.08,
    "productCode": 625,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR10"
  },
  {
@@ -1841,8 +1841,8 @@ const boardSeed = [
    "price": 108.57,
    "productCode": 26402,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR12"
  },
  {
@@ -1854,8 +1854,8 @@ const boardSeed = [
    "price": 83.71,
    "productCode": 45079,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR5"
  },
  {
@@ -1867,8 +1867,8 @@ const boardSeed = [
    "price": 54.79,
    "productCode": 43702,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR6"
  },
  {
@@ -1880,8 +1880,8 @@ const boardSeed = [
    "price": 63.93,
    "productCode": 25806,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR6"
  },
  {
@@ -1893,8 +1893,8 @@ const boardSeed = [
    "price": 47.18,
    "productCode": 46821,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR6"
  },
  {
@@ -1906,8 +1906,8 @@ const boardSeed = [
    "price": 82.19,
    "productCode": 47250,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR6"
  },
  {
@@ -1919,8 +1919,8 @@ const boardSeed = [
    "price": 45.66,
    "productCode": 25828,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR7"
  },
  {
@@ -1932,8 +1932,8 @@ const boardSeed = [
    "price": 0,
    "productCode": 48794,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR9"
  },
  {
@@ -1945,8 +1945,8 @@ const boardSeed = [
    "price": 75.32,
    "productCode": 25776,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR10"
  },
  {
@@ -1958,8 +1958,8 @@ const boardSeed = [
    "price": 76.04,
    "productCode": 46837,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -1971,8 +1971,8 @@ const boardSeed = [
    "price": 42.55,
    "productCode": 46819,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -1984,8 +1984,8 @@ const boardSeed = [
    "price": 91.33,
    "productCode": 43706,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -1997,8 +1997,8 @@ const boardSeed = [
    "price": 68.37,
    "productCode": 472,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR2"
  },
  {
@@ -2010,8 +2010,8 @@ const boardSeed = [
    "price": 69.76,
    "productCode": 940,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR6"
  },
  {
@@ -2023,8 +2023,8 @@ const boardSeed = [
    "price": 95.25,
    "productCode": 52640,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR2"
  },
  {
@@ -2036,8 +2036,8 @@ const boardSeed = [
    "price": 72.68,
    "productCode": 46828,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR5"
  },
  {
@@ -2049,8 +2049,8 @@ const boardSeed = [
    "price": 226.76,
    "productCode": 47478,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -2062,8 +2062,8 @@ const boardSeed = [
    "price": 67.54,
    "productCode": 46823,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -2075,8 +2075,8 @@ const boardSeed = [
    "price": 49.11,
    "productCode": 46820,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR10"
  },
  {
@@ -2088,8 +2088,8 @@ const boardSeed = [
    "price": 148.82,
    "productCode": 45309,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR1"
  },
  {
@@ -2101,8 +2101,8 @@ const boardSeed = [
    "price": 64.69,
    "productCode": 25832,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR5"
  },
  {
@@ -2114,8 +2114,8 @@ const boardSeed = [
    "price": 55.07,
    "productCode": 46822,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR5"
  },
  {
@@ -2127,8 +2127,8 @@ const boardSeed = [
    "price": 185.18,
    "productCode": 50338,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR10"
  },
  {
@@ -2140,8 +2140,8 @@ const boardSeed = [
    "price": 48.71,
    "productCode": 51160,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR2"
  },
  {
@@ -2153,8 +2153,8 @@ const boardSeed = [
    "price": 37.67,
    "productCode": 46825,
    "image": "",
-   "stockType": "categories[1]._id",
-   "brand": "brand[5]._id",
+   "stockType": "Pre Finished Board",
+   "brand": "Polytec",
    "bayLocation": "OR12"
  }
 ]
@@ -2169,8 +2169,8 @@ const edgingSeed = [
     "price": "162",
     "productCode": 8226,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "EPALLET",
     "quantityInStock": 120
   },
@@ -2183,8 +2183,8 @@ const edgingSeed = [
     "price": "33.3",
     "productCode": 8323,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E173",
     "quantityInStock": 45
   },
@@ -2197,8 +2197,8 @@ const edgingSeed = [
     "price": "36",
     "productCode": 11007,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E119",
     "quantityInStock": 50
   },
@@ -2211,8 +2211,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 11007,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E130",
     "quantityInStock": 100
   },
@@ -2225,8 +2225,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 11007,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E190",
     "quantityInStock": 100
   },
@@ -2239,8 +2239,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 11007,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E193",
     "quantityInStock": 100
   },
@@ -2253,8 +2253,8 @@ const edgingSeed = [
     "price": "14.4",
     "productCode": 11075,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E25",
     "quantityInStock": 20
   },
@@ -2267,8 +2267,8 @@ const edgingSeed = [
     "price": "57.6",
     "productCode": 12675,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E114",
     "quantityInStock": 80
   },
@@ -2281,8 +2281,8 @@ const edgingSeed = [
     "price": "22.8",
     "productCode": 17704,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E26",
     "quantityInStock": 20
   },
@@ -2295,8 +2295,8 @@ const edgingSeed = [
     "price": "26.22",
     "productCode": 17722,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E6",
     "quantityInStock": 23
   },
@@ -2309,8 +2309,8 @@ const edgingSeed = [
     "price": "33.83",
     "productCode": 17727,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E98",
     "quantityInStock": 17
   },
@@ -2323,8 +2323,8 @@ const edgingSeed = [
     "price": "18.24",
     "productCode": 17756,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E65",
     "quantityInStock": 16
   },
@@ -2337,8 +2337,8 @@ const edgingSeed = [
     "price": "36.14",
     "productCode": 19195,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E111",
     "quantityInStock": 26
   },
@@ -2351,8 +2351,8 @@ const edgingSeed = [
     "price": "95.91",
     "productCode": 19195,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E94",
     "quantityInStock": 69
   },
@@ -2365,8 +2365,8 @@ const edgingSeed = [
     "price": "50.4",
     "productCode": 19202,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E46",
     "quantityInStock": 70
   },
@@ -2379,8 +2379,8 @@ const edgingSeed = [
     "price": "64.8",
     "productCode": 19202,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E39",
     "quantityInStock": 90
   },
@@ -2393,8 +2393,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 19202,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E154",
     "quantityInStock": 100
   },
@@ -2407,8 +2407,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 19202,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E223",
     "quantityInStock": 100
   },
@@ -2421,8 +2421,8 @@ const edgingSeed = [
     "price": "216",
     "productCode": 19202,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "EPALLET",
     "quantityInStock": 300
   },
@@ -2435,8 +2435,8 @@ const edgingSeed = [
     "price": "54",
     "productCode": 19348,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E8",
     "quantityInStock": 75
   },
@@ -2449,8 +2449,8 @@ const edgingSeed = [
     "price": "36",
     "productCode": 19379,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E55",
     "quantityInStock": 50
   },
@@ -2463,8 +2463,8 @@ const edgingSeed = [
     "price": "42.92",
     "productCode": 19379,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E9",
     "quantityInStock": 58
   },
@@ -2477,8 +2477,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 19380,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E188",
     "quantityInStock": 100
   },
@@ -2491,8 +2491,8 @@ const edgingSeed = [
     "price": "16.28",
     "productCode": 19399,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E27",
     "quantityInStock": 22
   },
@@ -2505,8 +2505,8 @@ const edgingSeed = [
     "price": "22.2",
     "productCode": 19537,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E11",
     "quantityInStock": 20
   },
@@ -2519,8 +2519,8 @@ const edgingSeed = [
     "price": "22.2",
     "productCode": 19537,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E82",
     "quantityInStock": 20
   },
@@ -2533,8 +2533,8 @@ const edgingSeed = [
     "price": "25.16",
     "productCode": 19545,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E205",
     "quantityInStock": 34
   },
@@ -2547,8 +2547,8 @@ const edgingSeed = [
     "price": "28.8",
     "productCode": 19546,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E28",
     "quantityInStock": 40
   },
@@ -2561,8 +2561,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 19546,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E188",
     "quantityInStock": 100
   },
@@ -2575,8 +2575,8 @@ const edgingSeed = [
     "price": "64.8",
     "productCode": 19547,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "e12",
     "quantityInStock": 90
   },
@@ -2589,8 +2589,8 @@ const edgingSeed = [
     "price": "40.2",
     "productCode": 20144,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E33",
     "quantityInStock": 20
   },
@@ -2603,8 +2603,8 @@ const edgingSeed = [
     "price": "34.75",
     "productCode": 20370,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E143",
     "quantityInStock": 25
   },
@@ -2617,8 +2617,8 @@ const edgingSeed = [
     "price": "36",
     "productCode": 20375,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E49",
     "quantityInStock": 50
   },
@@ -2631,8 +2631,8 @@ const edgingSeed = [
     "price": "70.2",
     "productCode": 26425,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E226",
     "quantityInStock": 52
   },
@@ -2645,8 +2645,8 @@ const edgingSeed = [
     "price": "41",
     "productCode": 26438,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E230",
     "quantityInStock": 20
   },
@@ -2659,8 +2659,8 @@ const edgingSeed = [
     "price": "51.25",
     "productCode": 26438,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E236",
     "quantityInStock": 25
   },
@@ -2673,8 +2673,8 @@ const edgingSeed = [
     "price": "97.2",
     "productCode": 26445,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E191",
     "quantityInStock": 72
   },
@@ -2687,8 +2687,8 @@ const edgingSeed = [
     "price": "39.8",
     "productCode": 26450,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "EPALLET",
     "quantityInStock": 20
   },
@@ -2701,8 +2701,8 @@ const edgingSeed = [
     "price": "72",
     "productCode": 26773,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "EPALLET",
     "quantityInStock": 100
   },
@@ -2715,8 +2715,8 @@ const edgingSeed = [
     "price": "61.42",
     "productCode": 26776,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E5",
     "quantityInStock": 83
   },
@@ -2729,8 +2729,8 @@ const edgingSeed = [
     "price": "21.9",
     "productCode": 26790,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E43",
     "quantityInStock": 15
   },
@@ -2743,8 +2743,8 @@ const edgingSeed = [
     "price": "18.5",
     "productCode": 27480,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E98",
     "quantityInStock": 25
   },
@@ -2757,8 +2757,8 @@ const edgingSeed = [
     "price": "29.6",
     "productCode": 27480,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E45",
     "quantityInStock": 40
   },
@@ -2771,8 +2771,8 @@ const edgingSeed = [
     "price": "111.2",
     "productCode": 27710,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E150",
     "quantityInStock": 80
   },
@@ -2785,8 +2785,8 @@ const edgingSeed = [
     "price": "118.15",
     "productCode": 27710,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E138",
     "quantityInStock": 85
   },
@@ -2799,8 +2799,8 @@ const edgingSeed = [
     "price": "82.35",
     "productCode": 27714,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E116",
     "quantityInStock": 61
   },
@@ -2813,8 +2813,8 @@ const edgingSeed = [
     "price": "14.4",
     "productCode": 42650,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E159",
     "quantityInStock": 20
   },
@@ -2827,8 +2827,8 @@ const edgingSeed = [
     "price": "44.64",
     "productCode": 42652,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E161",
     "quantityInStock": 62
   },
@@ -2841,8 +2841,8 @@ const edgingSeed = [
     "price": "17.1",
     "productCode": 43726,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E19",
     "quantityInStock": 15
   },
@@ -2855,8 +2855,8 @@ const edgingSeed = [
     "price": "29.64",
     "productCode": 43738,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E16",
     "quantityInStock": 26
   },
@@ -2869,8 +2869,8 @@ const edgingSeed = [
     "price": "37",
     "productCode": 43748,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E175",
     "quantityInStock": 50
   },
@@ -2883,8 +2883,8 @@ const edgingSeed = [
     "price": "21.6",
     "productCode": 43751,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E47",
     "quantityInStock": 30
   },
@@ -2897,8 +2897,8 @@ const edgingSeed = [
     "price": "12.96",
     "productCode": 43757,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E1",
     "quantityInStock": 18
   },
@@ -2911,8 +2911,8 @@ const edgingSeed = [
     "price": "39.8",
     "productCode": 44528,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "EPALLET",
     "quantityInStock": 20
   },
@@ -2925,8 +2925,8 @@ const edgingSeed = [
     "price": "309",
     "productCode": 45758,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "EPALLET",
     "quantityInStock": 100
   },
@@ -2939,8 +2939,8 @@ const edgingSeed = [
     "price": "61.56",
     "productCode": 45765,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E24",
     "quantityInStock": 36
   },
@@ -2953,8 +2953,8 @@ const edgingSeed = [
     "price": "114.57",
     "productCode": 45787,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E10",
     "quantityInStock": 67
   },
@@ -2967,8 +2967,8 @@ const edgingSeed = [
     "price": "117",
     "productCode": 45791,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E126",
     "quantityInStock": 100
   },
@@ -2981,8 +2981,8 @@ const edgingSeed = [
     "price": "87",
     "productCode": 45793,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E233",
     "quantityInStock": 75
   },
@@ -2995,8 +2995,8 @@ const edgingSeed = [
     "price": "121.5",
     "productCode": 46458,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E150",
     "quantityInStock": 90
   },
@@ -3009,8 +3009,8 @@ const edgingSeed = [
     "price": "18.5",
     "productCode": 46590,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E191",
     "quantityInStock": 25
   },
@@ -3023,8 +3023,8 @@ const edgingSeed = [
     "price": "23.68",
     "productCode": 46590,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E217",
     "quantityInStock": 32
   },
@@ -3037,8 +3037,8 @@ const edgingSeed = [
     "price": "82.16",
     "productCode": 46595,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E94",
     "quantityInStock": 79
   },
@@ -3051,8 +3051,8 @@ const edgingSeed = [
     "price": "51.1",
     "productCode": 46661,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E225",
     "quantityInStock": 35
   },
@@ -3065,8 +3065,8 @@ const edgingSeed = [
     "price": "52.56",
     "productCode": 46661,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E203",
     "quantityInStock": 36
   },
@@ -3079,8 +3079,8 @@ const edgingSeed = [
     "price": "97.82",
     "productCode": 46661,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "146",
     "quantityInStock": 67
   },
@@ -3093,8 +3093,8 @@ const edgingSeed = [
     "price": "100.74",
     "productCode": 46661,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E31",
     "quantityInStock": 69
   },
@@ -3107,8 +3107,8 @@ const edgingSeed = [
     "price": "146",
     "productCode": 46661,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E106",
     "quantityInStock": 100
   },
@@ -3121,8 +3121,8 @@ const edgingSeed = [
     "price": "100.11",
     "productCode": 46662,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "e7",
     "quantityInStock": 71
   },
@@ -3135,8 +3135,8 @@ const edgingSeed = [
     "price": "57.2",
     "productCode": 46764,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E87",
     "quantityInStock": 55
   },
@@ -3149,8 +3149,8 @@ const edgingSeed = [
     "price": "58.58",
     "productCode": 46776,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "194",
     "quantityInStock": 58
   },
@@ -3163,8 +3163,8 @@ const edgingSeed = [
     "price": "27.4",
     "productCode": 46800,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E179",
     "quantityInStock": 20
   },
@@ -3177,8 +3177,8 @@ const edgingSeed = [
     "price": "53.2",
     "productCode": 46803,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E24",
     "quantityInStock": 40
   },
@@ -3191,8 +3191,8 @@ const edgingSeed = [
     "price": "26.6",
     "productCode": 46805,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E26",
     "quantityInStock": 20
   },
@@ -3205,8 +3205,8 @@ const edgingSeed = [
     "price": "27.93",
     "productCode": 46805,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E19",
     "quantityInStock": 21
   },
@@ -3219,8 +3219,8 @@ const edgingSeed = [
     "price": "27.4",
     "productCode": 46808,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E23",
     "quantityInStock": 20
   },
@@ -3233,8 +3233,8 @@ const edgingSeed = [
     "price": "27.4",
     "productCode": 46808,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E24",
     "quantityInStock": 20
   },
@@ -3247,8 +3247,8 @@ const edgingSeed = [
     "price": "26.28",
     "productCode": 48358,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E197",
     "quantityInStock": 18
   },
@@ -3261,8 +3261,8 @@ const edgingSeed = [
     "price": "36",
     "productCode": 48571,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E176",
     "quantityInStock": 30
   },
@@ -3275,8 +3275,8 @@ const edgingSeed = [
     "price": "120",
     "productCode": 48571,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E208",
     "quantityInStock": 100
   },
@@ -3289,8 +3289,8 @@ const edgingSeed = [
     "price": "76.8",
     "productCode": 48573,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E18",
     "quantityInStock": 64
   },
@@ -3303,8 +3303,8 @@ const edgingSeed = [
     "price": "93.6",
     "productCode": 48573,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E8",
     "quantityInStock": 78
   },
@@ -3317,8 +3317,8 @@ const edgingSeed = [
     "price": "33.58",
     "productCode": 48993,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E104",
     "quantityInStock": 23
   },
@@ -3331,8 +3331,8 @@ const edgingSeed = [
     "price": "138.7",
     "productCode": 48993,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E104",
     "quantityInStock": 95
   },
@@ -3345,8 +3345,8 @@ const edgingSeed = [
     "price": "21.21",
     "productCode": 49010,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E87",
     "quantityInStock": 21
   },
@@ -3359,8 +3359,8 @@ const edgingSeed = [
     "price": "27.4",
     "productCode": 50303,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E3",
     "quantityInStock": 20
   },
@@ -3373,8 +3373,8 @@ const edgingSeed = [
     "price": "18.5",
     "productCode": 50509,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E95",
     "quantityInStock": 25
   },
@@ -3387,8 +3387,8 @@ const edgingSeed = [
     "price": "25.16",
     "productCode": 50538,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E78",
     "quantityInStock": 34
   },
@@ -3401,8 +3401,8 @@ const edgingSeed = [
     "price": "28.08",
     "productCode": 50782,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E144",
     "quantityInStock": 39
   },
@@ -3415,8 +3415,8 @@ const edgingSeed = [
     "price": "20.55",
     "productCode": 51165,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E181",
     "quantityInStock": 15
   },
@@ -3429,8 +3429,8 @@ const edgingSeed = [
     "price": "73.84",
     "productCode": 51180,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E48",
     "quantityInStock": 71
   },
@@ -3443,8 +3443,8 @@ const edgingSeed = [
     "price": "55.12",
     "productCode": 51182,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E124",
     "quantityInStock": 53
   },
@@ -3457,8 +3457,8 @@ const edgingSeed = [
     "price": "88.4",
     "productCode": 51183,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E18",
     "quantityInStock": 85
   },
@@ -3471,8 +3471,8 @@ const edgingSeed = [
     "price": "0",
     "productCode": 51431,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E252",
     "quantityInStock": 20
   },
@@ -3485,8 +3485,8 @@ const edgingSeed = [
     "price": "20.55",
     "productCode": 52643,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E22",
     "quantityInStock": 15
   },
@@ -3499,8 +3499,8 @@ const edgingSeed = [
     "price": "27.4",
     "productCode": 52643,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E155",
     "quantityInStock": 20
   },
@@ -3513,8 +3513,8 @@ const edgingSeed = [
     "price": "36.4",
     "productCode": 52688,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[5]._id",
+    "stockType": "Edging",
+    "brand": "Polytec",
     "bayLocation": "E5",
     "quantityInStock": 35
   },
@@ -3527,8 +3527,8 @@ const edgingSeed = [
     "price": "44.53",
     "productCode": 163375,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E63",
     "quantityInStock": 61
   },
@@ -3541,8 +3541,8 @@ const edgingSeed = [
     "price": "686.4",
     "productCode": 435167,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "",
     "quantityInStock": 660
   },
@@ -3555,8 +3555,8 @@ const edgingSeed = [
     "price": "9.24",
     "productCode": 813218,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E4",
     "quantityInStock": 28
   },
@@ -3569,8 +3569,8 @@ const edgingSeed = [
     "price": "14.85",
     "productCode": 813218,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E5",
     "quantityInStock": 45
   },
@@ -3583,8 +3583,8 @@ const edgingSeed = [
     "price": "46.06",
     "productCode": 846060,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E206",
     "quantityInStock": 47
   },
@@ -3597,8 +3597,8 @@ const edgingSeed = [
     "price": "74",
     "productCode": 846151,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E126",
     "quantityInStock": 100
   },
@@ -3611,8 +3611,8 @@ const edgingSeed = [
     "price": "17.46",
     "productCode": 848497,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E119",
     "quantityInStock": 18
   },
@@ -3625,8 +3625,8 @@ const edgingSeed = [
     "price": "11.1",
     "productCode": 848499,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E1",
     "quantityInStock": 15
   },
@@ -3639,8 +3639,8 @@ const edgingSeed = [
     "price": "21.34",
     "productCode": 848536,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E71",
     "quantityInStock": 22
   },
@@ -3653,8 +3653,8 @@ const edgingSeed = [
     "price": "42.32",
     "productCode": 853032,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E183",
     "quantityInStock": 92
   },
@@ -3667,8 +3667,8 @@ const edgingSeed = [
     "price": "939.3",
     "productCode": 857214,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "Stock",
     "quantityInStock": 3030
   },
@@ -3681,8 +3681,8 @@ const edgingSeed = [
     "price": "21.12",
     "productCode": 857340,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E26",
     "quantityInStock": 64
   },
@@ -3695,8 +3695,8 @@ const edgingSeed = [
     "price": "25.5",
     "productCode": 857826,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E81",
     "quantityInStock": 85
   },
@@ -3709,8 +3709,8 @@ const edgingSeed = [
     "price": "30",
     "productCode": 857826,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E105",
     "quantityInStock": 100
   },
@@ -3723,8 +3723,8 @@ const edgingSeed = [
     "price": "31.35",
     "productCode": 862673,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E164",
     "quantityInStock": 95
   },
@@ -3737,8 +3737,8 @@ const edgingSeed = [
     "price": "5.28",
     "productCode": 874984,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E63",
     "quantityInStock": 16
   },
@@ -3751,8 +3751,8 @@ const edgingSeed = [
     "price": "40.8",
     "productCode": 877667,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E4",
     "quantityInStock": 85
   },
@@ -3765,8 +3765,8 @@ const edgingSeed = [
     "price": "16.2",
     "productCode": 878726,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E8",
     "quantityInStock": 15
   },
@@ -3779,8 +3779,8 @@ const edgingSeed = [
     "price": "12.6",
     "productCode": 883037,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "e122",
     "quantityInStock": 42
   },
@@ -3793,8 +3793,8 @@ const edgingSeed = [
     "price": "15",
     "productCode": 884946,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E218",
     "quantityInStock": 30
   },
@@ -3807,8 +3807,8 @@ const edgingSeed = [
     "price": "50",
     "productCode": 885921,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E88",
     "quantityInStock": 100
   },
@@ -3821,8 +3821,8 @@ const edgingSeed = [
     "price": "42.32",
     "productCode": 885933,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E10",
     "quantityInStock": 92
   },
@@ -3835,8 +3835,8 @@ const edgingSeed = [
     "price": "23.76",
     "productCode": 887046,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E197",
     "quantityInStock": 72
   },
@@ -3849,8 +3849,8 @@ const edgingSeed = [
     "price": "14.85",
     "productCode": 887267,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E169",
     "quantityInStock": 45
   },
@@ -3863,8 +3863,8 @@ const edgingSeed = [
     "price": "16.17",
     "productCode": 887267,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E205",
     "quantityInStock": 49
   },
@@ -3877,8 +3877,8 @@ const edgingSeed = [
     "price": "19.8",
     "productCode": 906214,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E42",
     "quantityInStock": 45
   },
@@ -3891,8 +3891,8 @@ const edgingSeed = [
     "price": "15.25",
     "productCode": 906220,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E235",
     "quantityInStock": 25
   },
@@ -3905,8 +3905,8 @@ const edgingSeed = [
     "price": "10.08",
     "productCode": 906221,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E212",
     "quantityInStock": 18
   },
@@ -3919,8 +3919,8 @@ const edgingSeed = [
     "price": "27.5",
     "productCode": 906231,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E12",
     "quantityInStock": 25
   },
@@ -3933,8 +3933,8 @@ const edgingSeed = [
     "price": "27.5",
     "productCode": 906231,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E4",
     "quantityInStock": 25
   },
@@ -3947,8 +3947,8 @@ const edgingSeed = [
     "price": "55",
     "productCode": 906231,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E13",
     "quantityInStock": 50
   },
@@ -3961,8 +3961,8 @@ const edgingSeed = [
     "price": "33",
     "productCode": 909149,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E165",
     "quantityInStock": 100
   },
@@ -3975,8 +3975,8 @@ const edgingSeed = [
     "price": "11.22",
     "productCode": 909160,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E9",
     "quantityInStock": 33
   },
@@ -3989,8 +3989,8 @@ const edgingSeed = [
     "price": "23.8",
     "productCode": 909160,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E138",
     "quantityInStock": 70
   },
@@ -4003,8 +4003,8 @@ const edgingSeed = [
     "price": "49.82",
     "productCode": 909161,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "EPALLET",
     "quantityInStock": 106
   },
@@ -4017,8 +4017,8 @@ const edgingSeed = [
     "price": "9.61",
     "productCode": 910186,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E175",
     "quantityInStock": 31
   },
@@ -4031,8 +4031,8 @@ const edgingSeed = [
     "price": "21.45",
     "productCode": 910194,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E127",
     "quantityInStock": 65
   },
@@ -4045,8 +4045,8 @@ const edgingSeed = [
     "price": "33",
     "productCode": 910194,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E133",
     "quantityInStock": 100
   },
@@ -4059,8 +4059,8 @@ const edgingSeed = [
     "price": "14",
     "productCode": 910198,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E4",
     "quantityInStock": 25
   },
@@ -4073,8 +4073,8 @@ const edgingSeed = [
     "price": "15.25",
     "productCode": 910200,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E161",
     "quantityInStock": 25
   },
@@ -4087,8 +4087,8 @@ const edgingSeed = [
     "price": "15.25",
     "productCode": 910211,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E34",
     "quantityInStock": 25
   },
@@ -4101,8 +4101,8 @@ const edgingSeed = [
     "price": "12.16",
     "productCode": 910218,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E26",
     "quantityInStock": 19
   },
@@ -4115,8 +4115,8 @@ const edgingSeed = [
     "price": "15.86",
     "productCode": 910219,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E17",
     "quantityInStock": 26
   },
@@ -4129,8 +4129,8 @@ const edgingSeed = [
     "price": "30",
     "productCode": 910225,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E211",
     "quantityInStock": 60
   },
@@ -4143,8 +4143,8 @@ const edgingSeed = [
     "price": "22",
     "productCode": 910243,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E92",
     "quantityInStock": 20
   },
@@ -4157,8 +4157,8 @@ const edgingSeed = [
     "price": "29.75",
     "productCode": 910247,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E120",
     "quantityInStock": 25
   },
@@ -4171,8 +4171,8 @@ const edgingSeed = [
     "price": "47",
     "productCode": 914759,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E114",
     "quantityInStock": 100
   },
@@ -4185,8 +4185,8 @@ const edgingSeed = [
     "price": "14",
     "productCode": 916607,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E15",
     "quantityInStock": 20
   },
@@ -4199,8 +4199,8 @@ const edgingSeed = [
     "price": "10.95",
     "productCode": 916654,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E73",
     "quantityInStock": 15
   },
@@ -4213,8 +4213,8 @@ const edgingSeed = [
     "price": "18.25",
     "productCode": 916654,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E53",
     "quantityInStock": 25
   },
@@ -4227,8 +4227,8 @@ const edgingSeed = [
     "price": "38.5",
     "productCode": 916685,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E21",
     "quantityInStock": 25
   },
@@ -4241,8 +4241,8 @@ const edgingSeed = [
     "price": "35.5",
     "productCode": 916697,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E59",
     "quantityInStock": 25
   },
@@ -4255,8 +4255,8 @@ const edgingSeed = [
     "price": "29.26",
     "productCode": 916711,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E78",
     "quantityInStock": 19
   },
@@ -4269,8 +4269,8 @@ const edgingSeed = [
     "price": "35.5",
     "productCode": 916720,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E52",
     "quantityInStock": 25
   },
@@ -4283,8 +4283,8 @@ const edgingSeed = [
     "price": "19.89",
     "productCode": 932941,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E209",
     "quantityInStock": 17
   },
@@ -4297,8 +4297,8 @@ const edgingSeed = [
     "price": "141.68",
     "productCode": 933324,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E21",
     "quantityInStock": 88
   },
@@ -4311,8 +4311,8 @@ const edgingSeed = [
     "price": "16.5",
     "productCode": 934561,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E58",
     "quantityInStock": 15
   },
@@ -4325,8 +4325,8 @@ const edgingSeed = [
     "price": "19.89",
     "productCode": 934579,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E43",
     "quantityInStock": 39
   },
@@ -4339,8 +4339,8 @@ const edgingSeed = [
     "price": "27",
     "productCode": 936427,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E129",
     "quantityInStock": 25
   },
@@ -4353,8 +4353,8 @@ const edgingSeed = [
     "price": "22.77",
     "productCode": 939757,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E214",
     "quantityInStock": 23
   },
@@ -4367,8 +4367,8 @@ const edgingSeed = [
     "price": "46.46",
     "productCode": 939768,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E148",
     "quantityInStock": 46
   },
@@ -4381,8 +4381,8 @@ const edgingSeed = [
     "price": "1,169.20",
     "productCode": 939769,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "Stock",
     "quantityInStock": 3160
   },
@@ -4395,8 +4395,8 @@ const edgingSeed = [
     "price": "7.5",
     "productCode": 945061,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E131",
     "quantityInStock": 25
   },
@@ -4409,8 +4409,8 @@ const edgingSeed = [
     "price": "37.5",
     "productCode": 945062,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E164",
     "quantityInStock": 75
   },
@@ -4423,8 +4423,8 @@ const edgingSeed = [
     "price": "69.92",
     "productCode": 945073,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E150",
     "quantityInStock": 152
   },
@@ -4437,8 +4437,8 @@ const edgingSeed = [
     "price": "10.2",
     "productCode": 945105,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E61",
     "quantityInStock": 15
   },
@@ -4451,8 +4451,8 @@ const edgingSeed = [
     "price": "33.66",
     "productCode": 954701,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E22",
     "quantityInStock": 34
   },
@@ -4465,8 +4465,8 @@ const edgingSeed = [
     "price": "99",
     "productCode": 954701,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E146",
     "quantityInStock": 100
   },
@@ -4479,8 +4479,8 @@ const edgingSeed = [
     "price": "32.25",
     "productCode": 954709,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "EPALLET",
     "quantityInStock": 25
   },
@@ -4493,8 +4493,8 @@ const edgingSeed = [
     "price": "16.34",
     "productCode": 954716,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E215",
     "quantityInStock": 19
   },
@@ -4507,8 +4507,8 @@ const edgingSeed = [
     "price": "21.5",
     "productCode": 954716,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E71",
     "quantityInStock": 25
   },
@@ -4521,8 +4521,8 @@ const edgingSeed = [
     "price": "32.25",
     "productCode": 954719,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E64",
     "quantityInStock": 25
   },
@@ -4535,8 +4535,8 @@ const edgingSeed = [
     "price": "32.25",
     "productCode": 954719,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E73",
     "quantityInStock": 25
   },
@@ -4549,8 +4549,8 @@ const edgingSeed = [
     "price": "46.86",
     "productCode": 961203,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E23",
     "quantityInStock": 33
   },
@@ -4563,8 +4563,8 @@ const edgingSeed = [
     "price": "21",
     "productCode": 961224,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E40",
     "quantityInStock": 70
   },
@@ -4577,8 +4577,8 @@ const edgingSeed = [
     "price": "23.25",
     "productCode": 962228,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E11",
     "quantityInStock": 15
   },
@@ -4591,8 +4591,8 @@ const edgingSeed = [
     "price": "38.4",
     "productCode": 962234,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E71",
     "quantityInStock": 60
   },
@@ -4605,8 +4605,8 @@ const edgingSeed = [
     "price": "56.32",
     "productCode": 962234,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E21",
     "quantityInStock": 88
   },
@@ -4619,8 +4619,8 @@ const edgingSeed = [
     "price": "23.25",
     "productCode": 962240,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E5",
     "quantityInStock": 15
   },
@@ -4633,8 +4633,8 @@ const edgingSeed = [
     "price": "40.2",
     "productCode": 962284,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E79",
     "quantityInStock": 60
   },
@@ -4647,8 +4647,8 @@ const edgingSeed = [
     "price": "37.2",
     "productCode": 962322,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E6",
     "quantityInStock": 30
   },
@@ -4661,8 +4661,8 @@ const edgingSeed = [
     "price": "23.25",
     "productCode": 962338,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E77",
     "quantityInStock": 15
   },
@@ -4675,8 +4675,8 @@ const edgingSeed = [
     "price": "60.8",
     "productCode": 962486,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E5",
     "quantityInStock": 95
   },
@@ -4689,8 +4689,8 @@ const edgingSeed = [
     "price": "13.6",
     "productCode": 963584,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E155",
     "quantityInStock": 20
   },
@@ -4703,8 +4703,8 @@ const edgingSeed = [
     "price": "38.22",
     "productCode": 966235,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E206",
     "quantityInStock": 39
   },
@@ -4717,8 +4717,8 @@ const edgingSeed = [
     "price": "57.6",
     "productCode": 967561,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E216",
     "quantityInStock": 60
   },
@@ -4731,8 +4731,8 @@ const edgingSeed = [
     "price": "66",
     "productCode": 967849,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E199",
     "quantityInStock": 200
   },
@@ -4745,8 +4745,8 @@ const edgingSeed = [
     "price": "14",
     "productCode": 967990,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E31",
     "quantityInStock": 25
   },
@@ -4759,8 +4759,8 @@ const edgingSeed = [
     "price": "16.8",
     "productCode": 967995,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E32",
     "quantityInStock": 15
   },
@@ -4773,8 +4773,8 @@ const edgingSeed = [
     "price": "17.85",
     "productCode": 968000,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E41",
     "quantityInStock": 15
   },
@@ -4787,8 +4787,8 @@ const edgingSeed = [
     "price": "41.5",
     "productCode": 968010,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E162",
     "quantityInStock": 83
   },
@@ -4801,8 +4801,8 @@ const edgingSeed = [
     "price": "9.4",
     "productCode": 968014,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E115",
     "quantityInStock": 20
   },
@@ -4815,8 +4815,8 @@ const edgingSeed = [
     "price": "22.5",
     "productCode": 968020,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E10",
     "quantityInStock": 45
   },
@@ -4829,8 +4829,8 @@ const edgingSeed = [
     "price": "22.5",
     "productCode": 968020,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E129",
     "quantityInStock": 45
   },
@@ -4843,8 +4843,8 @@ const edgingSeed = [
     "price": "32.5",
     "productCode": 968024,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E10",
     "quantityInStock": 65
   },
@@ -4857,8 +4857,8 @@ const edgingSeed = [
     "price": "18.5",
     "productCode": 968026,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E36",
     "quantityInStock": 25
   },
@@ -4871,8 +4871,8 @@ const edgingSeed = [
     "price": "14.55",
     "productCode": 968036,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E158",
     "quantityInStock": 15
   },
@@ -4885,8 +4885,8 @@ const edgingSeed = [
     "price": "35.52",
     "productCode": 968052,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E221",
     "quantityInStock": 37
   },
@@ -4899,8 +4899,8 @@ const edgingSeed = [
     "price": "32.01",
     "productCode": 968063,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E182",
     "quantityInStock": 33
   },
@@ -4913,8 +4913,8 @@ const edgingSeed = [
     "price": "53.04",
     "productCode": 972649,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E88",
     "quantityInStock": 52
   },
@@ -4927,8 +4927,8 @@ const edgingSeed = [
     "price": "69",
     "productCode": 972996,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E169",
     "quantityInStock": 75
   },
@@ -4941,8 +4941,8 @@ const edgingSeed = [
     "price": "96",
     "productCode": 975811,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E68",
     "quantityInStock": 100
   },
@@ -4955,8 +4955,8 @@ const edgingSeed = [
     "price": "21.12",
     "productCode": 977190,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E68",
     "quantityInStock": 64
   },
@@ -4969,8 +4969,8 @@ const edgingSeed = [
     "price": "31.04",
     "productCode": 977193,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E21",
     "quantityInStock": 97
   },
@@ -4983,8 +4983,8 @@ const edgingSeed = [
     "price": "6.6",
     "productCode": 977194,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E7",
     "quantityInStock": 22
   },
@@ -4997,8 +4997,8 @@ const edgingSeed = [
     "price": "30",
     "productCode": 977221,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E44",
     "quantityInStock": 60
   },
@@ -5011,8 +5011,8 @@ const edgingSeed = [
     "price": "23",
     "productCode": 977222,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E125",
     "quantityInStock": 50
   },
@@ -5025,8 +5025,8 @@ const edgingSeed = [
     "price": "40.02",
     "productCode": 977222,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E15",
     "quantityInStock": 87
   },
@@ -5039,8 +5039,8 @@ const edgingSeed = [
     "price": "16.1",
     "productCode": 977232,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E3",
     "quantityInStock": 35
   },
@@ -5053,8 +5053,8 @@ const edgingSeed = [
     "price": "21.3",
     "productCode": 977271,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E48",
     "quantityInStock": 15
   },
@@ -5067,8 +5067,8 @@ const edgingSeed = [
     "price": "37.24",
     "productCode": 977307,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E112",
     "quantityInStock": 38
   },
@@ -5081,8 +5081,8 @@ const edgingSeed = [
     "price": "16.66",
     "productCode": 977342,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E140",
     "quantityInStock": 17
   },
@@ -5095,8 +5095,8 @@ const edgingSeed = [
     "price": "24.5",
     "productCode": 977343,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E8",
     "quantityInStock": 25
   },
@@ -5109,8 +5109,8 @@ const edgingSeed = [
     "price": "151.2",
     "productCode": 984215,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "STOCK PALLET",
     "quantityInStock": 80
   },
@@ -5123,8 +5123,8 @@ const edgingSeed = [
     "price": "37.25",
     "productCode": 984220,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E142",
     "quantityInStock": 25
   },
@@ -5137,8 +5137,8 @@ const edgingSeed = [
     "price": "37.25",
     "productCode": 984220,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E171",
     "quantityInStock": 25
   },
@@ -5151,8 +5151,8 @@ const edgingSeed = [
     "price": "9.6",
     "productCode": 984685,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E154",
     "quantityInStock": 32
   },
@@ -5165,8 +5165,8 @@ const edgingSeed = [
     "price": "22.35",
     "productCode": 985620,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E167",
     "quantityInStock": 15
   },
@@ -5179,8 +5179,8 @@ const edgingSeed = [
     "price": "22.35",
     "productCode": 985620,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E77",
     "quantityInStock": 15
   },
@@ -5193,8 +5193,8 @@ const edgingSeed = [
     "price": "13.6",
     "productCode": 985621,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E128",
     "quantityInStock": 20
   },
@@ -5207,8 +5207,8 @@ const edgingSeed = [
     "price": "13.8",
     "productCode": 985623,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E151",
     "quantityInStock": 20
   },
@@ -5221,8 +5221,8 @@ const edgingSeed = [
     "price": "10.85",
     "productCode": 985628,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E117",
     "quantityInStock": 35
   },
@@ -5235,8 +5235,8 @@ const edgingSeed = [
     "price": "31",
     "productCode": 985628,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "EPALLET",
     "quantityInStock": 100
   },
@@ -5249,8 +5249,8 @@ const edgingSeed = [
     "price": "29.26",
     "productCode": 985691,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E226",
     "quantityInStock": 19
   },
@@ -5263,8 +5263,8 @@ const edgingSeed = [
     "price": "11.68",
     "productCode": 985974,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E214",
     "quantityInStock": 16
   },
@@ -5277,8 +5277,8 @@ const edgingSeed = [
     "price": "12.41",
     "productCode": 985974,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E159",
     "quantityInStock": 17
   },
@@ -5291,8 +5291,8 @@ const edgingSeed = [
     "price": "18.25",
     "productCode": 985974,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E172",
     "quantityInStock": 25
   },
@@ -5305,8 +5305,8 @@ const edgingSeed = [
     "price": "31.5",
     "productCode": 985977,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E118",
     "quantityInStock": 45
   },
@@ -5319,8 +5319,8 @@ const edgingSeed = [
     "price": "20.79",
     "productCode": 985985,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E54",
     "quantityInStock": 63
   },
@@ -5333,8 +5333,8 @@ const edgingSeed = [
     "price": "21.12",
     "productCode": 985986,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E44",
     "quantityInStock": 64
   },
@@ -5347,8 +5347,8 @@ const edgingSeed = [
     "price": "10.95",
     "productCode": 986024,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E232",
     "quantityInStock": 15
   },
@@ -5361,8 +5361,8 @@ const edgingSeed = [
     "price": "12.24",
     "productCode": 986027,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E99",
     "quantityInStock": 18
   },
@@ -5375,8 +5375,8 @@ const edgingSeed = [
     "price": "10.5",
     "productCode": 986030,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E33",
     "quantityInStock": 15
   },
@@ -5389,8 +5389,8 @@ const edgingSeed = [
     "price": "17.5",
     "productCode": 986031,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E22",
     "quantityInStock": 25
   },
@@ -5403,8 +5403,8 @@ const edgingSeed = [
     "price": "22.35",
     "productCode": 986036,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E158",
     "quantityInStock": 15
   },
@@ -5417,8 +5417,8 @@ const edgingSeed = [
     "price": "38.74",
     "productCode": 986036,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E19",
     "quantityInStock": 26
   },
@@ -5431,8 +5431,8 @@ const edgingSeed = [
     "price": "12.16",
     "productCode": 986042,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E46",
     "quantityInStock": 38
   },
@@ -5445,8 +5445,8 @@ const edgingSeed = [
     "price": "21.35",
     "productCode": 986043,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E135",
     "quantityInStock": 61
   },
@@ -5459,8 +5459,8 @@ const edgingSeed = [
     "price": "24.75",
     "productCode": 986046,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E29",
     "quantityInStock": 75
   },
@@ -5473,8 +5473,8 @@ const edgingSeed = [
     "price": "12.21",
     "productCode": 986048,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E201",
     "quantityInStock": 37
   },
@@ -5487,8 +5487,8 @@ const edgingSeed = [
     "price": "40",
     "productCode": 986051,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E102",
     "quantityInStock": 80
   },
@@ -5501,8 +5501,8 @@ const edgingSeed = [
     "price": "20.4",
     "productCode": 986347,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E62",
     "quantityInStock": 15
   },
@@ -5515,8 +5515,8 @@ const edgingSeed = [
     "price": "21.62",
     "productCode": 986360,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "e121",
     "quantityInStock": 47
   },
@@ -5529,8 +5529,8 @@ const edgingSeed = [
     "price": "22.5",
     "productCode": 986361,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E84",
     "quantityInStock": 45
   },
@@ -5543,8 +5543,8 @@ const edgingSeed = [
     "price": "24.5",
     "productCode": 986361,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E103",
     "quantityInStock": 49
   },
@@ -5557,8 +5557,8 @@ const edgingSeed = [
     "price": "75.5",
     "productCode": 986365,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "PALLET/E17",
     "quantityInStock": 50
   },
@@ -5571,8 +5571,8 @@ const edgingSeed = [
     "price": "40.75",
     "productCode": 988333,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E2",
     "quantityInStock": 25
   },
@@ -5585,8 +5585,8 @@ const edgingSeed = [
     "price": "40.75",
     "productCode": 988333,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E58",
     "quantityInStock": 25
   },
@@ -5599,8 +5599,8 @@ const edgingSeed = [
     "price": "24.79",
     "productCode": 988334,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E38",
     "quantityInStock": 37
   },
@@ -5613,8 +5613,8 @@ const edgingSeed = [
     "price": "23.5",
     "productCode": 988338,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E82",
     "quantityInStock": 50
   },
@@ -5627,8 +5627,8 @@ const edgingSeed = [
     "price": "16.1",
     "productCode": 988340,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E92",
     "quantityInStock": 35
   },
@@ -5641,8 +5641,8 @@ const edgingSeed = [
     "price": "46",
     "productCode": 988340,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E228",
     "quantityInStock": 100
   },
@@ -5655,8 +5655,8 @@ const edgingSeed = [
     "price": "47.61",
     "productCode": 988341,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E157",
     "quantityInStock": 69
   },
@@ -5669,8 +5669,8 @@ const edgingSeed = [
     "price": "48.25",
     "productCode": 988400,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E26",
     "quantityInStock": 25
   },
@@ -5683,8 +5683,8 @@ const edgingSeed = [
     "price": "33.22",
     "productCode": 988641,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E57",
     "quantityInStock": 22
   },
@@ -5697,8 +5697,8 @@ const edgingSeed = [
     "price": "26.35",
     "productCode": 988643,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E10",
     "quantityInStock": 17
   },
@@ -5711,8 +5711,8 @@ const edgingSeed = [
     "price": "44.85",
     "productCode": 988646,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E29",
     "quantityInStock": 65
   },
@@ -5725,8 +5725,8 @@ const edgingSeed = [
     "price": "32.34",
     "productCode": 989414,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E25",
     "quantityInStock": 21
   },
@@ -5739,8 +5739,8 @@ const edgingSeed = [
     "price": "25.6",
     "productCode": 991585,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E117",
     "quantityInStock": 40
   },
@@ -5753,8 +5753,8 @@ const edgingSeed = [
     "price": "33.12",
     "productCode": 991610,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E103",
     "quantityInStock": 69
   },
@@ -5767,8 +5767,8 @@ const edgingSeed = [
     "price": "19.68",
     "productCode": 991662,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E11",
     "quantityInStock": 41
   },
@@ -5781,8 +5781,8 @@ const edgingSeed = [
     "price": "13.2",
     "productCode": 991696,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E6",
     "quantityInStock": 40
   },
@@ -5795,8 +5795,8 @@ const edgingSeed = [
     "price": "25.41",
     "productCode": 991696,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E54",
     "quantityInStock": 77
   },
@@ -5809,8 +5809,8 @@ const edgingSeed = [
     "price": "161",
     "productCode": 992277,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E202",
     "quantityInStock": 100
   },
@@ -5823,8 +5823,8 @@ const edgingSeed = [
     "price": "66.4",
     "productCode": 992278,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E30",
     "quantityInStock": 40
   },
@@ -5837,8 +5837,8 @@ const edgingSeed = [
     "price": "30.1",
     "productCode": 992645,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E141",
     "quantityInStock": 35
   },
@@ -5851,8 +5851,8 @@ const edgingSeed = [
     "price": "10.37",
     "productCode": 992700,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E2",
     "quantityInStock": 17
   },
@@ -5865,8 +5865,8 @@ const edgingSeed = [
     "price": "27.9",
     "productCode": 992703,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E72",
     "quantityInStock": 18
   },
@@ -5879,8 +5879,8 @@ const edgingSeed = [
     "price": "24.45",
     "productCode": 992710,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E35",
     "quantityInStock": 15
   },
@@ -5893,8 +5893,8 @@ const edgingSeed = [
     "price": "38.75",
     "productCode": 992778,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E24",
     "quantityInStock": 25
   },
@@ -5907,8 +5907,8 @@ const edgingSeed = [
     "price": "26.22",
     "productCode": 992795,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E20",
     "quantityInStock": 38
   },
@@ -5921,8 +5921,8 @@ const edgingSeed = [
     "price": "19.55",
     "productCode": 992966,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E26",
     "quantityInStock": 17
   },
@@ -5935,8 +5935,8 @@ const edgingSeed = [
     "price": "28.75",
     "productCode": 992967,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "",
     "quantityInStock": 25
   },
@@ -5949,8 +5949,8 @@ const edgingSeed = [
     "price": "21.85",
     "productCode": 992968,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E9",
     "quantityInStock": 19
   },
@@ -5963,8 +5963,8 @@ const edgingSeed = [
     "price": "28.75",
     "productCode": 992971,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E85",
     "quantityInStock": 25
   },
@@ -5977,8 +5977,8 @@ const edgingSeed = [
     "price": "29.75",
     "productCode": 992975,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E74",
     "quantityInStock": 25
   },
@@ -5991,8 +5991,8 @@ const edgingSeed = [
     "price": "33.75",
     "productCode": 992978,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E13",
     "quantityInStock": 25
   },
@@ -6005,8 +6005,8 @@ const edgingSeed = [
     "price": "10.37",
     "productCode": 992979,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E209",
     "quantityInStock": 17
   },
@@ -6019,8 +6019,8 @@ const edgingSeed = [
     "price": "351.9",
     "productCode": 992981,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E20",
     "quantityInStock": 23
   },
@@ -6033,8 +6033,8 @@ const edgingSeed = [
     "price": "12.96",
     "productCode": 992984,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E198",
     "quantityInStock": 27
   },
@@ -6047,8 +6047,8 @@ const edgingSeed = [
     "price": "27.5",
     "productCode": 992984,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E50",
     "quantityInStock": 55
   },
@@ -6061,8 +6061,8 @@ const edgingSeed = [
     "price": "35",
     "productCode": 992984,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E210",
     "quantityInStock": 70
   },
@@ -6075,8 +6075,8 @@ const edgingSeed = [
     "price": "39.5",
     "productCode": 992984,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E59",
     "quantityInStock": 79
   },
@@ -6089,8 +6089,8 @@ const edgingSeed = [
     "price": "27.5",
     "productCode": 992985,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E217",
     "quantityInStock": 55
   },
@@ -6103,8 +6103,8 @@ const edgingSeed = [
     "price": "47",
     "productCode": 992985,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E29",
     "quantityInStock": 94
   },
@@ -6117,8 +6117,8 @@ const edgingSeed = [
     "price": "20.5",
     "productCode": 992990,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E29",
     "quantityInStock": 41
   },
@@ -6131,8 +6131,8 @@ const edgingSeed = [
     "price": "50",
     "productCode": 992990,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E179",
     "quantityInStock": 100
   },
@@ -6145,8 +6145,8 @@ const edgingSeed = [
     "price": "100",
     "productCode": 992990,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E249",
     "quantityInStock": 200
   },
@@ -6159,8 +6159,8 @@ const edgingSeed = [
     "price": "100",
     "productCode": 992990,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E80",
     "quantityInStock": 200
   },
@@ -6173,8 +6173,8 @@ const edgingSeed = [
     "price": "65.4",
     "productCode": 992994,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E51",
     "quantityInStock": 60
   },
@@ -6187,8 +6187,8 @@ const edgingSeed = [
     "price": "41.42",
     "productCode": 992995,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E31",
     "quantityInStock": 38
   },
@@ -6201,8 +6201,8 @@ const edgingSeed = [
     "price": "33.75",
     "productCode": 993015,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E170",
     "quantityInStock": 25
   },
@@ -6215,8 +6215,8 @@ const edgingSeed = [
     "price": "12.58",
     "productCode": 993035,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[3]._id",
+    "stockType": "Edging",
+    "brand": "Formica",
     "bayLocation": "E93",
     "quantityInStock": 37
   },
@@ -6229,8 +6229,8 @@ const edgingSeed = [
     "price": "14.85",
     "productCode": 993191,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E142",
     "quantityInStock": 15
   },
@@ -6243,8 +6243,8 @@ const edgingSeed = [
     "price": "10.95",
     "productCode": 994493,
     "image": "",
-    "stockType": "categories[2]._id",
-    "brand": "brand[4]._id",
+    "stockType": "Edging",
+    "brand": "Laminex",
     "bayLocation": "E1",
     "quantityInStock": 15
   }
@@ -6261,8 +6261,8 @@ const stoneSeed = [
     "price": 131.01,
     "BatchNo": " ",
     "image": "https://www.laminex.com.au/medias/p-ES-Chalkstone-RGB-1200x1200-LR.jpg-1200Wx979H?context=bWFzdGVyfGltYWdlc3wzMjQ4MzV8aW1hZ2UvanBlZ3xoMTQvaGU1Lzg4NjY5MjEwNTQyMzgvcF9FU19DaGFsa3N0b25lX1JHQl8xMjAweDEyMDBfTFIuanBnXzEyMDBXeDk3OUh8ZWJmYThmYjdhMjcyZGYzZmNiOWJkNmQ1MzBkNTg2ZjIwMzFiOTc2OGI4MzdkYWZlNGE2NWFjNDhhYTExMTlhMw",
-    "stockType": "categories[0]._id",
-    "brand": "brand[0]._id",
+    "stockType": "Stone",
+    "brand": "EssaStone",
   },
   {
     "colour": "Grey Glitter",
@@ -6274,8 +6274,8 @@ const stoneSeed = [
     "price": "89.00",
     "BatchNo": " ",
     "image": "https://www.qstone.com.au/Uploadimages/colour_palette_gallery/5fbb46221fd0f_grey-glitter.jpg",
-    "stockType": "categories[0]._id",    
-    "brand": "brand[1]._id",    
+    "stockType": "Stone",    
+    "brand": "QStone",    
   },
   {
     "colour": "Snow",
@@ -6287,8 +6287,8 @@ const stoneSeed = [
     "price": "111.89",
     "BatchNo": " ",
     "image": "https://www.caesarstone.com.au/Portals/0/images/colours/2141.jpg",
-    "stockType": "categories[0]._id",
-    "brand": "brand[2]._id",           
+    "stockType": "Stone",
+    "brand": "CaesarStone",           
   },
 ]
 

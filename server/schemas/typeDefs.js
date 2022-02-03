@@ -9,7 +9,7 @@ const typeDefs = gql`
   type Brand {
     _id: ID
     name: String
-    category: [Category]   
+    category: Category   
   }
   type Product {
     _id: ID
@@ -24,8 +24,8 @@ const typeDefs = gql`
     quantityInStock: String
     price: Float  
     image: String
-    stockType: [Category]
-    brand: [Brand]
+    stockType: Category
+    brand: Brand
   }
 
   type Order {
@@ -54,11 +54,11 @@ const typeDefs = gql`
 
   type Query {
     categories: [Category!]!
-    getCategoryByName(name: String!): [Category!]
+    getCategoryByName(name: String): Category
     brands: [Brand!]!
     getBrandByName(name: String!): [Brand!]
     products: [Product!]!
-    getSingleProduct(_id: ID!): [Product]
+    product(_id: ID!): Product
     getProductsByColour(colour: String): [Product!]
     users: [User!]
     getUserByName(firstName: String!): [User!]
