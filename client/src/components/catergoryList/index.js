@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Container, CardGroup } from "react-bootstrap";
+import { Link } from "react-router-dom"
 import "../../styles/pages.css";
 const CatergoryList = ({ catergories }) => {
     if (!catergories.length) {
@@ -13,13 +14,15 @@ const CatergoryList = ({ catergories }) => {
     return (
         <Container className="productlistContainer">
             {catergories &&
-                catergories.map((catergory) => (
+                catergories.map((category) => (
                     <CardGroup className="cardGroup" >
-                        <Card key={catergory._id} className="productCard">
-                            <Card.Header  >
-                                {catergory.name}
-                            </Card.Header>
-                        </Card>
+                        <Link to={`/single-product/${category._id}`}>
+                            <Card key={category._id} className="productCard">
+                                <Card.Header  >
+                                    {category.name}
+                                </Card.Header>
+                            </Card>
+                        </Link>
                     </CardGroup>
                 ))}
         </Container>

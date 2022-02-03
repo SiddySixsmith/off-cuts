@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Card, Container, CardGroup } from "react-bootstrap";
 import "../../styles/pages.css";
 const ProductsList = ({ products }) => {
@@ -15,24 +16,26 @@ const ProductsList = ({ products }) => {
       {products &&
         products.map((product) => (
           <CardGroup className="cardGroup" >
-            <Card key={products._id} className="productCard">
-              <Card.Header  >
-                {product.colour}
-              </Card.Header>
-              <Card.Body> Image </Card.Body>
-              <Card.Text >
-                Finish: {product.finish}<br />
-              </Card.Text>
-              <Card.Text>
-                Price: {product.price}<br />
-              </Card.Text>
-              <Card.Text>
-                Brand: {product.brand}<br />
-              </Card.Text>
-              <Card.Text>
-                Stock: {product.quantityInStock}<br />
-              </Card.Text>
-            </Card>
+            <Link to={`/single-product/${product._id}`}>
+              <Card key={products._id} className="productCard">
+                <Card.Header className="productCardHeader"   >
+                  {product.colour}
+                </Card.Header>
+                <Card.Body> Image </Card.Body>
+                <Card.Text >
+                  Finish: {product.finish}<br />
+                </Card.Text>
+                <Card.Text>
+                  Price: {product.price}<br />
+                </Card.Text>
+                <Card.Text>
+                  Brand: {product.brand}<br />
+                </Card.Text>
+                <Card.Text>
+                  Stock: {product.quantityInStock}<br />
+                </Card.Text>
+              </Card>
+            </Link>
           </CardGroup>
         ))}
     </Container>

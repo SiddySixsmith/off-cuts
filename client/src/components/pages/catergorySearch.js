@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import CategoryList from "../catergoryList";
 import { QUERY_CATEGORIES } from "../../utils/queries";
@@ -7,6 +9,8 @@ import "../../styles/pages.css";
 
 const FindCatergory = () => {
     const { loading, data } = useQuery(QUERY_CATEGORIES);
+
+    const history = useHistory();
 
     const categories = data?.categories || [];
 
@@ -19,7 +23,27 @@ const FindCatergory = () => {
                 {loading ? (
                     < div > loading...... </div>
                 ) : (
-                    <CategoryList catergories={categories} />
+                    <><Button
+                        onClick={() => history.goBack()}
+                        sm="true"
+                        id="return"
+                        className="returnBtn"
+                        variant="primary"
+                        size="lg"
+                    >
+                        Return
+                    </Button><CategoryList catergories={categories} />
+                        <Button
+                            onClick={() => history.goBack()}
+                            sm="true"
+                            id="return"
+                            className="returnBtn"
+                            variant="primary"
+                            size="lg"
+                        >
+                            Return
+                        </Button>
+                    </>
                 )}
             </div>
         </div >

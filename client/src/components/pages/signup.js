@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Button } from "react-bootstrap";
 import { useMutation } from '@apollo/client';
-import { ADD_PROFILE } from '../../utils/mutations';
+import { ADD_USER } from '../../utils/mutations';
 import Auth from '../../utils/auth';
 import "bootstrap/dist/css/bootstrap.css";
 import "../../styles/pages.css";
@@ -16,7 +16,7 @@ const Signup = () => {
     email: '',
     password: '',
   });
-  const [addProfile, { error, data }] = useMutation(ADD_PROFILE);
+  const [addProfile, { error, data }] = useMutation(ADD_USER);
 
   // update state based on form input changes
   const handleChange = (event) => {

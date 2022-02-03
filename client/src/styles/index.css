@@ -1,0 +1,6 @@
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/images/pure-burnish.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+}

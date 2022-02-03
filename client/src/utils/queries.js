@@ -64,3 +64,19 @@ export const QUERY_ME = gql`
     }
   }
 `;
+export const QUERY_SINGLE_PRODUCT = gql`
+  query singleProduct($_id: ID!) {
+    products(_id: $_id) {
+      colour
+      finish
+      length
+      width
+      thickness
+      price
+      productCode
+      image
+      quantityInStock
+    }
+  }
+`;
+
