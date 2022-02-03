@@ -32,7 +32,7 @@ const FindCatergory = () => {
                         size="lg"
                     >
                         Return
-                    </Button><CategoryList catergories={categories} />
+                    </Button><CategoryList categories={categories} />
                         <Button
                             onClick={() => history.goBack()}
                             sm="true"

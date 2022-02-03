@@ -146,6 +146,23 @@ a {
   opacity: 80%;
 }
 
+.cart {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.collection {
+  text-align: center;
+  color: white;
+}
+
+.checkout {
+  margin: auto;
+  position: absolute;
+  left: 40%;
+}
+
 @media screen and (max-width: 769px) {
   .noProducts {
     margin: auto;
@@ -153,5 +170,10 @@ a {
 
   .inputFormLogin {
     margin-top: 10%;
+  }
+  .checkout {
+    margin: auto;
+    position: absolute;
+    left: 30%;
   }
 }

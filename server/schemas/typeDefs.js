@@ -25,7 +25,7 @@ const typeDefs = gql`
     price: Float  
     image: String
     stockType: [Category]
-    brand: [Brand]
+    brand: [Brand]!
   }
 
   type Order {
