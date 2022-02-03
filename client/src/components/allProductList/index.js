@@ -31,9 +31,7 @@ const ProductsList = ({ products }) => {
                 <Card.Text>
                   Brand: {product.brand}<br />
                 </Card.Text>
-                <Card.Text>
-                  Stock: {product.quantityInStock}<br />
-                </Card.Text>
+
               </Card>
             </Link>
           </CardGroup>

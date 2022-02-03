@@ -14,7 +14,7 @@ import Social from "./components/socialLinks";
 import Home from "./components/pages/home";
 import AboutUs from "./components/pages/aboutUs";
 import Login from "./components/pages/login";
-// import Cart from "./pages/cart";
+import Cart from "./components/pages/cart";
 import Contact from "./components/pages/contact";
 import FindBrand from "./components/pages/brandSearch";
 import FindCatergory from "./components/pages/catergorySearch";
@@ -58,8 +58,7 @@ function App() {
           <Route exact path={"/about"} component={AboutUs} />
           <Route exact path={"/contact"} component={Contact} />
           <Route exact path={"/login"} component={Login} />
-
-          {/* <Route exact path={"/cart"} component={Cart}/> */}
+          <Route exact path={"/cart"} component={Cart} />
           <Route exact path={"/all-products"} component={AllProducts} />
           <Route exact path={"/catergory-search"} component={FindCatergory} />
           <Route exact path={"/brand-search"} component={FindBrand} />

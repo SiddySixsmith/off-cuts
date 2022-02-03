@@ -21,7 +21,6 @@ export const QUERY_PRODUCTS = gql`
       price
       productCode
       image
-      quantityInStock
     }
   }
 `;
@@ -35,22 +34,28 @@ query byCatergory{
 }
 `;
 
-export const QUERY_PROFILES = gql`
-  query allProfiles {
-    profiles {
+export const QUERY_USERS = gql`
+  query allUsers {
+    users {
       _id
-      name
-      skills
+      firstname
+      lastNam
+      phoneNumber
+      email
+      password
     }
   }
 `;
 
-export const QUERY_SINGLE_PROFILE = gql`
-  query singleProfile($profileId: ID!) {
-    profile(profileId: $profileId) {
+export const QUERY_SINGLE_USER = gql`
+  query singleUser($_Id: ID!) {
+    user(_Id: $_id) {
       _id
-      name
-      skills
+      firstname
+      lastNam
+      phoneNumber
+      email
+      password
     }
   }
 `;
@@ -75,7 +80,6 @@ export const QUERY_SINGLE_PRODUCT = gql`
       price
       productCode
       image
-      quantityInStock
     }
   }
 `;
