@@ -114,8 +114,36 @@
 .cardGroup {
   margin: 2%;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
 .productCard {
   width: 250px;
+  border-width: 2px;
+  border-color: crimson;
+  text-decoration: none;
+}
+
+.productCardHeader {
+  background-color: crimson;
+  color: white;
+}
+
+.returnBtn {
+  position: relative;
+  left: 25%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: crimson;
+  border-color: crimson;
+}
+
+.returnBtn:hover {
+  background-color: crimson;
+  border-color: crimson;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 769px) {

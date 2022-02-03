@@ -1,12 +1,12 @@
 import { gql } from "@apollo/client";
 
-export const ADD_PROFILE = gql`
+export const ADD_USER = gql`
   mutation addUser($firstName: String!, $lastName: String!, $phoneNumber: String!, $email: String!, $password: String!) {
     addUser(firstName: $firstName, lastName: $lastName, phoneNumber: $phoneNumber, email: $email, password:  $password) {
       token
       user {
         _id
-      }
+      }git
     }
   }
 `;

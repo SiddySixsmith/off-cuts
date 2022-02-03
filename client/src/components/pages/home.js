@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Nav } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { Helmet } from "react-helmet";
 import "../../styles/pages.css";

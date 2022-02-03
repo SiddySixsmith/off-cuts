@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Container, CardGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../../styles/pages.css";
 const BrandList = ({ brands }) => {
   if (!brands.length) {
@@ -15,11 +16,13 @@ const BrandList = ({ brands }) => {
       {brands &&
         brands.map((brand) => (
           <CardGroup className="cardGroup" >
-            <Card key={brands._id} className="productCard">
-              <Card.Header  >
-                {brand.name}
-              </Card.Header>
-            </Card>
+            <Link to={`/single-product/${brand._id}`}>
+              <Card key={brands._id} className="productCard">
+                <Card.Header  >
+                  {brand.name}
+                </Card.Header>
+              </Card>
+            </Link>
           </CardGroup>
         ))}
     </Container>

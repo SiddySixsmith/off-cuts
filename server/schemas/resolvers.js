@@ -8,7 +8,7 @@ const resolvers = {
     // lookup Category
     categories: async () => {
       return await Category.find();
-    },  
+    },
     getCategoryByName: async (parent, { name }) => {
       const params = name ? { name } : {};
       return Category.find(params).sort({ createdAt: -1 });
