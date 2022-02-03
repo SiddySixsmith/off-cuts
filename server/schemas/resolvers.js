@@ -9,27 +9,28 @@ const resolvers = {
     categories: async () => {
       return await Category.find();
     },
-    getCategoryByName: async (parent, { name }) => {
-      const params = name ? { name } : {};
-      return Category.find(params).sort({ createdAt: -1 });
+    getCategoryByName: async (parent, { name }) => {      
+      return Category.findOne({ name });
     },
 
     // lookup Brand
     brands: async () => {
       return await Brand.find();
     },
-    getBrandByName: async (parent, { name }) => {
-      const params = name ? { name } : {};
-      return Brand.find(params).sort({ createdAt: -1 });
+    getBrandByName: async (parent, { name }) => {      
+      return Brand.findOne({ name });
     },
 
     // lookup Product  
     products: async () => {
-      return await Product.find();
+      return await Product.find().populate(["brand", "stockType"]);
+    },
+    product: async (parent, { _id }) => {
+      return await Product.findById(_id).populate(["brand", "stockType"]);
     },
     getProductsByColour: async (parent, { colour }) => {
       const params = colour ? { colour } : {};
-      return Product.find(params).sort({ createdAt: -1 });
+      return await Product.find(params).populate("brand").sort({ createdAt: -1 });
     },
 
     // lookup User

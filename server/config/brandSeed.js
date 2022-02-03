@@ -2,32 +2,32 @@ const brandSeed = [
 // brand 0
   { 
     "name": 'EssaStone',
-    "category": "categories[0]._id", 
+    "category": "Stone", 
   },
   // brand 1
   { 
     "name": 'QStone',
-    "category": "categories[0]._id",  
+    "category": "Stone",  
   },
   // brand 2
   { 
     "name": 'CaesarStone',
-    "category": "categories[0]._id",  
+    "category": "Stone",  
   },
   // brand 3
   { 
     "name": 'Formica',
-    "category": "categories[1,2]._id", 
+    "category": "Pre Finished Board", 
   },
   // brand 4
   { 
     "name": 'Laminex',
-    "category": "categories[1,2]._id",  
+    "category": "Pre Finished Board",  
   },
   // brand 5
   { 
     "name": 'Polytec',
-    "category": "categories[1,2]._id",  
+    "category": "Pre Finished Board",  
   },
 ]
 
