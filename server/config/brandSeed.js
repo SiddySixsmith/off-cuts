@@ -17,7 +17,7 @@ const brandSeed = [
   // brand 3
   { 
     "name": 'Formica',
-    "category": "Pre Finished Board", 
+    "category": [Pre Finished Board, edging], 
   },
   // brand 4
   { 

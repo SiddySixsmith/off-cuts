@@ -32,6 +32,27 @@ const resolvers = {
       const params = colour ? { colour } : {};
       return await Product.find(params).populate("brand").sort({ createdAt: -1 });
     },
+    getProductsByBrand: async (parent, { brand }) => {
+      return Product.find().populate(["brand", "stockType"])
+        .then(res => {
+
+          return res.filter((product) => {
+            return product.brand.name === brand;
+          })
+
+        })
+    },
+    getProductsByCategory: async (parent, { category }) => {
+      return Product.find().populate(["brand", "stockType"])
+        .then(res => {
+          console.log(res);
+          console.log(category);
+          return res.filter((product) => {
+            return product.stockType.name === category;
+          })
+
+        })
+    },
 
     // lookup User
     users: async () => {

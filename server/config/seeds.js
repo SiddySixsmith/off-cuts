@@ -36,6 +36,8 @@ db.once('open', async () => {
     const c = categories.find((stockType)=> stockType.name === product.stockType)
     const b = brands.find((brand) => brand.name === product.brand)
 
+    
+
     return {...product, stockType: c._id , brand: b._id}
 
   })

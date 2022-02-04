@@ -38,9 +38,9 @@ const productSchema = new Schema({
   image: {
     type: String
   },
-  StockType: {
+  stockType: {
     type: Schema.Types.ObjectId,
-    ref: 'Categoies',
+    ref: 'Category',
     required: true
   },
   brand: {

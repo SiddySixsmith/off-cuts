@@ -59,7 +59,9 @@ const typeDefs = gql`
     getBrandByName(name: String!): [Brand!]
     products: [Product!]!
     product(_id: ID!): Product
-    getProductsByColour(colour: String): [Product!]
+    getProductsByColour(colour: String!): [Product]
+    getProductsByBrand(brand: String!): [Product]
+    getProductsByCategory(category: String!): [Product]
     users: [User!]
     getUserByName(firstName: String!): [User!]
     order(_id: ID!): Order
