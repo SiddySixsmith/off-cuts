@@ -15,7 +15,10 @@ const resolvers = {
 
     // lookup Brand
     brands: async () => {
-      return await Brand.find();
+      const results =  await Brand.find().populate(["category"]);
+
+      console.log(results);
+      return results;
     },
     getBrandByName: async (parent, { name }) => {      
       return Brand.findOne({ name });

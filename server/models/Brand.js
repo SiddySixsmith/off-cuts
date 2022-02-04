@@ -8,11 +8,16 @@ const brandSchema = new Schema({
     required: true,
     trim: true
   },
-  category: {
+  category: [{
     type: Schema.Types.ObjectId,
     ref: 'Category',
     required: true
-  },
+  }],
+  // category: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: 'Category',
+  //   required: true
+  // },
 });
 
 const Brand = mongoose.model('Brand', brandSchema);

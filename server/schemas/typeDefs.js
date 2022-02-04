@@ -9,7 +9,7 @@ const typeDefs = gql`
   type Brand {
     _id: ID
     name: String
-    category: Category   
+    category: [Category]   
   }
   type Product {
     _id: ID

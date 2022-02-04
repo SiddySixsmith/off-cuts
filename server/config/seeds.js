@@ -14,12 +14,12 @@ db.once('open', async () => {
 
   // setup for Brands
   await Brand.deleteMany();
-  let category = await Category.find()
+  let categories = await Category.find()
   // console.log(category)
   let seedBrand = brandSeed.map(( brand ) => {
-    const c = category.find((category)=> category.name == brand.category)
-
-    return {...brand, category: c._id}
+    const c = categories.filter((category)=> brand.category.includes(category.name)).map(cat => cat._id);
+    
+    return {...brand, category: c}
 
   })
 
@@ -29,7 +29,7 @@ db.once('open', async () => {
 
   // setup for Products
   await Product.deleteMany();
-  let categories = await Category.find()
+  categories = await Category.find()
   let brands = await Brand.find()
 
   let seedProducts = productSeed.map(( product ) => {
