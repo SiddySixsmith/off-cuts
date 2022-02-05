@@ -11,13 +11,15 @@ const ProductsList = ({ products }) => {
     );
   }
 
+
+
   return (
     <Container className="productlistContainer">
       {products &&
         products.map((product) => (
-          <CardGroup className="cardGroup" >
+          <CardGroup className="cardGroup" key={product._id} >
             <Link to={`/single-product/${product._id}`}>
-              <Card key={products._id} className="productCard">
+              <Card className="productCard">
                 <Card.Header className="productCardHeader"   >
                   {product.colour}
                 </Card.Header>

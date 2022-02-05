@@ -70,7 +70,7 @@ function Navigation() {
                 <p className="navText">Contact</p>
               </Nav.Link>
             </LinkContainer>
-            <LinkContainer to={"cart"}>
+            <LinkContainer to={"/cart"}>
               <Nav.Link>
                 <p className="navText">Cart</p>
               </Nav.Link>
@@ -78,17 +78,7 @@ function Navigation() {
 
             {<HandleNavElementChange />}
           </Nav>
-          <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success" id="mainSeatchBtn">
-              Search
-            </Button>
-          </Form>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

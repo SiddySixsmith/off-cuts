@@ -47,6 +47,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
+
         <div className="App">
           <Social />
 
@@ -68,6 +69,7 @@ function App() {
 
           <Footer />
         </div>
+
       </Router>
     </ApolloProvider>
   );
