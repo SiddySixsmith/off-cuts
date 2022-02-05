@@ -7,10 +7,10 @@ import "../../styles/pages.css";
 
 const SingleProductSearch = () => {
 
-    const { _Id } = useParams();
+    const { _id } = useParams();
 
     const { loading, data } = useQuery(QUERY_SINGLE_PRODUCT, {
-        variables: { _Id: _Id }
+        variables: { _id: _id }
     });
 
     const product = data?.product || [];
@@ -25,6 +25,7 @@ const SingleProductSearch = () => {
                     <div>loading...... </div>
                 ) : (
                     <SingleProduct product={product} />
+
                 )}
             </div>
         </div>

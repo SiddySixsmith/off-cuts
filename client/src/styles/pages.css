@@ -127,6 +127,16 @@ a {
   color: black;
 }
 
+.singleProductCard {
+  width: 250px;
+  border-width: 2px;
+  border-color: crimson;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  left: 25%;
+}
+
 .productCardHeader {
   background-color: crimson;
   color: white;
@@ -176,5 +186,19 @@ a {
     margin: auto;
     position: absolute;
     left: 30%;
+  }
+
+  #addCart {
+    width: 200px;
+    margin-bottom: 150%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .singleProductCard {
+    margin: auto;
+  }
+  #addCart {
+    width: 200px;
   }
 }

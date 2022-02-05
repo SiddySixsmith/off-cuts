@@ -9,6 +9,23 @@ export const QUERY_BRANDS = gql`
   }
 `;
 
+export const QUERY_PRODUCT_BY_BRAND = gql`
+query productByBrand($name: String!){
+      roducts(name: $name){
+        _id
+        colour
+        finish
+        length
+        width
+        thickness
+        price
+        productCode
+        image
+  
+      }
+}
+`
+
 export const QUERY_PRODUCTS = gql`
   query allProducts {
     products {
@@ -81,6 +98,12 @@ export const QUERY_SINGLE_PRODUCT = gql`
       price
       productCode
       image
+      brand{
+        name
+      }
+      stockType{
+        name
+      }
     }
   }
 `;

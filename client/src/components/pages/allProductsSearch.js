@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
 import { useQuery } from "@apollo/client";
 import ProductList from "../allProductList";
 import { QUERY_PRODUCTS } from "../../utils/queries";

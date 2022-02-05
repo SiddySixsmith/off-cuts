@@ -1,10 +1,13 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import { Card, Container, CardGroup, Nav } from "react-bootstrap";
+import { useCart } from "react-use-cart";
 import "../../styles/pages.css";
 
 
 const SingleProduct = ({ product }) => {
+    const { addItem } = useCart();
+
     if (!product) {
         return (
             <div className="noProducts">
@@ -17,10 +20,7 @@ const SingleProduct = ({ product }) => {
 
         <Container className="productListContainer">
             <CardGroup className="cardGroup" >
-                <Card key={product._id} className="productCard">
-                    <Card.Header className="productCardHeader"   >
-                        {product.colour}
-                    </Card.Header>
+                <Card key={product._id} className="singleProductCard">
                     <Card.Body> Image </Card.Body>
                     <Card.Text >
                         Finish: {product.finish}<br />
@@ -38,24 +38,27 @@ const SingleProduct = ({ product }) => {
                         Thickness: {product.thickness}<br />
                     </Card.Text>
                     <Card.Text>
-                        Brand: {product.brand}<br />
+                        Brand: {product.brand.name}<br />
                     </Card.Text>
                     <Card.Text>
-                        Stock: {product.quantityInStock}<br />
+                        Category: {product.stockType.name}<br />
                     </Card.Text>
-                    <LinkContainer to="/Cart">
+                    <LinkContainer to="/cart">
                         <Nav.Link
                             sm="true"
                             id="addCart"
                             variant="primary"
                             size="lg"
                             className=" searchBtn "
+                            onClick={() => addItem(product, 1)}
                         >
                             Add To Cart
                         </Nav.Link>
                     </LinkContainer>
+
                 </Card>
             </CardGroup>
+            <br></br>
         </Container>
     );
 };
