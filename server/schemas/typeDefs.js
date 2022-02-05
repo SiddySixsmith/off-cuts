@@ -12,7 +12,7 @@ const typeDefs = gql`
     category: [Category]   
   }
   type Product {
-    _id: ID
+    _id: ID!
     colour: String
     finish: String
     length: String 

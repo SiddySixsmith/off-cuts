@@ -124,6 +124,7 @@ a {
   border-width: 2px;
   border-color: crimson;
   text-decoration: none;
+  color: black;
 }
 
 .productCardHeader {
