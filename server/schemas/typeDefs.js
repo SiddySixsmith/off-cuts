@@ -40,7 +40,8 @@ const typeDefs = gql`
     lastName: String
     phoneNumber: String
     email: String
-    orders: [Order]
+    password: String
+    orders: [Order]!
   }
 
   type Checkout {
@@ -48,7 +49,7 @@ const typeDefs = gql`
   }
 
   type Auth {
-    token: ID
+    token: ID!
     user: User
   }
 
@@ -62,7 +63,9 @@ const typeDefs = gql`
     getProductsByColour(colour: String!): [Product]
     getProductsByBrand(brand: String!): [Product]
     getProductsByCategory(category: String!): [Product]
-    users: [User!]
+    users: [User]!
+    user(_id: ID!): User
+    me: User
     getUserByName(firstName: String!): [User!]
     order(_id: ID!): Order
     checkout(products: [ID]!): Checkout
@@ -70,7 +73,7 @@ const typeDefs = gql`
 
   type Mutation {
     addUser(firstName: String!, lastName: String!, phoneNumber: String!, email: String!, password: String!): Auth
-    updateUser(firstName: String, lastName: String, phoneNumber: String, email: String, password: String): User
+    updateUser(firstName: String, lastName: String, phoneNumber: Int, email: String, password: String): User
     login(email: String!, password: String!): Auth
   }
 `;

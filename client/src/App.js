@@ -21,6 +21,7 @@ import FindCatergory from "./components/pages/catergorySearch";
 import AllProducts from "./components/pages/allProductsSearch";
 import SingleProductSearch from "./components/pages/singleProductSearch"
 import Signup from "./components/pages/signup";
+import Profile from "./components/pages/profile"
 import "./styles/App.css";
 
 const httpLink = createHttpLink({
@@ -54,7 +55,7 @@ function App() {
           <Header />
 
           <Navigation />
-
+          <Route exact path={"/profile"} component={Profile} />
           <Route exact path={"/"} component={Home} />
           <Route exact path={"/about"} component={AboutUs} />
           <Route exact path={"/contact"} component={Contact} />

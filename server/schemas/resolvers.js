@@ -9,18 +9,18 @@ const resolvers = {
     categories: async () => {
       return await Category.find();
     },
-    getCategoryByName: async (parent, { name }) => {      
+    getCategoryByName: async (parent, { name }) => {
       return Category.findOne({ name });
     },
 
     // lookup Brand
     brands: async () => {
-      const results =  await Brand.find().populate(["category"]);
+      const results = await Brand.find().populate(["category"]);
 
       console.log(results);
       return results;
     },
-    getBrandByName: async (parent, { name }) => {      
+    getBrandByName: async (parent, { name }) => {
       return Brand.findOne({ name });
     },
 
@@ -83,8 +83,8 @@ const resolvers = {
   },
 
   Mutation: {
-    addUser: async (parent, { username, email, password }) => {
-      const user = await User.create({ username, email, password });
+    addUser: async (parent, { firstName, lastName, phoneNumber, email, password }) => {
+      const user = await User.create({ firstName, lastName, phoneNumber, email, password });
       const token = signToken(user);
       return { token, user };
     },

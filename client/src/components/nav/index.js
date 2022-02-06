@@ -8,43 +8,12 @@ import {
   Navbar,
   Nav,
   Container,
-  Form,
-  FormControl,
-  Button,
 } from "react-bootstrap";
 import Auth from "../../utils/auth"
 
-const HandleNavElementChange = () => {
-  if (!Auth.loggedIn) {
-    return (
-      <>
-        <LinkContainer to={"/profile"}>
-          <Nav.Link>
-            <p className="navText">Profile</p>
-          </Nav.Link>
-        </LinkContainer>
-      </>
-    )
-  }
-  else {
-    return (
 
-      <>
-        <LinkContainer to={"/login"}>
-          <Nav.Link>
-            <p className="navText">Login</p>
-          </Nav.Link>
-        </LinkContainer>
-        <LinkContainer to={"/signup"}>
-          <Nav.Link>
-            <p className="navText">Signup</p>
-          </Nav.Link>
-        </LinkContainer>
-      </>
 
-    )
-  }
-}
+
 
 function Navigation() {
   return (
@@ -76,7 +45,36 @@ function Navigation() {
               </Nav.Link>
             </LinkContainer>
 
-            {<HandleNavElementChange />}
+            {
+              Auth.loggedIn() ? (
+                <>
+
+                  <LinkContainer to={"/profile"}>
+                    <Nav.Link>
+                      <p className="navText">Profile</p>
+                    </Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to={"/"}>
+                    <Nav.Link className="navText" onClick={Auth.logout}>
+                      Logout
+                    </Nav.Link>
+                  </LinkContainer>
+                </>
+              ) : (
+                <>
+                  <LinkContainer to={"/login"}>
+                    <Nav.Link>
+                      <p className="navText">Login</p>
+                    </Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to={"/signup"}>
+                    <Nav.Link>
+                      <p className="navText">Signup</p>
+                    </Nav.Link>
+                  </LinkContainer>
+                </>
+              )
+            }
           </Nav>
 
         </Navbar.Collapse>
