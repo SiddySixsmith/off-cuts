@@ -65,8 +65,7 @@ const typeDefs = gql`
     getProductsByCategory(category: String!): [Product]
     users: [User]!
     user(_id: ID!): User
-    me: User
-    getUserByName(firstName: String!): [User!]
+    getUserById(_id: ID!): [User!]
     order(_id: ID!): Order
     checkout(products: [ID]!): Checkout
   }

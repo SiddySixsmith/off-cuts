@@ -1,8 +1,44 @@
 import React from "react";
-import { Container, Nav } from "react-bootstrap";
+import { Container, Nav, DropdownButton, Dropdown, CardGroup, Card } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { Helmet } from "react-helmet";
 import "../../styles/pages.css";
+import { useQuery } from "@apollo/client";
+import { QUERY_BRANDS } from "../../utils/queries";
+import { QUERY_CATEGORIES } from "../../utils/queries";
+
+
+const FindBrand = () => {
+  const { loading, data } = useQuery(QUERY_BRANDS);
+  const brands = data?.brands || [];
+
+  return (
+    <div>
+      {brands.map((brand) => (
+        <LinkContainer key={brand._id} to={`/all-products/brand/${brand.name}`}>
+          <Dropdown.Item >{brand.name}</Dropdown.Item>
+        </LinkContainer>
+      ))}
+    </div>
+  );
+}
+
+const FindCatergory = () => {
+  const { loading, data } = useQuery(QUERY_CATEGORIES);
+  const categories = data?.categories || [];
+
+  return (
+    <div>
+      {categories.map((category) => (
+        <LinkContainer key={category._id} to={`/all-products/category/${category.name}`}>
+          <Dropdown.Item >{category.name}</Dropdown.Item>
+        </LinkContainer>
+      ))}
+    </div>
+  );
+
+}
+
 
 function Home() {
   return (
@@ -22,41 +58,29 @@ function Home() {
             Let us help you find what you need
           </h3>
           <div className="searchBtnContainer">
-            <LinkContainer to={"/brand-search"}>
-              <Nav.Link
-                sm="true"
-                id="findBB"
-                // eslint-disable-next-line react/jsx-no-duplicate-props
-                className="searchBtn"
-                size="lg"
-              >
-                Find By Brand
-              </Nav.Link>
-            </LinkContainer>
 
-            <LinkContainer to={"/catergory-search"}>
-              <Nav.Link
-                sm="true"
-                id="findBC"
-                className="searchBtn"
-                variant="primary"
-                size="lg"
-              >
-                Find By Catergory
-              </Nav.Link>
-            </LinkContainer>
 
-            <LinkContainer to={"/color-search"}>
-              <Nav.Link
-                sm="true"
-                id="findBColor"
-                className="searchBtn"
-                variant="primary"
-                size="lg"
-              >
-                Find By Colour
-              </Nav.Link>
-            </LinkContainer>
+            <DropdownButton title="Find A Category"
+              sm="true"
+              className="homeDropdown"
+              size="lg">
+              <FindCatergory />
+            </DropdownButton>
+
+            <DropdownButton title="Find A Brand"
+              sm="true"
+              className="homeDropdown"
+              size="lg"
+              drop="down">
+              <FindBrand />
+            </DropdownButton>
+
+            <DropdownButton title="Find A Colour"
+              sm="true"
+              className="homeDropdown"
+              size="lg">
+              <FindBrand />
+            </DropdownButton>
 
             <LinkContainer to={"/all-products"}>
               <Nav.Link

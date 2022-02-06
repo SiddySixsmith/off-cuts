@@ -61,8 +61,8 @@ const resolvers = {
     users: async () => {
       return await User.find();
     },
-    getUserByName: async (parent, { firstName }) => {
-      const params = firstName ? { firstName } : {};
+    getUserById: async (parent, { _id }) => {
+      const params = _id ? { _id } : {};
       return User.find(params).sort({ createdAt: -1 });
     },
 

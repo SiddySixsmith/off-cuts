@@ -1,38 +1,52 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { useHistory } from "react-router-dom";
+import { useParams, useHistory } from 'react-router-dom';
 import { useQuery } from "@apollo/client";
-import CategoryList from "../catergoryList";
-import { QUERY_CATEGORIES } from "../../utils/queries";
+import { QUERY_PRODUCT_BY_CATEGORY } from "../../utils/queries";
 import "../../styles/pages.css";
+import ProductsList from "../allProductList";
 
 
-const FindCatergory = () => {
-    const { loading, data } = useQuery(QUERY_CATEGORIES);
+const BrandSearch = () => {
+    const { category } = useParams();
+
+    const { loading, data } = useQuery(QUERY_PRODUCT_BY_CATEGORY, {
+        variables: { category: category }
+    });
 
     const history = useHistory();
 
-    const categories = data?.categories || [];
+    const products = data?.getProductsByCategory || [];
+    console.log(products)
+
+    const HandleSecondReturnBtn = () => {
+        if (products.length < 8) {
+            return null
+        }
+        return (
+            <Button
+                onClick={() => history.goBack()}
+                sm="true"
+                id="return"
+                className="returnBtn"
+                variant="primary"
+                size="lg"
+            >
+                Return
+            </Button>
+        )
+    }
 
     return (
         <div className="flex-row justify-center allProductsContainer">
             <div>
-                <h1>All Brands</h1>
+                <h1>{category} Products</h1>
             </div>
             <div className="col-12 col-md-8 mb-3">
                 {loading ? (
-                    < div > loading...... </div>
+                    <div>loading...... </div>
                 ) : (
-                    <><Button
-                        onClick={() => history.goBack()}
-                        sm="true"
-                        id="return"
-                        className="returnBtn"
-                        variant="primary"
-                        size="lg"
-                    >
-                        Return
-                    </Button><CategoryList categories={categories} />
+                    <>
                         <Button
                             onClick={() => history.goBack()}
                             sm="true"
@@ -43,11 +57,13 @@ const FindCatergory = () => {
                         >
                             Return
                         </Button>
+                        <ProductsList products={products} />
+                        <HandleSecondReturnBtn />
                     </>
                 )}
             </div>
-        </div >
+        </div>
     );
 };
 
-export default FindCatergory;
+export default BrandSearch;

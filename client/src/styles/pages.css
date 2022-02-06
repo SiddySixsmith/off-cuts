@@ -1,6 +1,7 @@
 :root {
-  --title: white;
+  --title: White;
   --button: crimson;
+  --backText: black;
 }
 .contactContainer {
   margin: auto;
@@ -28,20 +29,35 @@
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  width: 300px;
+  width: 200px;
   height: 45px;
-  background-color: crimson;
-  border: crimson;
+  background-color: var(--button);
+  border: var(--button);
   border-radius: 5px;
-  color: white;
+  color: var(--title);
+  font-size: large;
+}
+.homeDropdown {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: large;
 }
 
-.searchBtn:hover {
-  background-color: crimson;
-  opacity: 70%;
-  color: white;
-  border: solid 3px white;
+.btn-primary {
+  background-color: var(--button);
+  border-color: var(--button);
+  width: 200px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: var(--button);
+  border-color: var(--button);
+}
+.btn-primary:active {
+  background-color: var(--button);
+  border-color: var(--button);
 }
 
 .paragraphContainer {
@@ -105,7 +121,7 @@
 }
 
 .productlistContainer {
-  color: black;
+  color: var(--backText);
   display: flex;
   flex-wrap: wrap;
   margin-top: 5%;
@@ -117,29 +133,29 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--backText);
 }
 .productCard {
   width: 250px;
   border-width: 2px;
-  border-color: crimson;
+  border-color: var(--button);
   text-decoration: none;
-  color: black;
+  color: var(--backText);
 }
 
 .singleProductCard {
   width: 250px;
   border-width: 2px;
-  border-color: crimson;
+  border-color: var(--button);
   text-decoration: none;
-  color: black;
+  color: var(--backText);
   position: relative;
   left: 25%;
 }
 
 .productCardHeader {
-  background-color: crimson;
-  color: white;
+  background-color: var(--button);
+  color: var(--title);
 }
 
 .returnBtn {
@@ -147,25 +163,25 @@ a {
   left: 25%;
   margin-top: 20px;
   margin-bottom: 0;
-  background-color: crimson;
-  border-color: crimson;
+  background-color: var(--button);
+  border-color: var(--button);
 }
 
 .returnBtn:hover {
-  background-color: crimson;
-  border-color: crimson;
+  background-color: var(--button);
+  border-color: var(--button);
   opacity: 80%;
 }
 
 .cart {
-  color: white;
+  color: var(--title);
   margin-top: 5%;
   text-align: center;
 }
 
 .collection {
   text-align: center;
-  color: white;
+  color: var(--title);
 }
 
 .checkout {
