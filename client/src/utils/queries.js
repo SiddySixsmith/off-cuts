@@ -55,8 +55,8 @@ export const QUERY_USERS = gql`
   query allUsers {
     users {
       _id
-      firstname
-      lastNam
+      firstName
+      lastName
       phoneNumber
       email
       password
@@ -81,8 +81,8 @@ export const QUERY_ME = gql`
   query me {
     me {
       _id
-      name
-      skills
+      firstName
+      lastName
     }
   }
 `;

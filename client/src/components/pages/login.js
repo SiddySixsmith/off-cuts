@@ -22,7 +22,6 @@ const Login = (props) => {
   };
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-    console.log(formState);
     try {
       const { data } = await login({
         variables: { ...formState },
@@ -74,12 +73,13 @@ const Login = (props) => {
               />
             </div>
             <Button
-              href="#login"
+
               sm="true"
               id="loginSubmit"
               className="searchBtn"
               variant="primary"
               size="lg"
+              type="submit"
             >
               Submit
             </Button>
