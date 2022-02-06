@@ -14,7 +14,6 @@ const SingleProductSearch = () => {
     });
 
     const product = data?.product || [];
-
     return (
         <div className="flex-row justify-center allProductsContainer">
             <div>

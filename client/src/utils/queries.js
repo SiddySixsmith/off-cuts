@@ -10,19 +10,49 @@ export const QUERY_BRANDS = gql`
 `;
 
 export const QUERY_PRODUCT_BY_BRAND = gql`
-query productByBrand($name: String!){
-      roducts(name: $name){
-        _id
-        colour
-        finish
-        length
-        width
-        thickness
-        price
-        productCode
-        image
-  
-      }
+query getProductByBrand ($brandName: String!){
+  getProductsByBrand (brand: $brandName){
+    _id
+		image
+		stockType{
+			name
+		}
+    brand {
+      name
+    }
+  	colour
+    finish
+		length
+    width
+    thickness
+		productCode
+		batchNo
+    bayLocation
+    price
+	}
+}
+`
+export const QUERY_PRODUCT_BY_CATEGORY = gql`
+query getProductByCategory ($category: String!){
+  getProductsByCategory (category: $category){
+    _id
+		image
+		stockType{
+			name
+		}
+    brand {
+      name
+    }
+  	colour
+    finish
+		length
+    width
+    thickness
+		productCode
+		batchNo
+    bayLocation
+    price
+	}
 }
 `
 
@@ -38,6 +68,12 @@ export const QUERY_PRODUCTS = gql`
       price
       productCode
       image
+      brand{
+        name
+      }
+      stockType{
+        name
+      }
     }
   }
 `;
@@ -65,27 +101,18 @@ export const QUERY_USERS = gql`
 `;
 
 export const QUERY_SINGLE_USER = gql`
-  query singleUser($_Id: ID!) {
-    user(_Id: $_id) {
-      _id
-      firstname
-      lastNam
-      phoneNumber
-      email
-      password
-    }
+query getUserById($_id: ID!) {
+  getUserById(_id: $_id) {
+    _id
+    firstName
+    lastName
+    phoneNumber
+    email
   }
+}
 `;
 
-export const QUERY_ME = gql`
-  query me {
-    me {
-      _id
-      firstName
-      lastName
-    }
-  }
-`;
+
 export const QUERY_SINGLE_PRODUCT = gql`
   query singleProduct($_id: ID!) {
     product(_id: $_id) {
@@ -107,4 +134,6 @@ export const QUERY_SINGLE_PRODUCT = gql`
     }
   }
 `;
+
+
 

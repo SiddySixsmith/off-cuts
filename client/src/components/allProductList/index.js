@@ -25,13 +25,16 @@ const ProductsList = ({ products }) => {
                 </Card.Header>
                 <Card.Body> Image </Card.Body>
                 <Card.Text >
-                  Finish: {product.finish}<br />
+                  Finish: {product.brand.finsh}<br />
                 </Card.Text>
                 <Card.Text>
                   Price: {product.price}<br />
                 </Card.Text>
                 <Card.Text>
-                  Brand: {product.brand}<br />
+                  Brand: {product.brand.name}<br />
+                </Card.Text>
+                <Card.Text>
+                  Category: {product.stockType.name}<br />
                 </Card.Text>
 
               </Card>

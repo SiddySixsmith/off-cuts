@@ -44,7 +44,7 @@ const Login = (props) => {
       <div>
         {data ? (
           <p>
-            Success! You may now head <Link to="/">back to the homepage.</Link>
+            Success! You may now head <Link to="/profile/">back to the homepage.</Link>
           </p>
         ) : (
           <Form onSubmit={handleFormSubmit} className="row g-3 form">
