@@ -116,6 +116,7 @@ export const QUERY_USERS = gql`
       lastName
       phoneNumber
       email
+      orders
       password
     }
   }
@@ -129,6 +130,7 @@ query getUserById($_id: ID!) {
     lastName
     phoneNumber
     email
+    orders
   }
 }
 `;

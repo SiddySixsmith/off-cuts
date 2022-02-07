@@ -190,6 +190,11 @@ a {
   left: 40%;
 }
 
+.profileContainer {
+  text-align: center;
+  margin-top: 4%;
+  color: var(--title);
+}
 @media screen and (max-width: 769px) {
   .noProducts {
     margin: auto;
