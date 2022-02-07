@@ -83,6 +83,10 @@ const resolvers = {
   },
 
   Mutation: {
+    // addToCart: async (parent, { _id, colour, finish, length, length, width, thickness, productCode, batchNo, bayLocation, quantityInStock, price, image, stockType, brand }) => {
+    //   const cartProduct = await ProductCart.create({ _id, colour, finish, length, length, width, thickness, productCode, batchNo, bayLocation, quantityInStock, price, image, stockType, brand });
+    //   return { cartProduct }
+    // },
     addUser: async (parent, { firstName, lastName, phoneNumber, email, password }) => {
       const user = await User.create({ firstName, lastName, phoneNumber, email, password });
       const token = signToken(user);

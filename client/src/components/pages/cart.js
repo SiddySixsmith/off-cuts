@@ -1,32 +1,31 @@
 import React from "react";
 import "../../styles/pages.css";
 import { useCart } from "react-use-cart";
+import ProductsList from "../allProductList";
 
 function Cart() {
     const {
         isEmpty,
         totalUniqueItems,
-        products,
+        items,
         updateItemQuantity,
         removeItem,
     } = useCart();
+    try {
 
-    if (isEmpty) return <h4>Your cart is empty</h4>;
 
-    return (
-        <>
-            <h1>Cart ({totalUniqueItems})</h1>
+        if (isEmpty) return <h4>Your cart is empty</h4>;
 
-            <ul>
-                {products.map((product) => (
-                    <li key={product._id}>
-                        <div>{product.color}</div>
-                        <button onClick={() => removeItem(product._id)}>&times;</button>
-                    </li>
-                ))}
-            </ul>
-        </>
-    );
+        return (
+            <>
+                <h1>Cart ({totalUniqueItems})</h1>
+
+                <ProductsList items={items} />
+            </>
+        );
+    } catch (err) {
+        console.log(err)
+    }
 }
 
 export default Cart;
