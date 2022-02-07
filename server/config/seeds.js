@@ -1,7 +1,7 @@
 const db = require('./connection');
-const { User, Product, Category, Brand, Colour } = require('../models');
+const { User, Product, Category, Brand, ColourList } = require('../models');
 const { categoriesSeed } = require('./categoriesSeed');
-const { brandSeed } = require('./brandSeed'); 
+const { brandSeed } = require('./brandSeed');
 const { productSeed } = require('./productSeed');
 
 db.once('open', async () => {
@@ -9,46 +9,46 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   await Category.insertMany(categoriesSeed);
-  
+
   console.log('categories seeded');
 
   // setup for Brands
   await Brand.deleteMany();
   let categories = await Category.find()
   // console.log(category)
-  let seedBrand = brandSeed.map(( brand ) => {
-    const c = categories.filter((category)=> brand.category.includes(category.name)).map(cat => cat._id);
-    
-    return {...brand, category: c}
+  let seedBrand = brandSeed.map((brand) => {
+    const c = categories.filter((category) => brand.category.includes(category.name)).map(cat => cat._id);
+
+    return { ...brand, category: c }
 
   })
 
   await Brand.collection.insertMany(seedBrand)
-  
+
   console.log('brands seeded');
 
   // setup for Products
   await Product.deleteMany();
   categories = await Category.find()
   let brands = await Brand.find()
-  let colours = []
+  let coloursList = []
 
-  let seedProducts = productSeed.map(( product ) => {
-    const c = categories.find((stockType)=> stockType.name === product.stockType)
+  let seedProducts = productSeed.map((product) => {
+    const c = categories.find((stockType) => stockType.name === product.stockType)
     const b = brands.find((brand) => brand.name === product.brand)
     // make a list of colours
-    if (!colours.includes(product.colour)) colours.push(product.colour)
+    if (!coloursList.includes(product.colour)) coloursList.push(product.colour)
 
-    return {...product, stockType: c._id , brand: b._id}
+    return { ...product, stockType: c._id, brand: b._id }
 
   })
 
-  colours = colours.map((name) => ({name}))
-  console.log(colours)
+  coloursList = coloursList.sort().map((name) => ({ name }))
+  console.log(coloursList)
 
-  await Colour.collection.insertMany(colours)
+  await ColourList.collection.insertMany(coloursList)
   await Product.collection.insertMany(seedProducts)
-// console.log(seedProducts)
+  // console.log(seedProducts)
   console.log('products seeded');
 
   // setup for Users

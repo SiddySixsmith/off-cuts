@@ -34,14 +34,25 @@ query getProductByBrand ($brandName: String!){
 }
 `
 
-// export const QUERY_COLOURS = gql`
-// query getColour ()`
+export const QUERY_COLOURS = gql`
+query colourList {
+  colourList{
+    _id
+    name
+  }
+}`
 
 export const QUERY_PRODUCT_BY_COLOUR = gql`
 query getProductsByColour ($colour: String!){
   getProductsByColour (colour: $colour){
     _id
 		image
+    stockType{
+			name
+		}
+    brand {
+      name
+    }
   	colour
     finish
 		length
@@ -121,6 +132,10 @@ export const QUERY_USERS = gql`
       email
       orders
       password
+      orders{
+        _id
+        name
+      }
     }
   }
 `;
@@ -133,7 +148,10 @@ query getUserById($_id: ID!) {
     lastName
     phoneNumber
     email
-    orders
+    orders{
+      _id
+      name
+    }
   }
 }
 `;
@@ -162,5 +180,12 @@ export const QUERY_SINGLE_PRODUCT = gql`
   }
 `;
 
+export const QUERY_CHECKOUT = gql`
+  query getCheckout($products: [ID]!) {
+    checkout(products: $products) {
+      session
+    }
+  }
+`;
 
 

@@ -30,7 +30,7 @@ const typeDefs = gql`
     brand: Brand
   }
 
-  type Colour {
+  type ColourList {
     _id: ID
     name: String
   }
@@ -70,7 +70,7 @@ const typeDefs = gql`
     getProductsByColour(colour: String!): [Product]
     getProductsByBrand(brand: String!): [Product]
     getProductsByCategory(category: String!): [Product]
-    colours: [Colour]
+    colourList: [ColourList]
     users: [User]!
     user(_id: ID!): User
     getUserById(_id: ID!): [User!]
@@ -82,6 +82,7 @@ const typeDefs = gql`
     addUser(firstName: String!, lastName: String!, phoneNumber: String!, email: String!, password: String!): Auth
     updateUser(firstName: String, lastName: String, phoneNumber: Int, email: String, password: String): User
     login(email: String!, password: String!): Auth
+    addOrder(products: [ID!]): Order
   }
 `;
 

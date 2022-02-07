@@ -6,6 +6,7 @@ import "../../styles/pages.css";
 import { useQuery } from "@apollo/client";
 import { QUERY_BRANDS } from "../../utils/queries";
 import { QUERY_CATEGORIES } from "../../utils/queries";
+import { QUERY_COLOURS } from "../../utils/queries";
 
 const FindBrand = () => {
   const { loading, data } = useQuery(QUERY_BRANDS);
@@ -31,6 +32,22 @@ const FindCatergory = () => {
       {categories.map((category) => (
         <LinkContainer key={category._id} to={`/all-products/category/${category.name}`}>
           <Dropdown.Item >{category.name}</Dropdown.Item>
+        </LinkContainer>
+      ))}
+    </div>
+  );
+
+};
+
+const FindColour = () => {
+  const { loading, data } = useQuery(QUERY_COLOURS);
+  const colours = data?.colourList || [];
+
+  return (
+    <div>
+      {colours.map((colourList) => (
+        <LinkContainer key={colourList._id} to={`/all-products/colour/${colourList._id}`}>
+          <Dropdown.Item >{colourList.name}</Dropdown.Item>
         </LinkContainer>
       ))}
     </div>
@@ -77,7 +94,7 @@ function Home() {
               sm="true"
               className="homeDropdown"
               size="lg">
-              <FindBrand />
+              <FindColour />
             </DropdownButton>
 
             <LinkContainer to={"/all-products"}>

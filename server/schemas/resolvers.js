@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Product, Category, Order, Brand, Colour } = require('../models');
+const { User, Product, Category, Order, Brand, ColourList } = require('../models');
 const { signToken } = require('../utils/auth');
 
 
@@ -68,8 +68,8 @@ const resolvers = {
     },
 
     // loookup Colour
-    colours: async () => {
-      return await Colour.find().sort();
+    colourList: async () => {
+      return await ColourList.find().sort();
     },
 
     // lookup User
@@ -83,18 +83,18 @@ const resolvers = {
 
   },
   Mutation: {
-    // addOrder: async (parent, { products }, context) => {
+    addOrder: async (parent, { products }, context) => {
 
-    //   if (context.user) {
-    //     const order = new Order({ products });
+      if (context.user) {
+        const order = new Order({ products });
 
-    //     await User.findByIdAndUpdate(context.user._id, { $push: { orders: order } });
+        await User.findByIdAndUpdate(context.user._id, { $push: { orders: order } });
 
-    //     return order;
-    //   }
+        return order;
+      }
 
-    //   throw new AuthenticationError('Not logged in');
-    // },
+      throw new AuthenticationError('Not logged in');
+    },
     addUser: async (parent, { firstName, lastName, phoneNumber, email, password }) => {
       const user = await User.create({ firstName, lastName, phoneNumber, email, password });
       const token = signToken(user);

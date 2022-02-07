@@ -7,7 +7,7 @@ import "../../styles/pages.css";
 import ProductsList from "../allProductList";
 
 
-const BrandSearch = () => {
+const CategorySearch = () => {
     const { category } = useParams();
 
     const { loading, data } = useQuery(QUERY_PRODUCT_BY_CATEGORY, {
@@ -66,4 +66,4 @@ const BrandSearch = () => {
     );
 };
 
-export default BrandSearch;
+export default CategorySearch;
