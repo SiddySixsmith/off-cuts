@@ -24,6 +24,7 @@ import BrandSearch from "./components/pages/brandSearch";
 import CategorySearch from "./components/pages/catergorySearch";
 import { CartProvider } from "react-use-cart";
 import "./styles/App.css";
+import ColourSearch from "./components/pages/colourSearch";
 
 const httpLink = createHttpLink({
   uri: "http://localhost:3001/graphql",
@@ -67,7 +68,7 @@ function App() {
             <Route exact path={"/all-products"} component={AllProducts} />
             <Route exact path={"/all-products/brand/:brandName"} component={BrandSearch} />
             <Route exact path={"/all-products/category/:category"} component={CategorySearch} />
-            {/* <Route exact path={"/colour-search"} component={FindColour} /> */}
+            <Route exact path={"/all-products/colour/:colour"} component={ColourSearch} />
             <Route exact path={"/signup"} component={Signup} />
             <Route exact path={`/single-product/:_id`} component={SingleProductSearch} />
 

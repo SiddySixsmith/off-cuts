@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 
-const colourSchema = new Schema({
+const colourListSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -10,6 +10,6 @@ const colourSchema = new Schema({
   }
 });
 
-const Colour = mongoose.model('Colour', colourSchema);
+const ColourList = mongoose.model('ColourList', colourListSchema);
 
-module.exports = Colour;
+module.exports = ColourList;
