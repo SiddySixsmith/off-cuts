@@ -28,6 +28,7 @@ const Login = (props) => {
       });
 
       Auth.login(data.login.token);
+      console.log(data.user._id)
     } catch (e) {
       console.error(e);
     }
@@ -44,7 +45,7 @@ const Login = (props) => {
       <div>
         {data ? (
           <p>
-            Success! You may now head <Link to="/profile/">back to the homepage.</Link>
+            Success! You may now head <Link to={`/profile/${data.login.user._id}`}>Your Profile</Link>
           </p>
         ) : (
           <Form onSubmit={handleFormSubmit} className="row g-3 form">
@@ -92,6 +93,7 @@ const Login = (props) => {
       </div>
     </div>
   );
+
 };
 
 export default Login;

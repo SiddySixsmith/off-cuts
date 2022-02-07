@@ -7,17 +7,9 @@ import "../../styles/pages.css"
 
 
 function Profile() {
+    console.log(Auth.getUser())
+    const { data: user } = Auth.getUser()
 
-    const { _id } = useParams();
-
-    const { loading, data } = useQuery(QUERY_SINGLE_USER,
-        {
-            variables: { _id: _id }
-        }
-    );
-
-    const user = data?.user || {};
-    console.log(user)
     if (Auth.loggedIn()) {
         return (
             <h2>Hi, {user.firstName}</h2>
