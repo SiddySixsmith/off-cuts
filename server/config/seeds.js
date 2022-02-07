@@ -1,5 +1,5 @@
 const db = require('./connection');
-const { User, Product, Category, Brand } = require('../models');
+const { User, Product, Category, Brand, Colour } = require('../models');
 const { categoriesSeed } = require('./categoriesSeed');
 const { brandSeed } = require('./brandSeed'); 
 const { productSeed } = require('./productSeed');
@@ -31,17 +31,22 @@ db.once('open', async () => {
   await Product.deleteMany();
   categories = await Category.find()
   let brands = await Brand.find()
+  let colours = []
 
   let seedProducts = productSeed.map(( product ) => {
     const c = categories.find((stockType)=> stockType.name === product.stockType)
     const b = brands.find((brand) => brand.name === product.brand)
-
-    
+    // make a list of colours
+    if (!colours.includes(product.colour)) colours.push(product.colour)
 
     return {...product, stockType: c._id , brand: b._id}
 
   })
 
+  colours = colours.map((name) => ({name}))
+  console.log(colours)
+
+  await Colour.collection.insertMany(colours)
   await Product.collection.insertMany(seedProducts)
 // console.log(seedProducts)
   console.log('products seeded');
@@ -52,7 +57,7 @@ db.once('open', async () => {
   await User.create({
     firstName: 'Aaron',
     lastName: 'Sando',
-    phoneNumber: "040-727-2762",
+    phoneNumber: "0407272762",
     email: 'Aaron@Charactergroup.com.au',
     password: 'Password01',
   });
@@ -60,7 +65,7 @@ db.once('open', async () => {
   await User.create({
     firstName: 'Elijah',
     lastName: 'Holt',
-    phoneNumber: "042-345-6789",
+    phoneNumber: "0423456789",
     email: 'eholt@testmail.com',
     password: 'password12345'
   });

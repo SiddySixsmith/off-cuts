@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Product, Category, Order, Brand } = require('../models');
+const { User, Product, Category, Order, Brand, Colour } = require('../models');
 const { signToken } = require('../utils/auth');
 
 
@@ -55,6 +55,11 @@ const resolvers = {
           })
 
         })
+    },
+
+    // loookup Colour
+    colours: async () => {
+      return await Colour.find().sort();
     },
 
     // lookup User
