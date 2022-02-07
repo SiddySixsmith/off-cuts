@@ -29,6 +29,7 @@ query getProductByBrand ($brandName: String!){
 		batchNo
     bayLocation
     price
+    quantityInStock
 	}
 }
 `
@@ -73,6 +74,7 @@ query getProductByCategory ($category: String!){
 		batchNo
     bayLocation
     price
+    quantityInStock
 	}
 }
 `
@@ -88,6 +90,7 @@ export const QUERY_PRODUCTS = gql`
       thickness
       price
       productCode
+      quantityInStock
       image
       brand{
         name
@@ -148,6 +151,7 @@ export const QUERY_SINGLE_PRODUCT = gql`
       price
       productCode
       image
+      quantityInStock
       brand{
         name
       }

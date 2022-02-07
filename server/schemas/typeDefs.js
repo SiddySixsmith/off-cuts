@@ -30,6 +30,11 @@ const typeDefs = gql`
     brand: Brand
   }
 
+  type Colour {
+    _id: ID
+    name: String
+  }
+
   type Order {
     _id: ID
     purchaseDate: String
@@ -65,6 +70,7 @@ const typeDefs = gql`
     getProductsByColour(colour: String!): [Product]
     getProductsByBrand(brand: String!): [Product]
     getProductsByCategory(category: String!): [Product]
+    colours: [Colour]
     users: [User]!
     user(_id: ID!): User
     getUserById(_id: ID!): [User!]

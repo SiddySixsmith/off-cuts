@@ -23,8 +23,9 @@ const SingleProductSearch = () => {
                 {loading ? (
                     <div>loading...... </div>
                 ) : (
-                    <SingleProduct product={product} />
 
+                    <SingleProduct product={product} />
+                    
                 )}
             </div>
         </div>
