@@ -3,6 +3,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../styles/mainComponents/nav.css";
+import { useQuery } from "@apollo/client";
+import { useParams } from 'react-router-dom';
 import { LinkContainer } from "react-router-bootstrap";
 import {
   Navbar,
@@ -10,12 +12,20 @@ import {
   Container,
 } from "react-bootstrap";
 import Auth from "../../utils/auth"
-
+import { QUERY_SINGLE_USER } from "../../utils/queries"
 
 
 
 
 function Navigation() {
+  // const { _id } = useParams();
+
+  // const { loading, data } = useQuery(QUERY_SINGLE_USER, {
+  //   variables: { _id: _id }
+  // });
+
+  // const user = data?.getUserById || [];
+  // console.log(user._id)
   return (
     <Navbar collapseOnSelect expand="lg" variant="light">
       <Container>
@@ -49,7 +59,7 @@ function Navigation() {
               Auth.loggedIn() ? (
                 <>
 
-                  <LinkContainer to={"/profile"}>
+                  <LinkContainer to={`/profile/`}>
                     <Nav.Link>
                       <p className="navText">Profile</p>
                     </Nav.Link>

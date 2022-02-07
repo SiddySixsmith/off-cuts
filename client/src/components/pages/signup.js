@@ -6,6 +6,7 @@ import { ADD_USER } from '../../utils/mutations';
 import Auth from '../../utils/auth';
 import "bootstrap/dist/css/bootstrap.css";
 import "../../styles/pages.css";
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 const Signup = () => {
@@ -42,14 +43,15 @@ const Signup = () => {
       console.error(e);
     }
   };
-
+  // eslint-disable-next-line no-lone-blocks
+  { console.log(data.user) }
   return (
     <div className="LoginContainer">
       <div>
         {data ? (
           <p>
             Success! You may now head
-            <Link to="/profile">back to your profile.</Link>
+            <Link to={`/profile/${data.login.user._id}`}>back to your profile.</Link>
           </p>
         ) : (
           <Form onSubmit={handleFormSubmit} className="row g-3 form">
@@ -112,18 +114,19 @@ const Signup = () => {
                 onChange={handleChange}
               />
             </div>
+            <LinkContainer to={`/profile/${data.login.user._id}`}>
+              <Button
 
-            <Button
-
-              sm="true"
-              id="signupSubmit"
-              className="searchBtn"
-              variant="primary"
-              size="lg"
-              type='submit'
-            >
-              Submit
-            </Button>
+                sm="true"
+                id="signupSubmit"
+                className="searchBtn"
+                variant="primary"
+                size="lg"
+                type='submit'
+              >
+                Submit
+              </Button>
+            </LinkContainer>
           </Form>
         )}
 
@@ -136,5 +139,4 @@ const Signup = () => {
     </div>
   );
 };
-
 export default Signup;
