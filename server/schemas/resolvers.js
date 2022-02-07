@@ -63,7 +63,7 @@ const resolvers = {
     },
     getUserById: async (parent, { _id }) => {
       const params = _id ? { _id } : {};
-      return User.find(params).sort({ createdAt: -1 });
+      return User.find(params).populate(["user"]).sort({ createdAt: -1 });
     },
 
     // user: async (parent, args, context) => {

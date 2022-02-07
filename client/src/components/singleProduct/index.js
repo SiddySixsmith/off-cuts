@@ -21,10 +21,27 @@ const SingleProduct = ({ product }) => {
         <Container className="productListContainer">
             <CardGroup className="cardGroup" >
                 <Card key={product._id} className="singleProductCard">
-                    <Card.Body> Image </Card.Body>
+                    <Card.Body> 
+                        <img 
+                            className="small" 
+                            src={product.image} 
+                            alt={product.colour}
+                            height= "250"
+                            width="250">
+                        </img> 
+                    </Card.Body>
                     <Card.Text >
-                        Finish: {product.finish}<br />
+                        Colour: {product.brand.name} {product.colour} {product.finish}<br />
                     </Card.Text>
+                    <Card.Text>
+                        Length: {product.quantityInStock > 0 ? product.quantityInStock : product.length} x {product.width} x {product.thickness}<br />
+                    </Card.Text>
+                    <Card.Text>
+                        Price: {product.price}<br />
+                    </Card.Text>
+                    {/* <Card.Text >
+                        Finish: {product.finish}<br />
+                    </Card.Text>                    
                     <Card.Text>
                         Price: {product.price}<br />
                     </Card.Text>
@@ -42,7 +59,7 @@ const SingleProduct = ({ product }) => {
                     </Card.Text>
                     <Card.Text>
                         Category: {product.stockType.name}<br />
-                    </Card.Text>
+                    </Card.Text> */}
                     <LinkContainer to="/cart">
                         <Nav.Link
                             sm="true"

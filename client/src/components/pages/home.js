@@ -7,7 +7,6 @@ import { useQuery } from "@apollo/client";
 import { QUERY_BRANDS } from "../../utils/queries";
 import { QUERY_CATEGORIES } from "../../utils/queries";
 
-
 const FindBrand = () => {
   const { loading, data } = useQuery(QUERY_BRANDS);
   const brands = data?.brands || [];
@@ -38,7 +37,6 @@ const FindCatergory = () => {
   );
 
 }
-
 
 function Home() {
   return (
