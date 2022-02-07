@@ -3,27 +3,23 @@ import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { QUERY_SINGLE_USER } from '../../utils/queries';
 import Auth from '../../utils/auth';
+import { Container } from "react-bootstrap";
 import "../../styles/pages.css"
 
 
 function Profile() {
+    console.log(Auth.getUser())
+    const { data: user } = Auth.getUser()
 
-    const { _id } = useParams();
+    return (
+        <div className="profileContainer">
+            <h1 >Hi, {user.firstName}</h1>
+            <br />
+            <h4>Past Orders</h4>
+            <p> {user.email}</p>
+        </div>
 
-    const { loading, data } = useQuery(QUERY_SINGLE_USER,
-        {
-            variables: { _id: _id }
-        }
-    );
-
-    const user = data?.user || {};
-    console.log(user)
-    if (Auth.loggedIn()) {
-        return (
-            <h2>Hi, {user.firstName}</h2>
-        )
-    }
-    return <h1>not logged in</h1>
+    )
 }
 
 export default Profile

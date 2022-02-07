@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Card, Container, CardGroup } from "react-bootstrap";
-import { useParams, useHistory, Link } from 'react-router-dom';
+import { Button } from "react-bootstrap";
+import { useParams, useHistory } from 'react-router-dom';
 import { useQuery } from "@apollo/client";
 import { QUERY_PRODUCT_BY_BRAND } from "../../utils/queries";
 import "../../styles/pages.css";

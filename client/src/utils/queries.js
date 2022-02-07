@@ -33,6 +33,27 @@ query getProductByBrand ($brandName: String!){
 	}
 }
 `
+
+// export const QUERY_COLOURS = gql`
+// query getColour ()`
+
+export const QUERY_PRODUCT_BY_COLOUR = gql`
+query getProductsByColour ($colour: String!){
+  getProductsByColour (colour: $colour){
+    _id
+		image
+  	colour
+    finish
+		length
+    width
+    thickness
+		productCode
+		batchNo
+    bayLocation
+    price
+	}
+}
+`
 export const QUERY_PRODUCT_BY_CATEGORY = gql`
 query getProductByCategory ($category: String!){
   getProductsByCategory (category: $category){
@@ -98,6 +119,7 @@ export const QUERY_USERS = gql`
       lastName
       phoneNumber
       email
+      orders
       password
     }
   }
@@ -111,6 +133,7 @@ query getUserById($_id: ID!) {
     lastName
     phoneNumber
     email
+    orders
   }
 }
 `;

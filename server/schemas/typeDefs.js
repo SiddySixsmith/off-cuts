@@ -6,6 +6,8 @@ const typeDefs = gql`
     name: String!
   }
 
+  
+
   type Brand {
     _id: ID
     name: String

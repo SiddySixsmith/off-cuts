@@ -30,6 +30,11 @@
 .fab:hover {
   color: var(--button);
 }
+@media screen and (max-width: 1050px) {
+  #mainText {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 789px) {
   #mainHeader {

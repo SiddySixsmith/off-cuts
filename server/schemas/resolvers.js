@@ -56,6 +56,16 @@ const resolvers = {
 
         })
     },
+    order: async (parent, { _id }, context) => {
+      if (context.user) {
+        const user = await User.findById(context.user._id).populate({
+          path: 'orders.products',
+          populate: 'category'
+        });
+
+        return user.orders.id(_id);
+      };
+    },
 
     // loookup Colour
     colours: async () => {
@@ -71,23 +81,20 @@ const resolvers = {
       return User.find(params).populate(["user"]).sort({ createdAt: -1 });
     },
 
-    // user: async (parent, args, context) => {
+  },
+  Mutation: {
+    // addOrder: async (parent, { products }, context) => {
+
     //   if (context.user) {
-    //     const user = await User.findById(context.user._id).populate({
-    //       path: 'orders.products',
-    //       populate: 'category'
-    //     });
+    //     const order = new Order({ products });
 
-    //     user.orders.sort((a, b) => b.purchaseDate - a.purchaseDate);
+    //     await User.findByIdAndUpdate(context.user._id, { $push: { orders: order } });
 
-    //     return user;
+    //     return order;
     //   }
 
     //   throw new AuthenticationError('Not logged in');
     // },
-  },
-
-  Mutation: {
     addUser: async (parent, { firstName, lastName, phoneNumber, email, password }) => {
       const user = await User.create({ firstName, lastName, phoneNumber, email, password });
       const token = signToken(user);

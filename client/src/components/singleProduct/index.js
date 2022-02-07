@@ -1,22 +1,23 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
-import { Card, Container, CardGroup, Nav } from "react-bootstrap";
+import { Card, Container, CardGroup, Nav, Button } from "react-bootstrap";
 import { useCart } from "react-use-cart";
 import "../../styles/pages.css";
 
 
 const SingleProduct = ({ product }) => {
     const { addItem } = useCart();
+    try {
+        if (!product) {
+            return (
+                <div className="noProducts">
+                    <h3>No products at the moment</h3>
+                </div>
+            );
+        }
 
-    if (!product) {
         return (
-            <div className="noProducts">
-                <h3>No products at the moment</h3>
-            </div>
-        );
-    }
 
-    return (
 
         <Container className="productListContainer">
             <CardGroup className="cardGroup" >
@@ -73,11 +74,15 @@ const SingleProduct = ({ product }) => {
                         </Nav.Link>
                     </LinkContainer>
 
-                </Card>
-            </CardGroup>
-            <br></br>
-        </Container>
-    );
+
+                    </Card>
+                </CardGroup>
+                <br></br>
+            </Container>
+        );
+    } catch (err) {
+        console.log(err)
+    }
 };
 
 
