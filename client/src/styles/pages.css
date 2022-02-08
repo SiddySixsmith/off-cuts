@@ -41,7 +41,15 @@
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.colourDropdown {
+  margin: auto ;
+  margin-top: 5%;
+  margin-bottom: -20%;
   font-size: large;
+  max-height: 1000px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .btn-primary {
@@ -195,6 +203,7 @@ a {
   margin-top: 4%;
   color: var(--title);
 }
+
 @media screen and (max-width: 769px) {
   .noProducts {
     margin: auto;

@@ -92,8 +92,9 @@ function Home() {
 
             <DropdownButton title="Find A Colour"
               sm="true"
-              className="homeDropdown"
-              size="lg">
+              className="colourDropdown"
+              size="lg"
+              height= "400px">
               <FindColour />
             </DropdownButton>
 
