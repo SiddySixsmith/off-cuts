@@ -195,6 +195,35 @@ a {
   margin-top: 4%;
   color: var(--title);
 }
+.cartHeader {
+  text-align: center;
+  margin-top: 4%;
+  color: var(--title);
+}
+.cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartCard {
+  width: 600px;
+  height: 330px;
+}
+.cardItems {
+  text-align: end;
+  margin-right: 5%;
+  position: relative;
+  top: -200px;
+}
+#cartHeader {
+  text-align: center;
+}
+.checkoutbutton {
+  position: relative;
+  left: 43%;
+}
+
 @media screen and (max-width: 769px) {
   .noProducts {
     margin: auto;
@@ -214,7 +243,19 @@ a {
     margin-bottom: 150%;
   }
 }
+.colourDropdown {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: -20%;
+  font-size: large;
+  max-height: 1000px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
+.addCart {
+  margin: auto;
+}
 @media screen and (max-width: 550px) {
   .singleProductCard {
     margin: auto;

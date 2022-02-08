@@ -23,6 +23,8 @@ export const LOGIN_USER = gql`
       user {
         _id
         firstName
+        lastName
+        phoneNumber
       }
     }
   }
@@ -30,12 +32,19 @@ export const LOGIN_USER = gql`
 
 
 export const ADD_ORDER = gql`
-  mutation addOrder($products: [ID]!) {
+  mutation addOrder($products: [ID!]) {
     addOrder(products: $products) {
       purchaseDate
       products {
         _id
-        name
+        finish
+        colour
+        stockType{
+          name
+        }
+        brand{
+          name
+        }
       }
     }
   }`

@@ -22,7 +22,6 @@ import Signup from "./components/pages/signup";
 import Profile from "./components/pages/profile"
 import BrandSearch from "./components/pages/brandSearch";
 import CategorySearch from "./components/pages/catergorySearch";
-import { CartProvider } from "react-use-cart";
 import "./styles/App.css";
 import ColourSearch from "./components/pages/colourSearch";
 
@@ -49,34 +48,32 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <CartProvider>
 
-        <Router>
+      <Router>
 
-          <div className="App">
-            <Social />
+        <div className="App">
+          <Social />
 
-            <Header />
+          <Header />
 
-            <Navigation />
-            <Route exact path={"/profile"} component={Profile} />
-            <Route exact path={"/"} component={Home} />
-            <Route exact path={"/about"} component={AboutUs} />
-            <Route exact path={"/contact"} component={Contact} />
-            <Route exact path={"/login"} component={Login} />
-            <Route exact path={"/cart"} component={Cart} />
-            <Route exact path={"/all-products"} component={AllProducts} />
-            <Route exact path={"/all-products/brand/:brandName"} component={BrandSearch} />
-            <Route exact path={"/all-products/category/:category"} component={CategorySearch} />
-            <Route exact path={"/all-products/colour/:colour"} component={ColourSearch} />
-            <Route exact path={"/signup"} component={Signup} />
-            <Route exact path={`/single-product/:_id`} component={SingleProductSearch} />
+          <Navigation />
+          <Route exact path={"/profile"} component={Profile} />
+          <Route exact path={"/"} component={Home} />
+          <Route exact path={"/about"} component={AboutUs} />
+          <Route exact path={"/contact"} component={Contact} />
+          <Route exact path={"/login"} component={Login} />
+          <Route exact path={"/cart"} component={Cart} />
+          <Route exact path={"/all-products"} component={AllProducts} />
+          <Route exact path={"/all-products/brand/:brandName"} component={BrandSearch} />
+          <Route exact path={"/all-products/category/:category"} component={CategorySearch} />
+          <Route exact path={"/all-products/colour/:colour"} component={ColourSearch} />
+          <Route exact path={"/signup"} component={Signup} />
+          <Route exact path={`/single-product/:_id`} component={SingleProductSearch} />
 
-            <Footer />
-          </div>
+          <Footer />
+        </div>
 
-        </Router>
-      </CartProvider>
+      </Router>
     </ApolloProvider>
   );
 }

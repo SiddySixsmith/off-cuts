@@ -1,87 +1,94 @@
-import React, { useEffect } from 'react';
-import { useLazyQuery } from '@apollo/client';
-import { QUERY_CHECKOUT } from '../../utils/queries';
-import { idbPromise } from '../../utils/helper';
-import CartItem from '../cartItem';
-import Auth from '../../utils/auth';
-import { useStoreContext } from '../../utils/GlobalSate';
-import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
-const Cart = () => {
-    const [state, dispatch] = useStoreContext();
-    const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
-    useEffect(() => {
-        if (data) {
+import { useMutation, useQuery } from '@apollo/client';
+import React from 'react';
+import { deleteCartItem, getAllCart } from '../../utils/cart-helper';
+import { ADD_ORDER } from '../../utils/mutations';
+import { QUERY_ORDER } from '../../utils/queries';
+import { Button, Card } from "react-bootstrap"
+import "../../styles/pages.css"
 
-        }
-    }, [data]);
-    useEffect(() => {
-        async function getCart() {
-            const cart = await idbPromise('cart', 'get');
-            dispatch({ type: ADD_MULTIPLE_TO_CART, products: [...cart] });
-        }
-        if (!state.cart.length) {
-            getCart();
-        }
-    }, [state.cart.length, dispatch]);
-    function toggleCart() {
-        dispatch({ type: TOGGLE_CART });
+export default function Cart() {
+
+
+    // ask for the order gql query
+
+    const [addOrder, { loading, error }] = useMutation(ADD_ORDER);
+
+
+    function deleteItem(product) {
+        deleteCartItem(product._id)
     }
-    function calculateTotal() {
-        let sum = 0;
-        state.cart.forEach((item) => {
-            sum += item.price * item.purchaseQuantity;
-        });
-        return sum.toFixed(2);
-    }
-    function submitCheckout() {
-        const productIds = [];
-        state.cart.forEach((item) => {
-            for (let i = 0; i < item.purchaseQuantity; i++) {
-                productIds.push(item._id);
+
+    async function checkout(event) {
+
+        // get all the cart items
+        const products = getAllCart();
+
+        // map them into an array of product ids
+        const productIds = products.map((product) => product._id);
+
+        // pass into addOrder
+
+        addOrder({
+            variables: {
+                products: productIds
             }
         });
-        getCheckout({
-            variables: { products: productIds },
-        });
+
     }
-    if (!state.cartOpen) {
-        return (
-            <div className="cart-closed" onClick={toggleCart}>
-                <span role="img" aria-label="trash">
-                    :shopping_trolley:
-                </span>
-            </div>
-        );
-    }
+
+    const cartItems = getAllCart();
+    console.log(cartItems)
+
     return (
-        <div className="cart">
-            <div className="close" onClick={toggleCart}>
-                [close]
+        <div>
+            <h1 className='cartHeader'>Cart</h1>
+            <div className='cartContainer'>
+                {cartItems.map((item) => {
+                    if (!item.product.length) {
+                        return <h1>Nothinng in your cart</h1>
+                    }
+
+                    return (
+
+
+                        <Card key={item._id} className='cartCard'>
+                            <Card.Header id='cartHeader'>{item.product.colour}</Card.Header>
+                            <Card.Body >
+                                <img
+                                    className="small"
+                                    src={item.product.image}
+                                    alt={item.product.colour}
+                                    height="250"
+                                    width="250">
+                                </img>
+                            </Card.Body>
+                            <Card.Text className='cardItems' >
+                                Colour: {item.product.brand.name} {item.product.colour}  {item.product.finish}<br />
+                            </Card.Text>
+                            <Card.Text className='cardItems'>
+                                Length: {item.product.length} x {item.product.width} x {item.product.thickness}<br />
+                            </Card.Text>
+                            <Card.Text className='cardItems'>
+                                Price: {item.product.price}<br />
+                            </Card.Text>
+                        </Card>
+
+                    )
+                })}
+
             </div>
-            <h2>Shopping Cart</h2>
-            {state.cart.length ? (
-                <div>
-                    {state.cart.map((item) => (
-                        <CartItem key={item._id} item={item} />
-                    ))}
-                    <div className="flex-row space-between">
-                        <strong>Total: ${calculateTotal()}</strong>
-                        {Auth.loggedIn() ? (
-                            <button onClick={submitCheckout}>Checkout</button>
-                        ) : (
-                            <span>(log in to check out)</span>
-                        )}
-                    </div>
-                </div>
-            ) : (
-                <h3>
-                    <span role="img" aria-label="shocked">
-                        :scream:
-                    </span>
-                    You haven't added anything to your cart yet!
-                </h3>
-            )}
+            <div className='checkoutbutton'>
+                <Button
+                    sm="true"
+                    id="addCart"
+                    variant="primary"
+                    size="lg"
+                    className=" searchBtn "
+                    onClick={checkout}
+                >
+                    Checkout
+                </Button>
+            </div>
         </div>
     );
-};
-export default Cart;
+}

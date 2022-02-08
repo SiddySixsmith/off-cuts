@@ -86,9 +86,15 @@ const resolvers = {
     addOrder: async (parent, { products }, context) => {
 
       if (context.user) {
-        const order = new Order({ products });
+        const order = Order.create({ products });
 
         await User.findByIdAndUpdate(context.user._id, { $push: { orders: order } });
+
+
+        //TODO: nodemailer herere
+
+        // send out purchase email
+
 
         return order;
       }

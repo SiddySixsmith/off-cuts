@@ -90,6 +90,35 @@ query getProductByCategory ($category: String!){
 }
 `
 
+export const QUERY_ORDER = gql`
+  query order($id : ID!){
+    order(_id: $id){
+      _id
+      purchaseDate
+      products{
+        _id
+        colour
+        finish
+        length
+        width
+        thickness
+        price
+        productCode
+        quantityInStock
+        image
+        brand{
+          name
+        }
+        stockType{
+          name
+        }
+      }
+    }
+
+  }
+`
+
+
 export const QUERY_PRODUCTS = gql`
   query allProducts {
     products {

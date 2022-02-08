@@ -1,41 +1,61 @@
 import React from "react";
-import { LinkContainer } from "react-router-bootstrap";
-import { useMutation } from "@apollo/client";
-import { Card, Container, CardGroup, Nav } from "react-bootstrap";
-import { ADD_ORDER } from "../../utils/mutations"
-import { useStoreContext } from "../../utils/GlobalSate"
-import { idbPromise } from "../../utils/helper";
-import { ADD_TO_CART } from "../../utils/actions"
+import { LinkContainer } from "react-router-bootstrap"
+import { Card, Container, CardGroup, Nav, Button } from "react-bootstrap";
+import { addToCart } from "../../utils/cart-helper";
+import Auth from "../../utils/auth"
 import "../../styles/pages.css";
 
-
-const SingleProduct = (item, { product }) => {
-    const [state, dispatch] = useStoreContext();
-
-    const {
-        _id,
-        name
-    } = item;
-
-    const { cart } = state;
-
-    const addToCart = () => {
-        const itemInCart = cart.find((cartItem) => cartItem._id === _id)
-        if (itemInCart) {
-            idbPromise('cart', 'put', {
-                ...itemInCart,
-                purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1
-            });
-        } else {
-            dispatch({
-                type: ADD_TO_CART,
-                product: { ...item, purchaseQuantity: 1 }
-            });
-            idbPromise('cart', 'put', { ...item, purchaseQuantity: 1 });
-        }
+const CheckAuth = (product) => {
+    if (Auth.loggedIn) {
+        return (
+            <Button
+                sm="true"
+                id="addCart"
+                variant="primary"
+                size="lg"
+                className=" searchBtn "
+                onClick={() => addToCart(product)}
+            >
+                Add To Order
+            </Button>
+        )
     }
+    return (
+        <>
+            <LinkContainer to={"/login"}>
+                <Button
+                    sm="true"
+                    id="addCart"
+                    variant="primary"
+                    size="lg"
+                    className=" searchBtn "
+                    onClick={() => addToCart(product)}
+                >
+                    Add To Order
+                </Button>
+            </LinkContainer>
+            <LinkContainer to={"/singup"}>
+                <Button
+                    sm="true"
+                    id="addCart"
+                    variant="primary"
+                    size="lg"
+                    className=" searchBtn "
+                    onClick={() => addToCart(product)}
+                >
+                    Add To Order
+                </Button>
+            </LinkContainer>
+        </>
+    )
+}
+
+
+
+const SingleProduct = ({ product }) => {
 
     try {
+
         if (!product) {
             return (
                 <div className="noProducts">
@@ -68,20 +88,7 @@ const SingleProduct = (item, { product }) => {
                         <Card.Text>
                             Price: {product.price}<br />
                         </Card.Text>
-                        <LinkContainer to="/cart">
-                            <Nav.Link
-                                sm="true"
-                                id="addCart"
-                                variant="primary"
-                                size="lg"
-                                className=" searchBtn "
-                                onClick={addToCart}
-                            >
-                                Add To Order
-                            </Nav.Link>
-                        </LinkContainer>
-
-
+                        < CheckAuth product={product} />
                     </Card>
                 </CardGroup>
                 <br></br>
