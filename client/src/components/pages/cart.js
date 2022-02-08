@@ -1,13 +1,11 @@
-import { useMutation, useQuery } from '@apollo/client';
+import { useMutation } from '@apollo/client';
 import React from 'react';
 import { deleteCartItem, getAllCart } from '../../utils/cart-helper';
 import { ADD_ORDER } from '../../utils/mutations';
-import { QUERY_ORDER } from '../../utils/queries';
 import { Button, Card } from "react-bootstrap"
 import "../../styles/pages.css"
 
 export default function Cart() {
-
 
     // ask for the order gql query
 
@@ -32,7 +30,8 @@ export default function Cart() {
             variables: {
                 products: productIds
             }
-        });
+        }).catch(error);
+
 
     }
 
@@ -51,7 +50,7 @@ export default function Cart() {
                     return (
 
 
-                        <Card key={item._id} className='cartCard'>
+                        <Card key={item.product._id} className='cartCard'>
                             <Card.Header id='cartHeader'>{item.product.colour}</Card.Header>
                             <Card.Body >
                                 <img
@@ -84,7 +83,7 @@ export default function Cart() {
                     variant="primary"
                     size="lg"
                     className=" searchBtn "
-                    onClick={checkout}
+                // onClick={checkout}
                 >
                     Checkout
                 </Button>
