@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SiddySixsmith/off-cuts/issues"
   },
-  "homepage": "https://github.com/SiddySixsmith/off-cuts#readme"
+  "homepage": "https://github.com/SiddySixsmith/off-cuts#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
 }

@@ -94,8 +94,7 @@ function Home() {
               sm="true"
               className="colourDropdown"
               size="lg"
-              height="400px"
-            >
+              height="400px">
               <FindColour />
             </DropdownButton>
 
